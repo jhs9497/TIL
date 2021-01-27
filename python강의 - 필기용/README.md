@@ -14,11 +14,11 @@
 | -------- | ------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | 1/18     | **데이터&제어문** (오전)       | [파이썬 기초](./00_python_intro.ipynb)                       |                                                              |
 | 1/18     | **데이터&제어문** (오후)       | [컨테이너](./01_data_container.ipynb)<br />[제어문](./02_control_flow.ipynb) |                                                              |
-| 1/20     | **함수** (오전)                | [함수](./03_function_I.ipynb)                                | [반복/조건 기초](./0120_extra/기초.ipynb)<br />[return vs print](./0120_extra/print_return.ipynb) |
+| 1/20     | **함수** (오전)                | [함수](./03_function_I.ipynb)                                | [반복/조건 기초](./0120/기초.ipynb)<br />[return vs print](./0120/print_return.ipynb) |
 | 1/20     | **함수** (오후)                | [함수 - LEGB, 재귀](./04_function_II.ipynb)                  | [에러 및 예외처리](./05_error_exception.ipynb)<br />[라이브 예시 주피터노트북 버전](./exception_example/error_exception_example.ipynb) |
-| 1/25     | **데이터 구조 및 활용**        |                                                              |                                                              |
-| 1/27     | **객체지향 프로그래밍** (오전) |                                                              |                                                              |
-| 1/2**7** | **객체지향 프로그래밍** (오후) |                                                              |                                                              |
+| 1/25     | **데이터 구조 및 활용**        | [문자열, 리스트](./06_data_structure_I.ipynb)<br />[세트, 딕셔너리](./07_data_structure_II.ipynb) | * 추가 정리<br />[README](./0125)<br />[저장과 복사](./0125/assignment_and_copy.ipynb) |
+| 1/27     | **객체지향 프로그래밍** (오전) | [OOP I](./09_OOP_I.ipynb)<br />[OOP II](./10_OOP_II.ipynb)   |                                                              |
+| 1/2**7** | **객체지향 프로그래밍** (오후) | [OOP III](./11_OOP_III.ipynb)                                | [OOP example](./OOP_example.ipynb)                           |
 
 ## 명령어 안내
 

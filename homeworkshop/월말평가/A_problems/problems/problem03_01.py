@@ -18,6 +18,7 @@ def check(data):
     else:
         return False
         
+
         
 
 # 아래의 코드는 수정하지 않습니다.
