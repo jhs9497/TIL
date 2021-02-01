@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>03_google_form</title>
+</head>
+<body>
+  <header>
+    <a href="https://ssafy.com">   <!--아래 이미지를 누르면 ssafy.com으로 이동하게끔 설정-->
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2utyo99jzfZqSL_p_izn2zqs3Q65wHppIig&usqp=CAU" alt="SAFFY">
+    </a>
+    <h1>SSAFY 학생 건강설문</h1>
+
+  </header>
+  <main>
+    <form action="실제 데이터를 보낼 경로">
+      <label for="username">이름을 기재해주세요.</label> <!--label-> input태그를 꾸며주는 짝꿍-->
+      <input type="text" id="username" autofocus> <!-- 새로고침 할 때 마다 자동으로 input태그 활성화-->
+      
+      <div>
+        <label for="region">지역을 선택해주세요.</label>
+        <select name="" id="region">
+          <option value="">선택</option>
+          <option value="서울">서울</option>
+          <option value="대전">대전</option>
+          <option value="구미">구미</option>
+          <option value="광주">광주</option>
+          <option value="강원" disabled>강원</option>
+        </select>
+      </div>
+
+      <button>제출하기</button>
+    </form>
+    <hr>
+  </main>
+  <footer>
+    Google 설문지를 통해 비밀번호를 제출하지 마시오.
+  </footer>
+  
+</body>
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html> <!--이 문서가 html이다 선언!-->
+<html>     <!-- ! tab으로 만들어주세요 -->
+<head>
+  <!--head : 문서에 대한 메타 정보를 담는 영역 / 실제 화면에 보이진 않음-->
+  <!-- met data란 대상에 대한 보조 데이터 ex) 사진의 크기, 찍은 시점 등 -->
+  <meta charset="utf-8"> <!-- charset은 거의 utf-8로 설정하면 됨-->
+  <!-- 브라우저 탭에서 보여질 문서의 제목 -->
+  <title>01_html_syntax</title>
+</head>
+<body>
+  <!-- 실제 사용자에게 보여지는 영역 -->
+
+  <!-- html 기초 -->
+  <!-- 1. html은 태그와 내용으로 구성된다. -->
+  <h1>1. 태그</h1>
+  <p>HTML stands for HyperText Markup Language</p>
+
+  <hr>
+  <!-- hr -> 수평선을 넣어준다. -->
+
+  <!-- 2. attributes. 모든 태그는 공통/개별 속성을 가집니다. -->
+  <h1>2. 속성</h1>
+  <a href="https://google.com" target="_blank">구글로 가기</a>
+
+  <!-- 3. closing or self-closing tags -->
+  <h1>3. closing or self-closing tags</h1>
+  <img> src="이미지 주소(온라인, 로컬 파일 주소)" alt="대체 텍스트"
+  <img width="500" src="https://static.wixstatic.com/media/ea176a_f10ce6d1b4d9441089c3adcbf51c5c7e~mv2.png/v1/fill/w_560,h_310,al_c,lg_1,q_85/%EC%95%84%EB%9D%BC%EC%B0%8C1.webp">
+  <input type = "text">
+
+  <!-- 4. 계층 구조 (hierarchy) -->
+  <!-- HTML은 조상 => 부모 => 자식(형제)로 계층 구조를 가집니다.-->
+  <!-- 태그 사이의 계층 구조는 들여쓰기로 표현합니다. -->
+
+  <h1>4. 계층 구조</h1>
+  <main>
+    <!-- main은 section의 부모 요소 -->
+    <section>
+      <!-- article은 main의 자손 -->
+      <article>기사 제목 1.</article>
+    </section>
+    <section>
+      <!-- 위와 아래의 section끼리는 형제 관계 -->
+    </section>
+  </main>
+
+  <!-- 5. block or inline tags -->
+  <!-- 
+    5-1.
+  block -->
+  <h1>5. 블록과 인라인</h1>
+  <div>
+    div: 의미가 없는 블록 태그입니다.
+    레이아웃 구성 또는 스타일링 시 주로 사용됩니다.
+  </div>
+  <section>
+    section : 보통 공통적인 컨텐츠를 담은 구역을 표현합니다. 
+  </section>
+
+  <!-- 5-2. inline 태그들은
+    컨텐츠만큼의 넓이를 가집니다.
+    블록 요소 안에서 실제 내용을 구성하기 위해 
+    주로 사용된다.
+  -->
+  <a href="">anchor 링크를 만들어줍니다.</a>
+
+</body>
+</html>
