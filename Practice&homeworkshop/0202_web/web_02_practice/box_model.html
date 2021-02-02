@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOX Model Practice</title>
+  <link rel="stylesheet" href="box_model.css">
+  <style>
+    .big-box {
+    position: relative;
+    margin: 100px auto 500px;
+    border: 5px solid black;
+    width: 500px;
+    height: 500px;
+    }
+    .small-box {
+    width: 100px;
+    height: 100px;
+    }
+
+   #pink{
+     position: relative;
+     bottom: 300px;
+    }
+
+  #red{
+    position: relative;
+    top: 400px;
+    left: 400px;
+  }
+
+  #blue{
+    position: relative;
+    bottom: 100px;
+    left: 100px;
+  }
+
+  #green{
+    position: relative;
+    left: 200px;
+    top: 100px;
+  }
+
+  #gold{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+  }
+
+  </style>
+</head>
+<body>
+  <div class="big-box">
+    <div class="small-box" id="red"></div>
+    <div class="small-box" id="gold"></div>
+    <div class="small-box" id="green"></div>
+    <div class="small-box" id="blue"></div>
+    <div class="small-box" id="pink"></div>
+  </div>
+</body>
+</html>

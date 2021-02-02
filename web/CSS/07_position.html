@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>07_positions</title>
+  <style>
+    div {
+      box-sizing: border-box;
+      width : 100px;
+      height : 100px;
+      line-height: 100;
+      border: 1px solid black;
+    }
+
+    .parent{
+      width: 300px;
+      height: 300px;
+    }
+
+    .relative{
+      position: relative;
+      top: 100px;
+      left: 200px;
+    }
+
+    .absolut {
+      position: absolute;
+      background-color: salmon;
+      top: 100px;
+    }
+
+    .fixed{
+      position: fixed;
+      top: 100px;
+      background-color: green;
+    }
+  </style>
+</head>
+<!-- 
+  normal-flow: 위에서 아래로 쌓이고, 왼쪽에서 오른쪽으로 쌓입니다.
+  static: position의 기본 속성입니다. top~bottom 모두 사용 불가
+  relative: static일 때를 기준으로 top~bottom 값에 따라 움직일 수 있습니다.
+  absolute: 해당 요소가 normal flow에서 벗어납니다. 
+           가장 가까운 조상 중 relative, absolute, 또는 fixe를 가진
+           요소를 기준으로 위치합니다.
+  fixed: absolute와 동일하게 normal flow에서 벗어납니다.
+         최상단 viewport를 기준으로 위치합니다.
+ -->
+<body>
+  <div class="parent">
+    <div class="relative">누나</div>
+    <div calss="absolut">동생</div>
+  </div>
+  <div class="parent">
+    <div class="relative">누나</div>
+    <div calss="absolut">동생</div>
+  </div>
+  <div class="parent">
+    <div class="fixed">누나</div>
+    <div calss="fixed">동생</div>
+  </div>
+
+
+</body>
+</html>

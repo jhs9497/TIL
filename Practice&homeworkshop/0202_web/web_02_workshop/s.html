@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="semantic.css">
+  <title>Layout Practice</title>
+  <style>
+    .bg-white {
+      background-color: white;
+    }
+
+    .bg-lightgrey{
+      background-color: lightgrey;
+    }
+
+    .m-4{
+      margin: 4px;
+    }
+
+    .p-4{
+      padding: 4px;
+    }
+
+    .text-center{
+      text-align: center;
+    }
+
+    .d-inline-block{
+      display: inline-block;
+    }
+
+    .section-size{
+      width: 482px;
+      height: 300px;
+    }
+
+    .asdie-size{
+      width: 280px;
+      height: 300px;
+    }
+
+    .vertical-top{
+      vertical-align: top;
+    }
+    /* vertical-align은 inline 요소에만 적용 가능합니다 */
+
+    .border-radius-4{
+      border-radius: 4px;
+    }
+
+    .text-vertical-center {
+      line-height: 300px;
+    }
+  </style>
+</head>
+<body>
+  <header class="bg-lightgrey m-4 p-4 border-radius-4">
+    <h1 class="text-center">header</h1>
+  </header>
+  <nav class="bg-lightgrey m-4 p-4 border-radius-4">
+    <h2>nav</h2>
+  </nav>
+  <section class="bg-lightgrey m-4 p-4 d-inline-block section-size border-radius-4">
+    <h2>section</h2>
+    <article class="bg-white m-4 p-4 border-radius-4">
+      <h3>articl1</h3>
+      <h3>articl2</h3>
+    </article>
+  </section> 
+  <aside class="bg-lightgrey m-4 p-4 d-inline-block asdie-size vertical-top border-radius-4 text-vertical-center">
+    <h2>aside</h2>
+  </aside>
+  <footer class="bg-lightgrey m-4 p-4 border-radius-4">
+    <h2>footer</h2>
+  </footer>
+</body>
+</html>

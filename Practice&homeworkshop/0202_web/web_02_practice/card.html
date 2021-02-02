@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="card.css">
+  <title>Layout</title>
+  <style>
+    * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    border-radius: 5px;
+    font-weight: bold;
+    }
+
+    .container {
+    width: 1200px;
+    margin: 200px auto;
+    }
+
+    .card {
+      width: 700px;
+      height: 660px;
+      border: 2px dashed black;
+      margin: auto;
+    }
+
+    .card-nav {
+      width: 700px;
+      height: 28px;
+      background-color: mediumseagreen;
+      text-align: center;
+    }
+
+    .jeju {
+      background-color: mediumseagreen;
+      color: white;
+      text-align: center;
+      font-size: xx-large;
+      font-style: bold;
+      border-radius: 0px;
+    }
+    .sungsan {
+      position: relative;
+      top: 36px;
+      color: black;
+      font-size: large;
+      font-style: bold;
+      text-align: left;
+      line-height: 50px;
+    }
+
+    .date {
+      color: black;
+      font-size: medium;
+      text-align: end;
+    }
+
+    .sentence {
+      position: relative;
+      top: 36px;
+      background-color: blanchedalmond;
+      height: 70px;
+      line-height: 22px;
+    }
+
+    .card-footer {
+      background-color: darkgreen;
+      position: relative;
+      top: 48px;
+      height: 30px;
+    }
+
+    .ssafy {
+      position: relative;
+      left: 620px;
+      color: white;
+    }
+
+    .card-header {
+      position: relative;
+      left: 18px;
+      width: 664px;
+      top: 10px;
+    }
+
+    .card-body {
+      position: relative;
+      left: 18px;
+      width: 664px;
+    }
+
+    .card-body-contents {
+      position: relative;
+      left: 18px;
+      width: 664px;
+    }
+
+
+    
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card">
+      <div class="card-nav">
+        <h2>오늘의 명소</h2>
+      </div>
+      <div class="card-header">
+        <img width= 664px height= 330px src="images/image.png" alt="card image" class="card-img">
+        <div class="card-img-description">
+          <h4 class="jeju">제주도</h4>
+          <h4 class="jeju">성산 일출봉</h4>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-body-title">
+          <h4 class="sungsan">제주도 서귀포시 성산읍</h4>
+          <p class="date">2020.03.23</p>
+        </div>
+        <hr />
+        <div class="card-body-content">
+          <p class="sentence">
+            성산일출봉은 제주도의 다른 오름들과는 달리 마그마가 물속에서 분출하면서 만들어진 수성화산체다.
+            화산활동시 분출된 뜨거운 마그마가 차가운 바닷물과 만나면서 화산재가 습기를 많이 머금어 끈끈한 성질을 띄게 되었고,
+            이것이 층을 이루면서 쌓인 것이 성산일출봉이다.
+          </p>
+        </div>
+      </div>
+      <div class="card-footer">
+        <div class="ssafy">&copy; SSAFY</div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

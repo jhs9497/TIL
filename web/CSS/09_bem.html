@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .card {
+      width: 300px;
+      border: 1px solid black;
+    }
+
+    .card__image > img {
+      width: 100%;
+    }
+
+   /* 의사 선택자 */
+    .card__button--like:hover {
+      background: gold;
+      transition: 1s;
+      animation: 0.5s linear 1s infinite myAnimation;
+    }
+
+    @keyframes myAnimation {
+      0% {
+        transform: translate(0px);
+      }
+
+      100%{
+        transform: translate(500px);
+      }
+    }
+
+  </style>
+</head>
+<body>
+  
+  <div class="card">
+    <div class="card__image">
+      <img src="https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMDA5MjVfMjcw%2FMDAxNjAwOTk4MzM1MTU4.CtfE6lrT2rYWL1mg3BAQIvEPKfvV4ZGcoLktfUp8PjMg.TPh9F98hpDGqq65UPPjgHXU1IsrUJXggeyksjTQs8Aog.PNG.copinco%2F%25B0%25E8%25C8%25B9%25B8%25B804.png&type=a340" alt="">
+    </div>
+    <div class="card__title">
+      귀여운 아가
+    </div>
+    <div class="card__description">
+      귀여운 아가가 커피 옷을 입고 있습니다.
+    </div>
+    <button class="card__button--like">좋아요</button>
+
+  </div>
+
+</body>
+</html>
