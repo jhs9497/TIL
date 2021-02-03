@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+p {
+  font-family: Arial;
+}
+
+.container {
+  width: 1000px;
+  margin: 30px auto;
+}
+
+/* flex로 성산일출봉을 풀어보자 */
+/* 아래부터 작성 */
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  border: 2px dashed black;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.card-nav {
+  display: flex;
+  justify-content: center;
+  background-color: mediumseagreen;
+}
+
+/* '오늘의 명소는 card-nav의 자식이므로 '오늘의 명소'를 움직이고 싶으면
+card-nav를 또 부모요소로 이용해야한다. */
+
+.card-header {
+  padding: 18px;
+}
+
+.card-header-img {
+  width: 100%;
+  height: 330px;
+  /* display: blcok; 으로 하면 공백 사라짐 */
+}
+
+.card-header-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  background-color: lightgreen;
+  color: white;
+}
+
+.card-body {
+  padding: 18px;
+}
+
+.card-body-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.card-body-description {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: linen;
+}
+
+.card-footer {
+  background-color: green;
+  color: white;
+  height: 30px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 10px;
+}
+

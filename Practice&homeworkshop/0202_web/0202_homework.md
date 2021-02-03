@@ -29,14 +29,14 @@
   </style>
 </head>
 <body>
-  <main>
+  <form>
     <label for="username">USERNAME:</label>
-      <input class="input" type="text" value="아이디를 입력 해 주세요." id="username" autocapitalize="USRNAME">
+      <input class="input" type="text" placeholder="아이디를 입력 해 주세요." id="username" autocapitalize="USERNAME">
   </main>
   <main class ="PWD">
     <label for= "pwd">PWD:</label>
       <input type="text" id="pwd" autocapitalize="PWD"><button>로그인</button>
-  </main>
+  </form>
   
 </body>
 </html>
@@ -47,6 +47,7 @@
 ### 3번
 
 > Root(뿌리)의 rem이다
+> 보통 1rem = 16px
 
 
 
@@ -55,3 +56,4 @@
 >자손 선택자는 div내에 모든 p에게 영향을 미친다.
 >
 >하지만 자식 선택자는 div의 직계 p에게만 영향을 미친다.
+
