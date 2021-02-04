@@ -7,44 +7,45 @@
   <title>Document</title>
   <style>
     .flex-container {
-      /* 정렬하려고 하는 부모요소에 선언!!!! 중요!!! */
+      /* 정렬하려고하는 부모 요소에 선언 */
       display: flex;
+      /* display: inline-flex; */
 
+      /* 요소들이 강제로 한줄에 배치되게 할 것인지 여부 설정 */
+      /* flex-wrap: nowrap; */
       flex-wrap: wrap;
-      /* 넘칠시 아래로 떨구게 */
       /* flex-wrap: wrap-reverse; */
 
+      /* 메인축 방향 설정, 쌓이는 방향 설정 (메인축의 방향만 바뀜.) */
       flex-direction: row;
-      /* 기본값 */
       /* flex-direction: row-reverse; */
-      /* 오른쪽부터 쌓이게 */
       /* flex-direction: column; */
-      /* 메인축을 수직으로 바꾸기 */
       /* flex-direction: column-reverse; */
-      /* 메인축을 수직으로 바꾸고 밑에서부터 쌓이게 */
+
+      /* flex-direction과 flex-wrap의 shorthand */
+      /* flex-flow: column wrap; */
 
       /* 메인축 정렬 */
       justify-content: flex-start;
-      /* justify-content: flex-end;
-      justify-content: center;
-      justify-content: space-between;
-      justify-content: space-around;
-      justify-content: space-evenly; */
+      /* justify-content: flex-end; */
+      /* justify-content: center; */
+      /* justify-content: space-between; */
+      /* justify-content: space-around; */
+      /* justify-content: space-evenly; */
 
       /* 교차축 정렬 */
-      align-items: stretch;
-      /* align-items: flex-start;
-      align-items: flex-end;
-      align-items: center;
-      align-items: baseline; */
+      /* align-items: stretch; */
+      /* align-items: flex-start; */
+      /* align-items: flex-end; */
+      /* align-items: center; */
+      /* align-items: baseline; */
     }
 
-     /* self는 개별요소기 때문에 부모요소 밖에서 설정 */
     .item1 {
       /* align-self: flex-start; */
       /* order: 0; */
+      /* 주축에서 남는 공간을 항목들에게 분배 */
       /* flex-grow: 1; */
-      /* 남는 flex-컨테이너에 공간을 설정한 비율에 맞춰서 나눠줌 */
     }
 
     .item2 {
@@ -74,7 +75,10 @@
       <div class="item7">7</div>
       <div class="item8">8</div>
       <div class="item9">9</div>
-      <div class="item10">10</div> -->
+      <div class="item10">10</div>
+      <div class="item11">11</div>
+      <div class="item12">12</div>
+      <div class="item13">13</div> -->
     </div>
   </div>
 </body>

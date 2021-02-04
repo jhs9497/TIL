@@ -300,3 +300,56 @@ for i in range(test_case):
                 break
 ```
 
+
+
+
+
+
+
+
+
+
+
+```python
+test_case = int(input())
+
+N, M = map(int ,input().split())
+
+
+N_list = []  # N의 배수 -1 을 담은 리스트
+
+for x in range(1, 10):
+    X = N*x - 1
+    N_list.append(X)
+
+Key_number = (N**2-1) - (M-1) - N*(M-1)  # 기준이 되는 i의 활동 범위
+
+original_list = []
+
+for a in range(N):
+    
+    
+    number= list(map(int, input().split()))
+    original_list += number
+
+
+    potential_list = []  # 후보가 되는 파리채 점수 리스트
+
+    for i in range(Key_number):  # 0~ 18까지 돌면서 5의배수 -1 에서는 continue를 해줘야함
+
+        if i in N_list:
+            continue    
+
+        else:
+            total = 0
+            for j in range(0, M):
+                for z in range(0, M):
+                    total += original_list[i + (j*N) + z]
+            potential_list.append(total)
+
+    answer = max(potential_list)
+
+    print(f'#{a+1} {answer}')
+
+```
+

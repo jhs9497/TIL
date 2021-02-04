@@ -19,9 +19,7 @@ p {
   margin: 30px auto;
 }
 
-/* flex로 성산일출봉을 풀어보자 */
 /* 아래부터 작성 */
-
 .card {
   display: flex;
   flex-direction: column;
@@ -34,11 +32,8 @@ p {
 .card-nav {
   display: flex;
   justify-content: center;
-  background-color: mediumseagreen;
+  background-color: green;
 }
-
-/* '오늘의 명소는 card-nav의 자식이므로 '오늘의 명소'를 움직이고 싶으면
-card-nav를 또 부모요소로 이용해야한다. */
 
 .card-header {
   padding: 18px;
@@ -47,27 +42,27 @@ card-nav를 또 부모요소로 이용해야한다. */
 .card-header-img {
   width: 100%;
   height: 330px;
-  /* display: blcok; 으로 하면 공백 사라짐 */
+  display: block;
 }
 
 .card-header-description {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  height: 70px;
-  background-color: lightgreen;
+  background-color: green;
   color: white;
+  height: 70px;
+  justify-content: center;
 }
 
 .card-body {
-  padding: 18px;
+  padding: 18px;;
 }
 
 .card-body-title {
   display: flex;
   justify-content: space-between;
-  align-items: baseline;
+  align-items: center;
 }
 
 .card-body-description {
@@ -79,10 +74,9 @@ card-nav를 또 부모요소로 이용해야한다. */
 .card-footer {
   background-color: green;
   color: white;
-  height: 30px;
   display: flex;
+  height: 50px;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
   padding-right: 10px;
 }
-
