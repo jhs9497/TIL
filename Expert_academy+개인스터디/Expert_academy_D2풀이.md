@@ -312,3 +312,29 @@ for b in range(test_case):
 
 
 
+```python
+test_case = int(input())
+
+for i in range(test_case):
+    sample = str(input())
+    
+    if len(sample) % 2 == 0:
+        print(f'#{i+1} 0')
+    
+    else:
+        A_list = []
+        
+        for a in range(len(sample)//2):
+            A_list.append(a)
+        
+        B_list = []
+        for b in range(len(sample)//2, len(sample)):
+            B_list.append(b)
+            
+        B_list.reverse()
+        
+    if A_list == B_list:
+        print(f'#{i+1} 1')
+            
+```
+

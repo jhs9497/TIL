@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="01_nav_footer.css">
+  <link rel="stylesheet" href="03_community.css">
+  <title>Community</title>
+</head>
+<body>
+
+ <!-- 01_nav_footer.html -->
+  <!-- 네이게이션바 굉장히 고생했으나 결국 부트스트랩에서 적합한 예시를 찾고 해결 expand기능 알게됨 -->
+  <nav class="fixed-top navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="02_home.html">
+      <img style="width: 100px;" src="./images/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-md-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./02_home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./03_community.html">Community</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" data-bs-toggle=modal data-bs-target=#mymodal>Login</a>
+          </li>
+        </ul>
+        
+      </div>
+    </div>
+  </nav>
+  <!-- 모달 -->
+  <div class="modal" id = "mymodal" data-target="mymodal" aria-labelledby="mymodalLabel" tabindex="-1">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="mymodalLabel" >Login</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>
+            <form>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Username</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text"></div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Check me out</label>
+              </div>
+            </form>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+  <!-- 03_community.html -->
+  <div class="main">
+    <h1 class='text-center'>Community</h1>
+    <!-- Sidebar -->
+    <aside>
+      <ul></ul>
+    </aside>
+
+    <!-- Board  #부트스트랩이 정말 좋음을 다시 한번 깨닫게 되는 순간 -->
+    <div class="main d-flex flex-column container">    
+      <!-- Sidebar -->
+      <br>
+      <br>
+      <h1 class="fs-1 fw-bold m-5 p-3">Community</h1>  
+      <div class="d-flex">
+        <aside class="col-12 col-lg-2 d-flex flex-column">
+          <ul class="list-group pe-4 text-decoration-none">
+            <a class="text-decoration-none" href="">
+              <li class="list-group-item">Boxoffice</li>
+            </a>
+            <a class="text-decoration-none" href="">
+              <li class="list-group-item">Movies</li>
+            </a>
+            <a class="text-decoration-none" href="">
+              <li class="list-group-item">Genres</li>
+            </a>
+            <a class="text-decoration-none" href="">
+              <li class="list-group-item">Actors</li>
+            </a>
+          </ul>
+          <article class="d-block d-lg-none col-12 mt-3">
+            <hr>
+            <span class="fs-3 fw-bold">Best Movie Ever</span><br>
+            <span class="fs-4">Great Movie Title</span><br>
+            1 minutes ago
+            <hr>
+            <span class="fs-3 fw-bold">Movie Test</span><br>
+            <span class="fs-4">Great Movie Title</span><br>
+            1 minutes ago
+            <hr>
+            <span class="fw-bold fs-3">Movie Test</span><br>
+            <span class="fs-4"></span>Great Movie Title</span><br>
+            1 minutes ago
+          </article> 
+        </aside>      
+      <!-- Board -->
+        <section class="d-flex flex-column align-items-center d-none d-lg-block col-10">         
+          <table class="table">
+            <thead>
+              <tr class="bg-dark text-white">
+                <th scope="col">영화제목</th>
+                <th scope="col">글 제목</th>
+                <th scope="col">작성자</th>
+                <th scope="col">작성 시간</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Great Movie title</th>
+                <td>Movie Test</td>
+                <td>user</td>
+                <td>1 minutes ago</td>
+              </tr>
+              <tr>
+                <th scope="row">Great Movie title</th>
+                <td>Movie Test</td>
+                <td>user</td>
+                <td>1 minutes ago</td>
+              </tr>
+              <tr>
+                <th scope="row">Great Movie title</th>
+                <td>Movie Test</td>
+                <td>user</td>
+                <td>1 minutes ago</td>
+              </tr>
+              <tr>
+                <th scope="row">Great Movie title</th>
+                <td>Movie Test</td>
+                <td>user</td>
+                <td>1 minutes ago</td>
+              </tr>
+              <tr>
+                <th scope="row">Great Movie title</th>
+                <td>Movie Test</td>
+                <td>user</td>
+                <td>1 minutes ago</td>
+              </tr>
+              <tr>
+                <th scope="row">Great Movie title</th>
+                <td>Movie Test</td>
+                <td>user</td>
+                <td>1 minutes ago</td>
+              </tr>
+              <tr>
+                <th scope="row">Great Movie title</th>
+                <td>Movie Test</td>
+                <td>user</td>
+                <td>1 minutes ago</td>
+              </tr>
+              <tr>
+                <th scope="row">Great Movie title</th>
+                <td>Movie Test</td>
+                <td>user</td>
+                <td>1 minutes ago</td>
+              </tr>
+            </tbody>
+          </table>            
+          <nav Page navigation example>
+            <ul class="pagination mt-4 justify-content-center">
+              <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+              <li class="page-item"><a class="page-link" href="#">1</a></li>
+              <li class="page-item"><a class="page-link" href="#">2</a></li>
+              <li class="page-item"><a class="page-link" href="#">3</a></li>
+              <li class="page-item"><a class="page-link" href="#">Next</a></li>
+            </ul>
+          </nav>
+          
+        </section>         
+      </div>     
+    </div>
+  
+
+  <!-- 01_nav_footer.html -->
+  <footer>
+    <div class='fixed-bottom'>
+      <p class ="fixed-bottom text-center text-secondary fs-6">조현식이 만들었다.</p>
+    </div>
+  </footer>
+  <!-- 01_nav_footer 에서 완성한 Footer 코드를 붙여넣어 주세요. -->
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+</body>
+</html>
