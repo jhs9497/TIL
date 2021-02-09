@@ -1,8 +1,11 @@
-# X = [0, 0, 3, 5, 2, 4, 9, 0, 6, 4, 0, 6, 0, 0]
+# X = [0, 0, 3, 5, 2, 4, 9, 0, 6, 4, 0, 6, 0, 0]]
 
-test_case = int(input())
+import sys
 
-for i in range(1, test_case+1):
+sys.stdin = open("input_1.txt", "r")
+
+
+for I in range(1, 11):
     Y = int(input())
     X = list(map(int, input().split()))
 
@@ -27,4 +30,4 @@ for i in range(1, test_case+1):
         if min > 0 :
             total += min
 
-    print("#{} {}".format(test_case, total))
+    print("#{} {}".format(I, total))

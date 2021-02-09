@@ -148,14 +148,12 @@ else:
 ```python
 # X = [0, 0, 3, 5, 2, 4, 9, 0, 6, 4, 0, 6, 0, 0]
 
-test_case = int(input())
-
-for i in range(1, test_case+1):
+for tc in range(1, 11): # 테스트 갯수는 무조건 10개니깐 이렇게 합시다이
     Y = int(input())
-    X = list(map(int, input().split()))
+    X = list(map(int, input().split()))  # X는 빌딩의 층수들
 
 
-    X[0] = X[1] = X[-1] = X[-2] = 0 # 우선 양쪽 끝 2개씩은 다 0층이랬으니 설정하고
+    # X[0] = X[1] = X[-1] = X[-2] = 0 # 우선 양쪽 끝 2개씩은 다 0층이랬으니 설정하고
 
     total = 0 # 조망권을 가진 층수를 모두 더해야 하니 가장 바깥에 total 설정
     for i in range(len(X)-4): # i를 0부터 잡고 i+4까지 해야하니 len(X)에 -4해줌
@@ -175,9 +173,8 @@ for i in range(1, test_case+1):
         if min > 0 : # 근데 그 최솟값이 음수면 의미가 없으므로 양수일 경우만!
             total += min  # total에 더해줌
 
-    print("#{} {}".format(test_case, total))
+    print("#{} {}".format(tc, total))
     
-# 런타임 에러 떴음...기준이 30초인데 1분 38초 ㅎ
 ```
 
 #### 원본코드⚡
@@ -211,5 +208,26 @@ for i in range(1, test_case+1):
             total += min
 
     print("#{} {}".format(test_case, total))
+```
+
+#### 원종님이랑 푼거
+
+```python
+for tc in range(1, 11):
+    Y = int(input())
+    lst = list(map(int, input().split()))
+    cnt = 0
+    for i in range(len(lst)-2):
+    #cnt = 0
+        if lst[i + 2] > lst[i] and lst[i + 2] > lst[i + 1] and lst[i + 2] > lst[i + 3] and lst[i + 2] > lst[i + 4]:
+            A = [lst[i], lst[i+1], lst[i+3], lst[i+4]]
+
+            for z in range(len(A)-1):
+
+                if A[0] < A[z+1]:
+                    A[0] = A[z+1]
+
+            cnt += lst[i+2] - A[0]
+    print("#{} {}".format(tc, cnt))
 ```
 
