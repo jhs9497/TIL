@@ -10,16 +10,33 @@ for tc in range(1, test_case+1):
     X = list(map(int, input().split()))
     # X는 전기충전소 위치 인덱스 리스트
 
-    Y = [n]
+    point = 0
+    charge = 0
+    charge_distance = 0
 
-    Z = [0]
+    while point < n :  # point가 전체 길이보다 작은 동안 계속 실행
 
-    X = Z + X + Y
+        point += k  # 일단 갈 수있는 k만큼 쭉 가고
+        if point < n:
 
-    # 정류장 리스트에 정류장 총 길이 숫자 추가
-    # 정류장 리스트에서 각 원소의 차가 k 보다 크면 0 반환
 
-    # 정류장끼리의 거리가 k 보다 크면 X
+            step_back = 0 # 충전소가 없을 시 뒤로 백할 카운팅변수
+            for i in range(point, point-k, -1): # 내가 k만큼 간 포인트부터 거꾸로 하나씩 충전소가 있나 살펴보면서
+                if i in X: # 만약 충전소가 있으면
+                    charge += 1 # charge 횟수에 +1 하고
+                    point -= step_back # point는 내가 스텝백한 수 만큼 뒤로 무른다
+                    break # 한 번 했으니 그만!
+                else:
+                    step_back += 1 # 만약 충전소가 없으면 뒤로 가야하므로 스텝백 +1 해준다
+
+            if step_back == k: # 만약 step_back이 k만큼 커지면
+                charge_distance = step_back # charge_distance에 넣기
+    if charge_distance == k: # charge_distance가 k만큼이면 안되므로
+        print("#{} 0".format(tc)) # 0 출력
+    else: # 그게 아니면
+        print("#{} {}".format(tc, charge)) # 쌓여있는 charge 출력
+
+
 
 
 

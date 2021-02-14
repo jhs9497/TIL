@@ -8,15 +8,15 @@ for tc in range(1, Test_case+1):
     # M = 이웃범위
 
     max_number = 0
-    min_number = 99999999
+    min_number = 99999999   # 충분히 큰 수로 설정할 것
     for i in range(N+1-M):  # i를 그냥 맨 처음 인덱스로 생각합시다
         sum_number = 0
         for j in range(M): # 0, 1, 2, 3, M
             sum_number += number[i+j]
 
-        if max_number < sum_number:  # 왜 < 했을때는 안됐을까 ?
+        if max_number < sum_number:
             max_number = sum_number
-        if min_number > sum_number:  # 왜 > 했을떄는 안됐을까 ? 2
+        if min_number > sum_number:
             min_number = sum_number
 
     answer = max_number - min_number
