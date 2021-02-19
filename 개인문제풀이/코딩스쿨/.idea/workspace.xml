@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="057d63e4-662f-431f-a1bd-658b0ec767fa" name="Default Changelist" comment="">
+    <list default="true" id="4cdad3f0-b274-4bc5-b96c-f1f1358466c0" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0219_알고리즘/set연습.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/2017_알고리즘_보충/문자사각형1.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/2017_알고리즘_보충/문자사각형2.py" beforeDir="false" />
@@ -28,8 +28,8 @@
       <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/2018_알고리즘/회문체크.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/2018_알고리즘/회문회문.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/2018_알고리즘/회애문10X10가능.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/입력 연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/입력 연습.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../백준/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../백준/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../백준/입력 연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/../백준/입력 연습.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,35 +38,33 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FUSProjectUsageTrigger">
-    <session id="-1463761391">
+    <session id="865501090">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
-          <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.3" value="3" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="9" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="9" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="4" />
-          <entry key="py" value="3262" />
+          <entry key="py" value="3725" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="4" />
-          <entry key="Python" value="3262" />
+          <entry key="Python" value="3725" />
         </counts>
       </usages-collector>
     </session>
@@ -74,64 +72,73 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1244스위치켜고끄기.py">
+        <entry file="file://$PROJECT_DIR$/회전판.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="943">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="69">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/입력 연습.py">
+        <entry file="file://$PROJECT_DIR$/회전판_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="26" selection-start-line="26" selection-end-line="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2304창고다각형.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="1518">
+              <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/창고다각형_연습.py">
+        <entry file="file://$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0219_알고리즘/어디에단어가들어가있을까.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+            <state relative-caret-position="299">
+              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/이혜은님.py">
+        <entry file="file://$PROJECT_DIR$/회전판_원종.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+            <state relative-caret-position="966">
+              <caret line="42" selection-start-line="42" selection-end-line="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2635수이어가기.py">
+        <entry file="file://$PROJECT_DIR$/회전판_원종1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            <state relative-caret-position="391">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2669사각형합.py">
+        <entry file="file://$PROJECT_DIR$/회전판인덱스연습.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="92">
+              <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/회전판_돌리기.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="713">
+              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/상하좌우.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -151,20 +158,21 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/스위치켜고끄기.py" />
-        <option value="$PROJECT_DIR$/1244스위치켜고끄기.py" />
-        <option value="$PROJECT_DIR$/입력 연습.py" />
-        <option value="$PROJECT_DIR$/2304창고다각형.py" />
-        <option value="$PROJECT_DIR$/이혜은님.py" />
-        <option value="$PROJECT_DIR$/창고다각형_연습.py" />
+        <option value="$PROJECT_DIR$/상하좌우.py" />
+        <option value="$PROJECT_DIR$/회전판_돌리기.py" />
+        <option value="$PROJECT_DIR$/회전판인덱스연습.py" />
+        <option value="$PROJECT_DIR$/회전판.py" />
+        <option value="$PROJECT_DIR$/회전판_원종.py" />
+        <option value="$PROJECT_DIR$/회전판_1.py" />
+        <option value="$PROJECT_DIR$/회전판_원종1.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="707" />
-    <option name="y" value="8" />
-    <option name="width" value="1832" />
-    <option name="height" value="1023" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1248" />
+    <option name="height" value="999" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -172,22 +180,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="백준" type="b2602c69:ProjectViewProjectNode" />
-              <item name="백준" type="462c0819:PsiDirectoryNode" />
+              <item name="코딩스쿨" type="b2602c69:ProjectViewProjectNode" />
+              <item name="코딩스쿨" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../백준" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -201,9 +209,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2304창고다각형">
-    <configuration name="입력 연습" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="백준" />
+  <component name="RunManager" selected="Python.회전판_돌리기">
+    <configuration name="회전판인덱스연습" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="코딩스쿨" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -214,7 +222,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/입력 연습.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/회전판인덱스연습.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -223,8 +231,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="스위치켜고끄기" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="백준" />
+    <configuration name="회전판_돌리기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="코딩스쿨" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -235,7 +243,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\jhs\Desktop\TIL\개인문제풀이\백준\1244스위치켜고끄기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/회전판_돌리기.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -244,8 +252,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="2304창고다각형" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="백준" />
+    <configuration name="회전판_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="코딩스쿨" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -256,7 +264,49 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2304창고다각형.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/회전판_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="회전판_원종1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="코딩스쿨" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/회전판_원종1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="회전판_원종" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="코딩스쿨" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/회전판_원종.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -266,15 +316,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.스위치켜고끄기" />
-      <item itemvalue="Python.입력 연습" />
-      <item itemvalue="Python.2304창고다각형" />
+      <item itemvalue="Python.회전판_돌리기" />
+      <item itemvalue="Python.회전판인덱스연습" />
+      <item itemvalue="Python.회전판_1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.2304창고다각형" />
-        <item itemvalue="Python.입력 연습" />
-        <item itemvalue="Python.스위치켜고끄기" />
+        <item itemvalue="Python.회전판_1" />
+        <item itemvalue="Python.회전판인덱스연습" />
+        <item itemvalue="Python.회전판_돌리기" />
       </list>
     </recent_temporary>
   </component>
@@ -283,24 +333,23 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="057d63e4-662f-431f-a1bd-658b0ec767fa" name="Default Changelist" comment="" />
-      <created>1613652831462</created>
+      <changelist id="4cdad3f0-b274-4bc5-b96c-f1f1358466c0" name="Default Changelist" comment="" />
+      <created>1613716281327</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1613652831462</updated>
+      <updated>1613716281327</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18230563" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.111930296" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.07375886" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.053900708" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -320,53 +369,59 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/입력연습.py" />
-    <entry file="file://$PROJECT_DIR$/1244스위치켜고끄기.py">
+    <entry file="file://$PROJECT_DIR$/회전판.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="943">
-          <caret line="41" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="69">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2669사각형합.py">
+    <entry file="file://$PROJECT_DIR$/회전판_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="1518">
+          <caret line="66" column="32" selection-start-line="66" selection-start-column="32" selection-end-line="66" selection-end-column="32" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2635수이어가기.py">
+    <entry file="file://$PROJECT_DIR$/회전판_원종.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        <state relative-caret-position="966">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/이혜은님.py">
+    <entry file="file://$PROJECT_DIR$/회전판_원종1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="391">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/입력 연습.py">
+    <entry file="file://$PROJECT_DIR$/회전판인덱스연습.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        <state relative-caret-position="92">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2304창고다각형.py">
+    <entry file="file://$PROJECT_DIR$/회전판_돌리기.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="713">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/창고다각형_연습.py">
+    <entry file="file://$PROJECT_DIR$/상하좌우.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="8" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        <state relative-caret-position="690">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0219_알고리즘/어디에단어가들어가있을까.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
