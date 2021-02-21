@@ -743,6 +743,34 @@ for tc in range(1, int(input())+1):
         print(snail_answer)
 ```
 
+#### 원종님 풀이 공유
+
+```python
+n = 3
+
+snail = [[0] * n for _ in range(n)]
+#초기 좌표 및 값
+x, y = 0, 0
+snail[x][y] = 1
+# 방향
+dx = [0,1,0,-1]
+dy = [1,0,-1,0]
+mode = 0
+for num in range(2, n*2+1):
+    x += dx[mode]
+    y += dy[mode]
+    snail[x][y] = num
+    if 0 <= x + dx[mode] < n and 0 <= y + dy[mode] < n and not snail[x+dx[mode]][y+dy[mode]]:
+        continue
+
+    if mode != 3:
+        mode += 1
+    else:
+        mode = 0
+for i in snail:
+    print(*i)
+```
+
 
 
 ### <문자열 비교>

@@ -42,7 +42,6 @@ for i in range(X):
 
 print(switch_)
 
-
 # 출력 스타일에 맞추기가 실패한건가
 
 # answer = [[3]*20 for _ in range(5)]
