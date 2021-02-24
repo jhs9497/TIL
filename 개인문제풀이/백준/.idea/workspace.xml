@@ -2,9 +2,53 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057d63e4-662f-431f-a1bd-658b0ec767fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0208_알고리즘_보충/1976.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0208_알고리즘_보충/input.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0208_알고리즘_보충/input연습.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0208_알고리즘_보충/print방법.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0208_알고리즘_보충/날짜계산기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0208_알고리즘_보충/시각계산.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0210_알고리즘_보충/.idea/2010_알고리즘_보충.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0210_알고리즘_보충/.idea/libraries/R_User_Library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0210_알고리즘_보충/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0210_알고리즘_보충/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0210_알고리즘_보충/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0210_알고리즘_보충/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0210_알고리즘_보충/지그재그.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/.idea/0215_알고리즘_보충.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/.idea/libraries/R_User_Library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/input.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/상하좌우.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/숫자를정렬하자.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/정렬.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/중간값찾기.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/최빈수.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0212_알고리즘_보충/최빈수.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0217_알고리즘_보충/문자사각형1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0217_알고리즘_보충/문자사각형2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0222_알고리즘_보충/.idea/0222_알고리즘_보충.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0222_알고리즘_보충/.idea/libraries/R_User_Library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0222_알고리즘_보충/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0222_알고리즘_보충/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0222_알고리즘_보충/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0222_알고리즘_보충/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0222_알고리즘_보충/영준이카드카운팅.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0222_알고리즘_보충/오목.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0222_알고리즘_보충/오목판정.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0223_알고리즘_보충/.idea/0223_알고리즘_보충.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0223_알고리즘_보충/.idea/libraries/R_User_Library.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0223_알고리즘_보충/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0223_알고리즘_보충/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0223_알고리즘_보충/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0223_알고리즘_보충/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0223_알고리즘_보충/원재의메모리복구.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0223_알고리즘_보충/퍼펙트셔플.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../백준 문제풀이.md" beforeDir="false" afterPath="$PROJECT_DIR$/../백준 문제풀이.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/입력 연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/입력 연습.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,32 +60,34 @@
     <session id="-1463761391">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.3" value="5" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="6" />
+          <entry key="project.open.time.3" value="6" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="20" />
+          <entry key="py" value="30" />
+          <entry key="오목" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="20" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="30" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="19" />
-          <entry key="py" value="12511" />
+          <entry key="py" value="17613" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="19" />
-          <entry key="Python" value="12511" />
+          <entry key="Python" value="17613" />
         </counts>
       </usages-collector>
     </session>
@@ -49,10 +95,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/창고다각형_풀이.py">
+        <entry file="file://$PROJECT_DIR$/창고다각형_연습.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1127">
-              <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="345">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
@@ -67,46 +113,46 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/창고다각형_연습.py">
+        <entry file="file://$PROJECT_DIR$/창고다각형_풀이.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="1541">
+              <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/창고다각형_연습2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2635수이어가기.py">
+        <entry file="file://$PROJECT_DIR$/창고다각형 다시 풀어보자.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="230">
-              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/10158 개미_런타임에러.py">
+        <entry file="file://$PROJECT_DIR$/수열.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+            <state>
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/10158개미.py">
+        <entry file="file://$PROJECT_DIR$/수열_완전탐색.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="258">
+              <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/오목_원종.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1633">
+              <caret line="71" column="52" lean-forward="true" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -115,7 +161,7 @@
         <entry file="file://$PROJECT_DIR$/10158개미_제출용.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
-              <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -123,8 +169,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/입력 연습.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="943">
+              <caret line="41" selection-start-line="41" selection-end-line="41" />
             </state>
           </provider>
         </entry>
@@ -157,25 +203,31 @@
         <option value="$PROJECT_DIR$/이혜은님.py" />
         <option value="$PROJECT_DIR$/2304창고다각형.py" />
         <option value="$PROJECT_DIR$/창고다각형_주석 X.py" />
-        <option value="$PROJECT_DIR$/창고다각형_연습.py" />
         <option value="$PROJECT_DIR$/창고다각형_연습3.py" />
         <option value="$PROJECT_DIR$/창고다각형_연습2.py" />
         <option value="$PROJECT_DIR$/1244스위치켜고끄기.py" />
-        <option value="$PROJECT_DIR$/창고다각형_풀이.py" />
         <option value="$PROJECT_DIR$/10158 개미.py" />
         <option value="$PROJECT_DIR$/10158개미연습.py" />
         <option value="$PROJECT_DIR$/개미개미.py" />
         <option value="$PROJECT_DIR$/입력 연습.py" />
         <option value="$PROJECT_DIR$/10158개미_제출용.py" />
         <option value="$PROJECT_DIR$/10158개미.py" />
+        <option value="$PROJECT_DIR$/오목대각선.py" />
+        <option value="$PROJECT_DIR$/오목풀이.py" />
+        <option value="$PROJECT_DIR$/오목" />
+        <option value="$PROJECT_DIR$/오목_원종.py" />
+        <option value="$PROJECT_DIR$/창고다각형_연습.py" />
+        <option value="$PROJECT_DIR$/창고다각형_풀이.py" />
+        <option value="$PROJECT_DIR$/창고다각형 다시 풀어보자.py" />
+        <option value="$PROJECT_DIR$/수열.py" />
+        <option value="$PROJECT_DIR$/수열_완전탐색.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="376" />
-    <option name="y" value="61" />
-    <option name="width" value="1543" />
-    <option name="height" value="983" />
+    <option name="x" value="485" />
+    <option name="width" value="1545" />
+    <option name="height" value="899" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -199,7 +251,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/jhs/Desktop/TIL/개인문제풀이/백준/2635수이어가기.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0222_알고리즘" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -213,7 +265,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.10158 개미">
+  <component name="RunManager" selected="Python.수열_완전탐색">
+    <configuration name="창고다각형 다시 풀어보자" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="백준" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/창고다각형 다시 풀어보자.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="10158 개미" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="백준" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -235,7 +308,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10158개미연습" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="수열" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="백준" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -247,7 +320,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\jhs\Desktop\TIL\개인문제풀이\백준\10158개미.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/수열.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -256,7 +329,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="10158개미_제출용" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="오목풀이" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="백준" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -268,7 +341,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/10158개미_제출용.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/오목풀이.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -277,7 +350,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="1244스위치켜고끄기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="오목풀이" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="백준" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -289,7 +362,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1244스위치켜고끄기.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/오목풀이.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -298,7 +371,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="창고다각형_풀이" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="오목_원종" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="백준" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,7 +383,28 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/창고다각형_풀이.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/오목_원종.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="수열_완전탐색" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="백준" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/수열_완전탐색.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -320,19 +414,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.창고다각형_풀이" />
-      <item itemvalue="Python.1244스위치켜고끄기" />
       <item itemvalue="Python.10158 개미" />
-      <item itemvalue="Python.10158개미연습" />
-      <item itemvalue="Python.10158개미_제출용" />
+      <item itemvalue="Python.오목_원종" />
+      <item itemvalue="Python.창고다각형 다시 풀어보자" />
+      <item itemvalue="Python.수열" />
+      <item itemvalue="Python.수열_완전탐색" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.수열_완전탐색" />
+        <item itemvalue="Python.수열" />
+        <item itemvalue="Python.창고다각형 다시 풀어보자" />
+        <item itemvalue="Python.오목_원종" />
         <item itemvalue="Python.10158 개미" />
-        <item itemvalue="Python.10158개미_제출용" />
-        <item itemvalue="Python.10158개미연습" />
-        <item itemvalue="Python.1244스위치켜고끄기" />
-        <item itemvalue="Python.창고다각형_풀이" />
       </list>
     </recent_temporary>
   </component>
@@ -350,15 +444,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="301" y="49" width="1234" height="786" extended-state="0" />
+    <frame x="388" y="0" width="1236" height="719" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2414966" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25551784" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.28024504" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.278157" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39761093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -369,8 +464,8 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="R Graphics" order="3" />
-      <window_info anchor="right" id="R Packages" order="4" />
+      <window_info anchor="right" id="R Packages" order="3" />
+      <window_info anchor="right" id="R Graphics" order="4" visible="true" weight="0.054329373" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -406,10 +501,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/창고다각형_풀이.py">
+    <entry file="file://$PROJECT_DIR$/개미개미.py" />
+    <entry file="file://$PROJECT_DIR$/창고다각형_연습2.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1127">
-          <caret line="49" column="19" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="437">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/오목대각선.py" />
+    <entry file="file://$PROJECT_DIR$/2635수이어가기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10158 개미_런타임에러.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/10158개미.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/오목풀이.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0222_알고리즘_보충/오목판정.py" />
+    <entry file="file://$PROJECT_DIR$/오목">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/창고다각형_연습.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
         </state>
       </provider>
     </entry>
@@ -420,24 +556,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/창고다각형_연습.py">
+    <entry file="file://$PROJECT_DIR$/창고다각형_풀이.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="1541">
+          <caret line="67" column="14" lean-forward="true" selection-start-line="67" selection-start-column="14" selection-end-line="67" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/창고다각형_연습2.py">
+    <entry file="file://$PROJECT_DIR$/오목_원종.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        <state relative-caret-position="1633">
+          <caret line="71" column="52" lean-forward="true" selection-start-line="71" selection-start-column="52" selection-end-line="71" selection-end-column="52" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2635수이어가기.py">
+    <entry file="file://$PROJECT_DIR$/10158개미_제출용.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+        <state relative-caret-position="161">
+          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/입력 연습.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="943">
+          <caret line="41" selection-start-line="41" selection-end-line="41" />
         </state>
       </provider>
     </entry>
@@ -448,34 +591,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/개미개미.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/입력 연습.py">
+    <entry file="file://$PROJECT_DIR$/창고다각형 다시 풀어보자.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+        <state relative-caret-position="230">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10158 개미_런타임에러.py">
+    <entry file="file://$PROJECT_DIR$/수열.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="40" column="25" selection-start-line="40" selection-start-column="25" selection-end-line="40" selection-end-column="25" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/10158개미_제출용.py">
+    <entry file="file://$PROJECT_DIR$/수열_완전탐색.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/10158개미.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="258">
+          <caret line="13" column="27" lean-forward="true" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>

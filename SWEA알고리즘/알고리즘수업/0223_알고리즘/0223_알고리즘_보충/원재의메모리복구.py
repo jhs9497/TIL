@@ -12,7 +12,7 @@ for tc in range(1, int(input())+1):
             idx = i # 그 idx 박제하고
             break# 그만!
 
-    # 1의 시작점부터 다시 for문을 돌리며
+    # 1의 시작점 idx부터 다시 for문을 돌리며
     for j in range(idx, len(memory)-1):
         if memory[j] != memory[j+1]: count += 1
         # memory 값이 바뀌는 순간 count +1
