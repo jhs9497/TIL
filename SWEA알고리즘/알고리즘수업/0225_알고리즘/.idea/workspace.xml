@@ -2,52 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5ff805de-3292-475b-a191-470b99fa982a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../0208_알고리즘_보충/1976.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0208_알고리즘_보충/input.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0208_알고리즘_보충/input연습.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0208_알고리즘_보충/print방법.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0208_알고리즘_보충/날짜계산기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0208_알고리즘_보충/시각계산.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0210_알고리즘_보충/.idea/2010_알고리즘_보충.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0210_알고리즘_보충/.idea/libraries/R_User_Library.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0210_알고리즘_보충/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0210_알고리즘_보충/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0210_알고리즘_보충/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0210_알고리즘_보충/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0210_알고리즘_보충/지그재그.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/.idea/0215_알고리즘_보충.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/.idea/libraries/R_User_Library.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/상하좌우.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/숫자를정렬하자.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/정렬.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/중간값찾기.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/최빈수.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0212_알고리즘_보충/최빈수.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0217_알고리즘_보충/문자사각형1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0217_알고리즘_보충/문자사각형2.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0222_알고리즘_보충/.idea/0222_알고리즘_보충.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0222_알고리즘_보충/.idea/libraries/R_User_Library.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0222_알고리즘_보충/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0222_알고리즘_보충/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0222_알고리즘_보충/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0222_알고리즘_보충/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0222_알고리즘_보충/영준이카드카운팅.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0222_알고리즘_보충/오목.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0222_알고리즘_보충/오목판정.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0223_알고리즘_보충/.idea/0223_알고리즘_보충.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0223_알고리즘_보충/.idea/libraries/R_User_Library.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0223_알고리즘_보충/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0223_알고리즘_보충/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0223_알고리즘_보충/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0223_알고리즘_보충/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0223_알고리즘_보충/원재의메모리복구.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../0223_알고리즘_보충/퍼펙트셔플.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../개인문제풀이/백준 문제풀이.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../개인문제풀이/백준 문제풀이.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../../개인문제풀이/백준/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../개인문제풀이/백준/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -60,28 +15,131 @@
     <session id="-2034362564">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.closed" value="6" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="12" />
+          <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="12" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="7" />
+          <entry key="py" value="7895" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="Python" value="7895" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/백만장자while로.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="506">
+              <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/백만장자for문.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/오셀로.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1817">
+              <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/오세롤로로로로롤.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/자기방으로 돌아가기.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/자기방 2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/축구팀나누기.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="644">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/오셀로_while.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="621">
+              <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/농작물수확.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/붕어빵.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="610">
+              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/codecs.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7084">
+              <caret line="309" selection-start-line="309" selection-end-line="309" />
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -100,14 +158,24 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/농작물수확.py" />
+        <option value="$PROJECT_DIR$/백만장자.py" />
+        <option value="$PROJECT_DIR$/pop연습.py" />
+        <option value="$PROJECT_DIR$/백만장자while로.py" />
+        <option value="$PROJECT_DIR$/백만장자for문.py" />
+        <option value="$PROJECT_DIR$/오셀로.py" />
+        <option value="$PROJECT_DIR$/자기방으로 돌아가기.py" />
+        <option value="$PROJECT_DIR$/자기방 2.py" />
+        <option value="$PROJECT_DIR$/축구팀나누기.py" />
+        <option value="$PROJECT_DIR$/오세롤로로로로롤.py" />
+        <option value="$PROJECT_DIR$/오셀로_while.py" />
+        <option value="$PROJECT_DIR$/붕어빵.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="931" />
-    <option name="y" value="52" />
-    <option name="width" value="1430" />
-    <option name="height" value="1013" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="width" value="1184" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -130,7 +198,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../0224_알고리즘" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../IM제출" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -143,6 +211,169 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="RunManager" selected="Python.자기방으로 돌아가기">
+    <configuration name="자기방으로 돌아가기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0225_알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/자기방으로 돌아가기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="자기방 2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0225_알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/자기방 2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="축구팀나누기" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0225_알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/축구팀나누기.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="붕어빵" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0225_알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/붕어빵.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="오셀로" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0225_알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/오셀로.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="오세롤로로로로롤" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0225_알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/오세롤로로로로롤.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="오셀로_while" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="0225_알고리즘" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/오셀로_while.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.자기방으로 돌아가기" />
+      <item itemvalue="Python.자기방 2" />
+      <item itemvalue="Python.축구팀나누기" />
+      <item itemvalue="Python.오셀로_while" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.오셀로_while" />
+        <item itemvalue="Python.축구팀나누기" />
+        <item itemvalue="Python.자기방 2" />
+        <item itemvalue="Python.자기방으로 돌아가기" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -158,35 +389,122 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="745" y="42" width="1144" height="810" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2495396" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19571045" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.39007092" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="R Packages" />
-      <window_info anchor="right" id="R Graphics" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5013405" side_tool="true" weight="0.52340424" />
+      <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Graphics" order="3" />
+      <window_info anchor="right" id="R Packages" order="4" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/백만장자.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pop연습.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/농작물수확.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백만장자while로.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="21" selection-start-line="22" selection-start-column="21" selection-end-line="22" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/백만장자for문.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/오셀로.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1817">
+          <caret line="79" column="22" selection-start-line="79" selection-start-column="22" selection-end-line="79" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/오세롤로로로로롤.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="40" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/자기방으로 돌아가기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/자기방 2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/축구팀나누기.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="644">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="29" selection-end-line="28" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/오셀로_while.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="30" selection-start-line="27" selection-start-column="30" selection-end-line="27" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python38/Lib/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7084">
+          <caret line="309" selection-start-line="309" selection-end-line="309" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/붕어빵.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="610">
+          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
