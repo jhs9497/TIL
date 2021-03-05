@@ -2,7 +2,6 @@ def solution(numbers, hand):
     answer = ''
     keypad = [[1, 2, 3],[4, 5, 6],[7, 8, 9],['*', 0, '#']]  # keypad 2차원배열로 표현
 
-
     left_idx = [3, 0]  # 초기 * 인덱스
     right_idx = [3, 2] # 초기 # 인덱스
     for i in numbers: # 인풋 받은 numbers를 돌면서
