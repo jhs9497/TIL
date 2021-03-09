@@ -11,7 +11,7 @@ USE_TZ
 ### 2. urls
 
 ```django
-'write/', views.write
+path('ssafy/', views.ssafy)
 ```
 
 
@@ -34,7 +34,7 @@ USE_TZ
 
 ```django
 {% for post in posts %}
-  <p>{{ forloop.revcounter0 }}번 글 : {{ post }}</p>
+  <p>{{ forloop.counter0 }}번 글 : {{ post }}</p>
 {% endfor %}
 ```
 
@@ -76,7 +76,7 @@ USE_TZ
 <!--5-->
 <p>{{ 'hello'|length}}</p>
 <!--My Name Is Tom-->
-<p>{{ 'my name is tom'|capfirst}}</p>
+<p>{{ 'my name is tom'|title}}</p>
 ```
 
 
@@ -87,7 +87,7 @@ USE_TZ
 
 ```django
 <!-- 2020년 02월 02일 (Sun) PM 02:02-->
-{{ today|date:"Y년 m월 d일 (D) A h:f"}}
+{{ today|date:"Y년 m월 d일 (D) A h:i"}}
 ```
 
 
@@ -97,7 +97,7 @@ USE_TZ
 1. 지문의 코드 중 form 태그의 속성인 action의 역할에 대해 설명하시오.
    - 기본 url + /create/에 input받은 값들을 전달한다
 2.  지문의 코드 중 method가 가질 수 있는 속성 값을 작성하시오.
-   - GET
+   - GET, POST
 
 3. input 태그에 각각 `안녕하세요`, `반갑습니다`, `파이팅` 문자열을 넣고 submit  버튼을 눌렀을 때 이동하는 url 경로를 작성하시오.
    - http://127.0.0.1:8000/create/?title=안녕하세요&content=반갑습니다&my-site=파이팅
