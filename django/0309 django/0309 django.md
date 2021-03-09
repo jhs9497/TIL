@@ -8,6 +8,8 @@
 - ex) 현재 위치가 https://localhost:8000/articles/ 라면
 - pages/라고 쓰는 순간 https://localhost:8000/articles/pages/로 인식함 이상한 주소로 감
 
+
+
 1. django-admin startproject config .
 
 2. ls -> manage.py 있는지 확인  >config  manage.py<

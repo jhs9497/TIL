@@ -1,0 +1,16 @@
+<h1>회원가입 페이지</h1>
+
+<form action="{% url 'accounts:result' %}" method="GET">
+  <lable for="username">아이디를 입력해주세요.</lable>
+  <input type="email" id="username" name="username">
+  <br>
+
+  <lable for="password">비밀번호를 입력해주세요.</lable>
+  <input type="text" id="password" name="password">
+  <br>
+  
+  <lable for="password_confirm">비밀번호를 한 번 더 입력해주세요.</lable>
+  <input type="text" id="password_confirm" name="password_confirm">
+
+  <button>submit</button>
+</form>
