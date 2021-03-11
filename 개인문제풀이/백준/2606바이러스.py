@@ -22,7 +22,7 @@ for i in range(M):
     yaya = list(map(int, input().split()))
     link_list.append(yaya)
 
-info = [[] for _ in range(N+1)] # visted처럼 +1 해서 만들었고 X번째 노드가 갈 수 있는 모든 노드를 표현
+info = [[] for _ in range(N+1)] # visted처럼 +1 해서 만들었고 X번째 컴퓨터랑 연결된 모든 컴퓨터를 표현
 
 for i in range(len(link_list)): # 0
     info[link_list[i][0]].append(link_list[i][1])

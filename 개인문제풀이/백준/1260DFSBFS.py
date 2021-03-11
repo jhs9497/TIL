@@ -2,6 +2,7 @@ def DFS(start_point):
     global info
     for i in range(len(info)):
         info[i].reverse()  # DFS에서는 처음 들어오는게 나중에 나가므로 info의 각 리스트들을 reverse해준다
+        # info = [[], [4, 3, 2], [4, 1], [4, 1], [3, 2, 1]]
     result = []
     visited = [False]*(N+1)
     stack = [start_point] # 스택에 우선 넣어주고
@@ -22,6 +23,7 @@ def BFS(start_point):
     global info
     for i in range(len(info)):
         info[i].reverse() # 위에서 reverse되어서 한번더 reverse...
+        # info = [[], [2, 3, 4], [1, 4], [1, 4], [1, 2, 3]]
     result = []
     visited = [False]*(N+1)
     queue = [start_point] # 스택에 우선 넣어주고
@@ -52,6 +54,7 @@ for i in range(len(N_list)): # 0
 
 for i in range(len(info)):
     info[i].sort()
+    # info = [[], [2, 3, 4], [1, 4], [1, 4], [1, 2, 3]]
 
 DFS_K = DFS(K)
 print(*DFS_K)

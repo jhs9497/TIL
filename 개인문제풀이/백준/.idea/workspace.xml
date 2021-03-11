@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057d63e4-662f-431f-a1bd-658b0ec767fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2606바이러스.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/리스트만들기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0310 django/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0310 django/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16236 아기상어 다시.py" beforeDir="false" afterPath="$PROJECT_DIR$/16236 아기상어 다시.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16236 아기상어.py" beforeDir="false" afterPath="$PROJECT_DIR$/16236 아기상어.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pop연습.py" beforeDir="false" afterPath="$PROJECT_DIR$/1260DFSBFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1260DFSBFS.py" beforeDir="false" afterPath="$PROJECT_DIR$/1260DFSBFS.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2606바이러스.py" beforeDir="false" afterPath="$PROJECT_DIR$/2606바이러스.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,7 +15,7 @@
     <session id="-1463761391">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="19" />
+          <entry key="project.closed" value="20" />
           <entry key="project.open.time.0" value="9" />
           <entry key="project.open.time.3" value="7" />
           <entry key="project.open.time.4" value="2" />
@@ -44,14 +39,14 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="69" />
-          <entry key="py" value="27204" />
+          <entry key="py" value="27288" />
           <entry key="수열 완전탐색_ 함수로py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="90" />
-          <entry key="Python" value="27204" />
+          <entry key="Python" value="27288" />
         </counts>
       </usages-collector>
     </session>
@@ -82,13 +77,13 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2606바이러스.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+            <state relative-caret-position="230">
+              <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
               <folding>
-                <marker date="1615391548905" expanded="true" signature="27:533" ph="..." />
+                <marker date="1615392781851" expanded="true" signature="27:465" ph="..." />
               </folding>
             </state>
           </provider>
@@ -143,14 +138,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1260DFSBFS.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="125">
-              <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="1288">
+              <caret line="56" column="55" lean-forward="true" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
               <folding>
-                <marker date="1615388012531" expanded="true" signature="147:675" ph="..." />
-                <marker date="1615388012531" expanded="true" signature="1333:1335" ph="..." />
+                <marker date="1615393152640" expanded="true" signature="207:735" ph="..." />
+                <marker date="1615393152640" expanded="true" signature="1453:1455" ph="..." />
               </folding>
             </state>
           </provider>
@@ -220,15 +215,15 @@
         <option value="$PROJECT_DIR$/창고다각형_연습3.py" />
         <option value="$PROJECT_DIR$/리스트만들기.py" />
         <option value="$PROJECT_DIR$/1260reverse연습.py" />
-        <option value="$PROJECT_DIR$/1260DFSBFS.py" />
         <option value="$PROJECT_DIR$/16236 아기상어 다시.py" />
         <option value="$PROJECT_DIR$/2606바이러스.py" />
+        <option value="$PROJECT_DIR$/1260DFSBFS.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="662" />
-    <option name="y" value="55" />
+    <option name="x" value="295" />
+    <option name="y" value="61" />
     <option name="width" value="1545" />
     <option name="height" value="959" />
   </component>
@@ -268,7 +263,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.2606바이러스">
+  <component name="RunManager" selected="Python.1260DFSBFS">
     <configuration name="리스트만들기" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="백준" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -383,9 +378,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.1260DFSBFS" />
         <item itemvalue="Python.2606바이러스" />
         <item itemvalue="Python.16236 아기상어 다시" />
-        <item itemvalue="Python.1260DFSBFS" />
         <item itemvalue="Python.리스트만들기" />
         <item itemvalue="Python.16236아기상어연습" />
       </list>
@@ -405,14 +400,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="530" y="44" width="1236" height="767" extended-state="0" />
+    <frame x="236" y="49" width="1236" height="767" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17147708" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32874617" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36908516" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.36908516" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39506173" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -670,23 +665,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1260DFSBFS.py">
+    <entry file="file://$PROJECT_DIR$/2606바이러스.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="230">
+          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
           <folding>
-            <marker date="1615388012531" expanded="true" signature="147:675" ph="..." />
-            <marker date="1615388012531" expanded="true" signature="1333:1335" ph="..." />
+            <marker date="1615392781851" expanded="true" signature="27:465" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2606바이러스.py">
+    <entry file="file://$PROJECT_DIR$/1260DFSBFS.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        <state relative-caret-position="1288">
+          <caret line="56" column="55" lean-forward="true" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
           <folding>
-            <marker date="1615391548905" expanded="true" signature="27:533" ph="..." />
+            <marker date="1615393152640" expanded="true" signature="207:735" ph="..." />
+            <marker date="1615393152640" expanded="true" signature="1453:1455" ph="..." />
           </folding>
         </state>
       </provider>
