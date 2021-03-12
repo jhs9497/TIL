@@ -16,6 +16,8 @@
   </nav>
   
   <div class="container my-3">
+    <a href="{% url 'articles:new' %}">글쓰기</a>
+
     {% block content %}
     {% endblock %}
   </div>

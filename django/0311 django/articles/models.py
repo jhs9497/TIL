@@ -6,3 +6,10 @@ class Article(models.Model):
     content = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    def __str__ (slef):
+        '''
+        객체의 표현식을 바꿔주는 메서드입니다.
+        Admin 페이지에서 편하게 보기 위해 정의합니다.
+        '''
+        return f'{self.title} {self.content}'
