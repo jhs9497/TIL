@@ -21,18 +21,31 @@ for tc in range(1, int(input())+1):
     dx = [-1, 1, 0, 0]
     dy = [0, 0, -1, 1]
 
+    # 초기 봉우리 위치 찾기!
+    # 우선 가장 큰 수 찾고
+    Max_H = 0
+    for i in range(N):
+        for j in range(N):
+            if Max_H < MAP[i][j]:
+                Max_H = MAP[i][j]
+
+    Max_list = []
+    for i in range(N):
+        for j in range(N):
+            if MAP[i][j] == Max_H:
+                Max_list.append((i,j))
+    print(Max_list)
+
     result = []
     for k in range(K+1):
         for i in range(N):
             for j in range(N):
                 MAP[i][j] = MAP[i][j] - k # MAP에서 k 빼주고
-                # 한번더 for문
-                for a in range(N):
-                    for b in range(N):
-                        if MAP[a][b] == max(max(MAP)): # 가장 높은 봉우리면
-                            result.append(DFS(a,b)) # 함수에 넣어주기
+                for v in range(len(Max_list)):
+                    (a,b) = Max_list[v]
+                    result.append(DFS(a,b))
                 MAP[i][j] = MAP[i][j] + k # 뻈던거 다시 초기화
 
-    print(max(result))
+    print('#{} {}'.format(tc, max(result)))
 
 
