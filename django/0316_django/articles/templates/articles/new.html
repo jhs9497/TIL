@@ -1,8 +1,9 @@
-<form action="" mothod="POST">
+<form action="" method="POST">
   {% csrf_token %}
-  <input type="text" name='tittle'>
-  <br>
-  <input type="text" name='content'>
-  <br>
+  
+  {{ form.as_p }}
+
+  <!--한번에? -> {{ form }}-->
+
   <input type="submit">
 </form>
