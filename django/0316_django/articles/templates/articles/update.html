@@ -1,0 +1,8 @@
+<form action="" mothod="POST">
+  {% csrf_token %}
+  <input type="text" name='tittle' value="{{ article.title }}">
+  <br>
+  <input type="text" name='content' value="{{ article.content }}">
+  <br>
+  <input type="submit">
+</form>

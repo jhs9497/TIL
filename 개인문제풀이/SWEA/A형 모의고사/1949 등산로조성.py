@@ -7,11 +7,10 @@ def DFS(x, y):
         for i in range(4):
             dr = r + dx[i]
             dc = c + dy[i]
-            if 0 <= dr < N and 0 <= dc < N:
+            if 0 <= dr < N and 0 <= dc < N and visited[dr][dc] == 0:
                 if MAP[r][c] > MAP[dr][dc]:
                     stack.append((dr,dc))
                     visited[dr][dc] = visited[r][c]+1
-
     return max(max(visited))
 
 for tc in range(1, int(input())+1):
@@ -34,7 +33,6 @@ for tc in range(1, int(input())+1):
         for j in range(N):
             if MAP[i][j] == Max_H:
                 Max_list.append((i,j))
-    print(Max_list)
 
     result = []
     for k in range(K+1):
