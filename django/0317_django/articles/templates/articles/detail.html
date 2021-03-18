@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h1>DETAIL</h1>
+  <hr>
+  <p>Title : {{ article.title }}</p>
+  <p>Content : {{ article.content }}</p>
+  <p>Created at : {{ article.created_at }}</p>
+  <p>Updated at : {{ article.updated_at }}</p>
+  <hr>
+  <a href="{% url 'articles:update' article.pk %}">EDIT</a>
+  {% comment %} <a href="{% url 'articles:delete' article.pk %}">삭제</a> {% endcomment %}
+  
+  <form action="{% url 'articles:delete' article.pk %}" method="post">
+    {% csrf_token %}
+    <input type="submit" value="DELETE">
+  </form>
+{% endblock %}

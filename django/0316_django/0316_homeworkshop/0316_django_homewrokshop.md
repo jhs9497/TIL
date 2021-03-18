@@ -9,6 +9,8 @@
 #####  2. 왜 request의 http method는 POST 먼저 확인하도록 작성하는가?
 
 > django에서 request에 쓸 수 있는 method가 몇가지 있는데 그 중에서 'POST' method만 수정이 가능하게 데이터를 보내는 method이기 때문이다. 즉 POST인지 아닌지가 중요하기 때문에 POST를 먼저 확인하는 것이 효율적이다.
+>
+> GET부터 확인하면 GET 이외에 것들이 모두 DB에 영향을 줌 그럼 아니됨!
 
 
 

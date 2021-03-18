@@ -1,0 +1,15 @@
+<!-- articles/new.html-->
+{% extends 'base.html' %}
+{% block content %}
+  <h1>UPDATE</h1>
+  <!-- 글 수정을 위한 form -->
+  <form action="???" method="???">
+	  <!-- 작성할 때 보안을 위해 추가해야 하는 곳 -->
+    {% ??? %}
+    <!-- forms.py 에서 생성한 입력칸을 보여주는 부분-->
+    {{ ??? }}
+    <input type="submit">
+  </form>
+  <hr>
+  <a href="{% url 'articles:detail' article.pk %}"></a>
+{% endblock %}
