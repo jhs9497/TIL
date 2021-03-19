@@ -5,8 +5,17 @@
 #### 1. static 파일 기본 설정
 
 ```python
+STATIC_URL = '/static/'
+
+STATICFILES_DIRS= [
+    # crud/static/stylesheets/style.css
+    BASE_DIR / 'crud' / 'static',
+]
+
 # 모든 스태틱 파일들을 이 폴더에 모아줘
 STATIC_ROOT = BASE_DIR / 'staticfiles'
+
+django.contirb.staticfiles,
 ```
 
 
