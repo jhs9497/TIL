@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1a909fcb-7d49-4520-b6a1-3c6908d9bf6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../django/0318 django/3018 django_homeworkshop/06_django_homework.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0318 django/3018 django_homeworkshop/06_django_workshop.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0318 django/3018 django_homeworkshop/07_django_homework.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0318 django/3018 django_homeworkshop/07_django_workshop.pdf" beforeDir="false" />
-    </list>
+    <list default="true" id="1a909fcb-7d49-4520-b6a1-3c6908d9bf6e" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,12 +12,12 @@
     <session id="-131692729">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="11" />
           <entry key="project.open.time.0" value="3" />
-          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.3" value="3" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="2" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -178,8 +173,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-63" />
-    <option name="y" value="12" />
+    <option name="x" value="72" />
+    <option name="y" value="27" />
     <option name="width" value="1390" />
     <option name="height" value="1040" />
   </component>
@@ -204,7 +199,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SWEA알고리즘/알고리즘수업/0304_알고리즘" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../스타트업코딩페스티벌" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -397,9 +392,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-50" y="10" width="1112" height="832" extended-state="0" />
+    <frame x="58" y="22" width="1112" height="832" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23244782" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23719165" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -467,22 +462,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/주식가격.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/다리를 지나는 트럭.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" selection-start-line="11" selection-end-line="11" />
           <folding>
             <marker date="1614817618669" expanded="true" signature="82:83" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/주식가격.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-          <folding>
-            <marker date="1614794263078" expanded="true" signature="52:54" ph="..." />
           </folding>
         </state>
       </provider>
