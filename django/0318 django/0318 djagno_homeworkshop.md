@@ -53,7 +53,7 @@ from django.conf.urls.static import static
 
 
 
-##### 1.태그를 사용할 경우 반드시 사용해야 하는 enctype 속성 값 (a)를 작성하시오.
+##### 1.태그를 사용할 경우 반드시 사용해야 하는 enctype 속성 값 (a)를 작성하시오
 
 ```python
 enctype="multipart/form-data"
