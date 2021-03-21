@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b4c75aa9-9ef5-43c1-bc66-906f2e977794" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../프로그래머스/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../프로그래머스/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b4c75aa9-9ef5-43c1-bc66-906f2e977794" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,10 +12,10 @@
     <session id="1039263140">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -47,7 +45,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/쏘카.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1685">
+            <state relative-caret-position="2622">
               <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
             </state>
           </provider>
@@ -62,10 +60,7 @@
         <entry file="file://$PROJECT_DIR$/번개장터.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-              <folding>
-                <marker date="1616227644876" expanded="true" signature="1131:1149" ph="..." />
-              </folding>
+              <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -74,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/브랜디.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="69">
-              <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding>
                 <marker date="1616230324134" expanded="true" signature="13:18" ph="..." />
               </folding>
@@ -104,9 +99,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="622" />
-    <option name="y" value="32" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="621" />
+    <option name="y" value="31" />
     <option name="width" value="1390" />
     <option name="height" value="1040" />
   </component>
@@ -131,7 +126,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SWEA/D3.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,7 +140,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.브랜디">
+  <component name="RunManager">
     <configuration name="쏘카" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="스타트업코딩페스티벌" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -230,17 +225,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <list>
-      <item itemvalue="Python.쏘카" />
-      <item itemvalue="Python.왓챠" />
-      <item itemvalue="Python.번개장터" />
-      <item itemvalue="Python.브랜디" />
-    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.브랜디" />
-        <item itemvalue="Python.번개장터" />
-        <item itemvalue="Python.왓챠" />
         <item itemvalue="Python.쏘카" />
       </list>
     </recent_temporary>
@@ -259,10 +245,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="498" y="26" width="1112" height="832" extended-state="0" />
-    <editor active="true" />
+    <frame x="497" y="25" width="1112" height="832" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25426945" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2590133" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -289,7 +274,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/쏘카.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1685">
+        <state relative-caret-position="2622">
           <caret line="114" column="20" selection-start-line="114" selection-start-column="20" selection-end-line="114" selection-end-column="20" />
         </state>
       </provider>
@@ -300,17 +285,14 @@
     <entry file="file://$PROJECT_DIR$/번개장터.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-          <folding>
-            <marker date="1616227644876" expanded="true" signature="1131:1149" ph="..." />
-          </folding>
+          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/브랜디.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="69">
-          <caret line="3" column="20" lean-forward="true" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <caret line="3" column="20" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding>
             <marker date="1616230324134" expanded="true" signature="13:18" ph="..." />
           </folding>
