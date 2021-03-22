@@ -3,6 +3,7 @@ from django.contrib.auth.forms import AuthenticationForm, UserCreationForm
 from django.contrib.auth import login as auth_login  # 장고의 login 함수를 불러와서 적용
 from django.contrib.auth import logout as auth_logout  # 마찬가지
 from django.views.decorators.http import require_POST
+from .forms import CustomUserChangeForm
 
 
 # Create your views here.
@@ -60,5 +61,19 @@ def delete(request):
     # request.user.is_active = False
     # request.user.save()
 
-    request.user.delte()
+    request.user.delete()
     return redirect('articles:index')
+
+
+def update(request):
+    if request.method == 'POST':
+        form = CustomUserChangeForm(request.POST, instance=request.user)
+        if form.is_valid():
+            form.save()
+            return redirect('articles:index')
+    else:
+        form = CustomUserChangeForm()
+    context = {
+        'form': form,
+    }
+    return render(request, 'accounts/update.html', context)

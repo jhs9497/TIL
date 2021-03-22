@@ -14,4 +14,7 @@ urlpatterns = [
 
     # Delete
     path('delete/', views.delete, name='delete'),
+
+    # Update
+    path('update/', views.update, name='update'),
 ]
