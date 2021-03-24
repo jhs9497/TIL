@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d820890c-3996-462c-9fc8-49df404633ef" name="Default Changelist" comment="" />
+    <list default="true" id="d820890c-3996-462c-9fc8-49df404633ef" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/09_django_practice.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/accounts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/accounts/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/accounts/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/accounts/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/accounts/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/accounts/templates/accounts/signup.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/accounts/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/accounts/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/accounts/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/migrations/0001_initial.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/templates/articles/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/templates/articles/create.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/templates/articles/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/templates/articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/templates/articles/update.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/articles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/crud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/crud/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/crud/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/crud/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/crud/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../django/0323 django/0323_django_practice/requirements.txt" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,11 +37,11 @@
     <session id="-1646671793">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -81,7 +106,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/파스칼.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
+            <state relative-caret-position="414">
               <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
             </state>
           </provider>
@@ -111,10 +136,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-23" />
-    <option name="y" value="32" />
+    <option name="x" value="287" />
+    <option name="y" value="36" />
     <option name="width" value="1750" />
-    <option name="height" value="1004" />
+    <option name="height" value="1005" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -122,7 +147,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -134,10 +158,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../백준" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -242,9 +267,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-18" y="26" width="1400" height="803" extended-state="0" />
+    <frame x="230" y="29" width="1400" height="804" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2019374" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20491803" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -298,7 +323,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/파스칼.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="414">
           <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
         </state>
       </provider>
