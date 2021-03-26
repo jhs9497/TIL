@@ -1,5 +1,10 @@
-for tc in range(1, int(input())+1):
-    N, K = map(int, input().split()) # N X N 지도, K -> 최대 공사 가능 깊이
-    MAP = [list(map(int, input().split())) for _ in range(N)]
 
-    print(max(max(MAP)))
+dist = [[1,2,3],[2,3,4],[5,6,7]]
+
+
+
+print(sum(dist, []))
+
+# print(max(sum(dist, [])))
+
+# print(max(max(dist)))
