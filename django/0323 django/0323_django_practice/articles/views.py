@@ -78,8 +78,8 @@ def update(request, pk):
 
 @require_POST
 def create_comment(request, article_pk):
-    if not request.user.id_athenticated:
-        return redirect('accounts:login')
+    # if not request.user.id_athenticated:
+    #     return redirect('accounts:signup')
 
     # 1. 댓글이 가리킬 게시글을 가져옵니다.
     article = Article.objects.get(pk=article_pk)

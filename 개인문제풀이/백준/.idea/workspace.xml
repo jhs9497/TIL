@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057d63e4-662f-431f-a1bd-658b0ec767fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/09_django_practice.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/accounts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/accounts/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/accounts/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/accounts/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/accounts/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/accounts/templates/accounts/signup.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/accounts/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/accounts/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/accounts/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/templates/articles/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/templates/articles/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/templates/articles/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/templates/articles/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/templates/articles/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/templates/articles/update.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/articles/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/crud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/crud/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/crud/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/crud/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/crud/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/crud/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../django/0323 django/0323_django_practice/requirements.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/D3.py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/D3.py/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +15,13 @@
     <session id="-1463761391">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="23" />
+          <entry key="project.closed" value="24" />
           <entry key="project.open.time.0" value="10" />
           <entry key="project.open.time.3" value="9" />
-          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="24" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -156,7 +132,7 @@
         <entry file="file://$PROJECT_DIR$/5043AC.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="552">
-              <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+              <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
               <folding>
                 <marker date="1616493272357" expanded="true" signature="279:281" ph="..." />
               </folding>
@@ -235,9 +211,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="345" />
-    <option name="y" value="57" />
+    <option name="y" value="56" />
     <option name="width" value="1545" />
     <option name="height" value="960" />
   </component>
@@ -247,6 +223,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -258,12 +235,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/jhs/Desktop/TIL/개인문제풀이/백준/2635수이어가기.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SWEA/D3.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -415,9 +391,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14343163" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14544237" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -681,7 +656,7 @@
     <entry file="file://$PROJECT_DIR$/5043AC.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="552">
-          <caret line="24" column="9" lean-forward="true" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
+          <caret line="24" column="9" selection-start-line="24" selection-start-column="9" selection-end-line="24" selection-end-column="9" />
           <folding>
             <marker date="1616493272357" expanded="true" signature="279:281" ph="..." />
           </folding>
