@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  <body class='container'>
+    <h1>전체 게시글</h1>
+    <h3><a href="{% url 'articles:create' %}">글 작성하기</a></h3>
+    <hr>
+      {% for article in articles %}
+      <h3>제목 : {{ article.title }}</h3>
+        <p><a href=" {% url 'articles:detail' article.pk %} ">상세보기</a></p>
+      <hr>
+      {% endfor %}
+  </body>
+
+{% endblock  %}
