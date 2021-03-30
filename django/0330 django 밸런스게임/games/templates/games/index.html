@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  
+  <body class = 'container'>
+  {% for game in games %}
+    <p>글 번호 : {{ game.pk }}</p>
+    <p>글 제목 : {{ game.title }}</p>
+    <p>글 내용 : {{ game.content }}</p>
+    <p>왼쪽: {{ game.left }}</p>
+    <p>오른쪽 : {{ game.right }}</p>
+    <a href="{% url 'games:detail' game.pk %}">[Detail]</a>
+    <hr>
+  {% endfor %}
+    
+    {% comment %} <button type="button" class="btn btn-primary">Primary</button>
+    <button type="button" class="btn btn-secondary">Secondary</button> {% endcomment %}
+  </body>
+
+
+
+
+{% endblock  %}
