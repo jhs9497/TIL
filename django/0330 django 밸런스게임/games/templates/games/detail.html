@@ -1,15 +1,40 @@
 {% extends 'base.html' %}
 
 {% block content %}
-
-<h3>{{ game.pk }} 번째 글</h3>
-  <p>글 제목 : {{ game.title }}</p>
-  <p>글 내용 : {{ game.content }}</p>
-  <p>왼쪽: {{ game.left }}</p>
-  <p>오른쪽 : {{ game.right }}</p>
+<body class='container'>
+  <h2>이번주제는..!</h2>  
+  <hr>
+  <h3>{{ game.title }}</h3>
+  <h4>{{ game.content }}</h4>
+  <hr>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="/images/{{ game.optionA_image }}" alt="My Image">
+      <div class="card-body">
+        <h5 class="card-title">{{ game.optionA }}</h5>
+        <p class="card-text"> 좋아요 : {{ like.optionA }}</p>
+        <form action="{% url 'games:A_like_up' like.pk game.pk%}">
+        <button class="btn btn-primary"> 좋아요? Click Me </button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="/images/{{ game.optionB_image }}" alt="My Image">
+      <div class="card-body">
+        <h5 class="card-title">{{ game.optionB }}</h5>
+        <p class="card-text"> 좋아요 : {{ like.optionB }} </p>
+          <form action="{% url 'games:B_like_up' like.pk game.pk%}">
+        <button class="btn btn-danger"> 좋아요? Click Me </button>
+         </form>
+      </div>
+    </div>
+  </div>
+</div>
   <a href="{% url 'games:before' game.pk %}">[BEFORE]</a>
   <a href="{% url 'games:next' game.pk %}">[NEXT]</a>
-  
-
+</body>
 
 {% endblock  %}

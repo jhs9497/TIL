@@ -12,8 +12,12 @@ def index(request):
 
 def detail(request, pk):
     game = Game.objects.get(pk=pk)
+    like = Like()
+    like.number = game
+    like.save()
     context = {
-        'game': game
+        'game': game,
+        'like': like,
     }
     return render(request, 'games/detail.html', context)
 
@@ -21,8 +25,12 @@ def detail(request, pk):
 def next(request, pk):
     pk = pk+1
     game = Game.objects.get(pk=pk)
+    like = Like()
+    like.number = game
+    like.save()
     context = {
-        'game': game
+        'game': game,
+        'like': like,
     }
     return render(request, 'games/detail.html', context)
 
@@ -30,8 +38,30 @@ def next(request, pk):
 def before(request, pk):
     pk = pk-1
     game = Game.objects.get(pk=pk)
+    like = Like()
+    like.number = game
+    like.save()
     context = {
-        'game': game
+        'game': game,
+        'like': like,
     }
     return render(request, 'games/detail.html', context)
+
+
+def A_like_up(request, like_pk, game_pk):
+    like = Like.objects.get(pk=like_pk)
+    like.optionA = like.optionA + 1
+    like.save()
+    return redirect('games:detail', game_pk)
+
+
+def B_like_up(request, like_pk, game_pk):
+    like = Like.objects.get(pk=like_pk)
+    like.optionB = like.optionB + 1
+    like.save()
+    redirect('games:detail', game_pk)
+
+
+
+
 

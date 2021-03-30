@@ -2,10 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057d63e4-662f-431f-a1bd-658b0ec767fa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/11025요세푸스3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/11025요세푸스문제.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/D3.py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/D3.py/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0329 django_modelrelationship/crud/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0329 django_modelrelationship/crud/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/games/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/games/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/games/templates/games/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/games/templates/games/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/games/templates/games/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/games/templates/games/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/games/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/games/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/games/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/games/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../프로젝트idea.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../프로젝트idea.txt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,53 +22,44 @@
     <session id="-1463761391">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="26" />
+          <entry key="project.closed" value="27" />
           <entry key="project.open.time.0" value="12" />
           <entry key="project.open.time.3" value="9" />
-          <entry key="project.open.time.4" value="3" />
+          <entry key="project.open.time.4" value="4" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="27" />
+          <entry key="project.opened" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="62" />
+          <entry key="py" value="63" />
           <entry key="오목" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="62" />
+          <entry key="Python" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="76" />
-          <entry key="py" value="28392" />
+          <entry key="py" value="28427" />
           <entry key="수열 완전탐색_ 함수로py" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="97" />
-          <entry key="Python" value="28392" />
+          <entry key="Python" value="28427" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/창고다각형_연습.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/리스트만들기.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -112,11 +108,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/11025요세푸스문제_메모리초과.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
-              <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/숨바꼭질5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
             </state>
           </provider>
         </entry>
@@ -134,7 +139,7 @@
         <entry file="file://$PROJECT_DIR$/11025요세푸스3.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="92">
-              <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+              <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -210,12 +215,13 @@
         <option value="$PROJECT_DIR$/11025요세푸스문제.py" />
         <option value="$PROJECT_DIR$/11025요세푸스3.py" />
         <option value="$PROJECT_DIR$/11025요세푸스문제_메모리초과.py" />
+        <option value="$PROJECT_DIR$/숨바꼭질5.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="116" />
-    <option name="y" value="17" />
+    <option name="x" value="155" />
+    <option name="y" value="31" />
     <option name="width" value="1545" />
     <option name="height" value="955" />
   </component>
@@ -225,6 +231,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -236,7 +243,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -392,10 +398,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="93" y="14" width="1236" height="764" extended-state="0" />
+    <frame x="124" y="25" width="1236" height="764" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1901528" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19354838" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -656,20 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1260reverse연습.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="17" selection-start-column="17" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/11025요세푸스3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="10" lean-forward="true" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/11025요세푸스문제.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -677,10 +669,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/11025요세푸스3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1260reverse연습.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/11025요세푸스문제_메모리초과.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
-          <caret line="12" column="14" lean-forward="true" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/숨바꼭질5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>

@@ -126,3 +126,7 @@ STATIC_URL = '/static/'
 
 AUTH_USER_MODEL = 'accounts.User'
 
+MEDIA_ROOT = 'images'
+
+MEDIA_URL = '/images/'
+
