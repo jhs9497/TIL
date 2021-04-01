@@ -1,0 +1,71 @@
+{% extends 'base.html' %}
+{% load humanize %}
+
+{% block content %}
+  <h2>DETAIL</h2>
+  <h3>{{ post.pk }} 번째 글</h3>
+  <hr>
+  <p>제목 : {{ post.title }}</p>
+  <p>내용 : {{ post.content }}</p>
+  <p>작성시각 : {{ post.created_at|naturalday }}</p>
+  <p>수정시각 : {{ post.updated_at|naturaltime }}</p>
+  <hr>
+  {% if request.user == post.user %}
+    <a href="{% url 'posts:update' post.pk %}" class="btn btn-primary">[UPDATE]</a>
+    <form action="{% url 'posts:delete' post.pk %}" method="POST">
+      {% csrf_token %}
+      <button class="btn btn-danger">DELETE</button>
+    </form>
+  {% endif %}
+  <a href="{% url 'posts:index' %}">[back]</a>
+  <hr>
+    <p>
+      <form action="{% url 'posts:like' post.pk %}" method='POST'>
+        {% csrf_token %}
+        {% if request.user not in post.like_users.all %}
+          <button class="btn btn-success">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-up-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-7.5 3.5a.5.5 0 0 1-1 0V5.707L5.354 7.854a.5.5 0 1 1-.708-.708l3-3a.5.5 0 0 1 .708 0l3 3a.5.5 0 0 1-.708.708L8.5 5.707V11.5z"/>
+            </svg>
+          </button>
+            
+        {% else %}
+          <button class="btn btn-success">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down-circle-fill" viewBox="0 0 16 16">
+              <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v5.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V4.5z"/>
+            </svg>
+          </button>
+        {% endif %}
+        <p>좋아요 : {{ post.like_users.count }}</p>
+      </form>
+    </p>
+  <hr>
+  <h4>댓글 목록</h4>
+  <p>{{ comments|length }}개의 댓글이 있습니다.</p>
+  <ul>
+    {% for comment in comments %}
+      <li>
+        {{ comment.user }} - {{ comment.content }}
+        {% if request.user == comment.user %}
+          <form action="{% url 'posts:comments_delete' post.pk comment.pk %}" method="POST" class="d-inline">
+            {% csrf_token %}
+            <input type="submit" value="DELETE">
+          </form>
+        {% endif %}
+      </li>
+    {% empty %}
+      <p>아직 댓글이 없네요...</p>
+    {% endfor %}
+  </ul>
+  <hr>
+  {% if request.user.is_authenticated %}
+    <form action="{% url 'posts:comments_create' post.pk %}" method="POST">
+      {% csrf_token %}
+      {{ comment_form }}
+      <input type="submit">
+    </form>
+  {% else %}
+    <a href="{% url 'accounts:login' %}">[댓글을 작성하려면 로그인 하세요.]</a>
+  {% endif %}
+{% endblock %}
+  

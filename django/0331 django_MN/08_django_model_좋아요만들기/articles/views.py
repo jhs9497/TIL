@@ -107,3 +107,20 @@ def comments_delete(request, article_pk, comment_pk):
         # return HttpResponseForbidden()
     return redirect('articles:detail', article_pk)
     # return HttpResponse(status=401)
+
+
+@require_POST
+def likes(request, article_pk):
+    if request.user.is_authenticated:
+        article = get_object_or_404(Article, pk=article_pk)
+
+        # 지금 유저가 해당 article에 좋아요를 누른 전체 user리스트에 있는지 확인
+        # if request.user in article.like_users.all():
+        if article.like_users.filter(pk=request.user.pk).exists():
+            # 좋아요 취소
+            article.like_users.remove(request.user)
+        else:
+            # 좋아요 누름
+            article.like_users.add(request.user)
+        return redirect('articles:index')
+    return redirect('articles:login')

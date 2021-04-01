@@ -1,10 +1,10 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth import login as auth_login
 from django.contrib.auth import logout as auth_logout
 # from django.contrib.auth import login as auth_login, logout as auth_logout
 from django.views.decorators.http import require_POST, require_http_methods
 from django.contrib.auth.decorators import login_required
-from django.contrib.auth import update_session_auth_hash
+from django.contrib.auth import update_session_auth_hash, get_user_model
 from django.contrib.auth.forms import (
     AuthenticationForm, 
     UserCreationForm, 
@@ -99,3 +99,27 @@ def change_password(request):
         'form': form,
     }
     return render(request, 'accounts/change_password.html', context)
+
+
+def profile(request, username):
+    person = get_object_or_404(get_user_model(), username=username)
+    context = {
+        'person': person,
+    }
+    return render(request, 'accounts/profile.html', context)
+
+
+@require_POST
+def follow(request, user_pk):
+    # 팔로우 받는 사람
+    person = get_object_or_404(get_user_model(), pk=user_pk)
+
+    if person != request.user:
+        # if request.user in person.followers.all():
+        if person.followers.filter(pk=request.user.pk).exists():
+            person.followers.remove(request.user)
+            # 팔로우 끊음
+        else:
+            # 팔로우 신청
+            person.followers.add(request.user)
+    return redirect('accounts:profile', person.username)

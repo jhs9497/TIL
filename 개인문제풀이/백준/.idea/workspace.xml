@@ -1,7 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="057d63e4-662f-431f-a1bd-658b0ec767fa" name="Default Changelist" comment="" />
+    <list default="true" id="057d63e4-662f-431f-a1bd-658b0ec767fa" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/django_0330_HW/제목 없음.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0330 django 밸런스게임/django_0330_HW/제목 없음.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/articles/templates/articles/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/articles/templates/articles/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/articles/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/articles/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/articles/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/articles/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/crud/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../django/0331 django_MN/08_django_model_좋아요만들기/crud/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/crud/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/crud/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/crud/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/crud/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/crud/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/hospitals/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/hospitals/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/hospitals/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/hospitals/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/hospitals/migrations/0002_auto_20210331_1054.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/hospitals/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/hospitals/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/hospitals/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/hospitals/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../django/0331 django_MN/manage.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,13 +37,13 @@
     <session id="-1463761391">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="28" />
-          <entry key="project.open.time.0" value="12" />
+          <entry key="project.closed" value="30" />
+          <entry key="project.open.time.0" value="13" />
           <entry key="project.open.time.3" value="9" />
-          <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.4" value="5" />
           <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="29" />
+          <entry key="project.opened" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -110,8 +135,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/7447숨바꼭질5.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="736">
-              <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+            <state relative-caret-position="575">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -211,7 +236,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="277" />
+    <option name="x" value="540" />
+    <option name="y" value="17" />
     <option name="width" value="1545" />
     <option name="height" value="955" />
   </component>
@@ -221,6 +247,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -232,12 +259,11 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/jhs/Desktop/TIL/개인문제풀이/백준/2635수이어가기.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SWEA/D3.py" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -388,10 +414,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="222" y="0" width="1236" height="764" extended-state="0" />
-    <editor active="true" />
+    <frame x="432" y="14" width="1236" height="764" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19694397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20373514" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -659,6 +684,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/숨바꼭질5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/11025요세푸스문제.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
@@ -680,17 +712,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/숨바꼭질5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/7447숨바꼭질5.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="736">
-          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        <state relative-caret-position="575">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
