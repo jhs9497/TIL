@@ -2,7 +2,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import render, redirect, get_object_or_404
 from django.views.decorators.http import require_safe, require_http_methods, require_POST
 from django.http import HttpResponse, HttpResponseForbidden
-from .models import Article, Comment
+from .models import Article, Comment, Hashtag
 from .forms import ArticleForm, CommentForm
 
 # Create your views here.
@@ -24,6 +24,12 @@ def create(request):
             article = form.save(commit=False)
             article.user = request.user
             article.save()
+            # hashtag 따로 저장
+            for word in article.content.split():
+                # word: ex) 오늘 장고는 #많이 # 힘들다
+                if word.startswith('#'):
+                    hashtag, created = Hashtag.objects.get_or_create(content=word)
+                    article.hashtags.add(hashtag)
             return redirect('articles:detail', article.pk)
     else:
         form = ArticleForm()
@@ -65,6 +71,14 @@ def update(request, pk):
             form = ArticleForm(request.POST, instance=article)
             if form.is_valid():
                 form.save()
+                # hashtag 따로 저장
+                # update에서는 hasgtag 관계를 초기화해줘야함
+                article.hashtags.clear()
+                for word in article.content.split():
+                    # word: ex) 오늘 장고는 #많이 # 힘들다
+                    if word.startswith('#'):
+                        hashtag, created = Hashtag.objects.get_or_create(content=word)
+                        article.hashtags.add(hashtag)
                 return redirect('articles:detail', article.pk)
         else:
             form = ArticleForm(instance=article)
@@ -129,3 +143,11 @@ def like(request, pk):
     # print(article.like_users.through.objects.all())
     
     return redirect('articles:detail', article.pk)
+
+
+def hashtag(request, hash_pk):
+    tag = get_object_or_404(Hashtag, pk=hash_pk)
+    context = {
+        'tag': tag
+    }
+    return render(request, 'articles/hashtag.html', context)

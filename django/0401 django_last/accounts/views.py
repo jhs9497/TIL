@@ -1,4 +1,4 @@
-from django.shortcuts import render, redirect
+from django.shortcuts import render, redirect, get_object_or_404
 from django.contrib.auth import login as auth_login
 from django.contrib.auth import logout as auth_logout
 # from django.contrib.auth import login as auth_login, logout as auth_logout
@@ -11,6 +11,7 @@ from django.contrib.auth.forms import (
     PasswordChangeForm,
 )
 from .forms import CustomUserChangeForm, CustomUserCreationForm
+from django.contrib.auth import get_user_model
 
 
 # Create your views here.
@@ -99,3 +100,27 @@ def change_password(request):
         'form': form,
     }
     return render(request, 'accounts/change_password.html', context)
+
+
+def profile(request, username):
+    # 1. 현재 요청을 보낸 유저가 보고자하는 유저를 가져오기
+    User = get_user_model()
+    profile_user = User.objects.get(username=username)
+    context = {
+        'profile_user' : profile_user,
+    }
+    return render(request, 'accounts/profile.html', context)
+
+
+def follow(request, pk):
+    
+    User = get_user_model()
+    now_user = get_object_or_404(User, pk=pk)
+
+    if request.user not in now_user.follow_users.all():
+        now_user.follow_users.add(request.user)
+    else:
+        now_user.follow_users.remove(request.user)
+
+
+    return redirect('accounts:profile', now_user.username)

@@ -2,7 +2,12 @@ from django.db import models
 from django.conf import settings
 
 # Create your models here.
+class Hashtag(models.Model):
+    content = models.TextField(unique=True)
+
+
 class Article(models.Model):
+    hashtags = models.ManyToManyField("Hashtag", blank=True, related_name='hash_articles')
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=10)
     content = models.TextField()

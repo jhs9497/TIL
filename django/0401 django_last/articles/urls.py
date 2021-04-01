@@ -14,4 +14,7 @@ urlpatterns = [
 
     # Like
     path('<int:pk>/like/', views.like, name='like'),
+
+    # hashtag
+    path('<int:hash_pk>/hashtag/', views.hashtag, name='hashtag'),
 ]

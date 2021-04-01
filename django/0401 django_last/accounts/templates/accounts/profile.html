@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+  <h1>{{ profile_user }}님의 프로필 페이지</h1>
+  <hr>
+  <p>
+    팔로잉 : {{ profile_user.following_users.all.count }}명 
+    {% for user in  profile_user.following_users.all %}
+      {{ user }}
+    {% endfor %}
+  </p>
+  <p>
+    팔로워 : {{ profile_user.follow_users.all.count }}명
+    {% for user in  profile_user.follow_users.all %}
+      {{ user }}
+    {% endfor %}
+    
+  </p>
+  {% if request.user != profile_user %}
+  <form action="{% url 'accounts:follow' profile_user.pk %}" method="POST">
+    {% csrf_token %}
+    
+    {% if request.user not in profile_user.follow_users.all %}
+      <button class="btn btn-primary">Follow<i class="far fa-heart"></i></button>
+    {% else %}
+      <button class="btn btn-primary">Cancel<i class="fas fa-heart-broken"></i></button>
+    {% endif %}
+  {% endif %}
+    
+  </form>
+  <hr>
+
+  <h3>{{ profile_user }}님의 게시글</h3>
+  <div>
+    {% for article in profile_user.article_set.all %}
+      <p>{{ article.title }} 
+      <a href="{% url 'articles:detail' article.pk%}">바로가기</a></p>
+    {% endfor %}
+  </div>
+  <hr>
+
+  <h4>{{ profile_user }}님이 좋아요 누른 글</h4>
+  <div>
+    <p>{% for like in profile_user.like_articles.all %}
+      {{ like }}
+      <a href="{% url 'articles:detail' like.pk%}">바로가기</a></p>
+    {% endfor %}
+  </div>
+  
+
+  <a href="{% url 'articles:index' %}">back</a>
+
+{% endblock  %}
