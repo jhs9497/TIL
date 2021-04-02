@@ -1,0 +1,22 @@
+git checkout -b 'feature/login'
+
+git checkout master
+
+git checkout -b 'feature/login'
+
+touch login.txt -> txt 파일 만들기! 
+
+git add .
+
+git commit
+
+git push origin feature/login
+
+merge끝나면
+git check out master
+
+브런치 지우기
+git branch -D feature/login
+
+땡기기
+git pull origin master
