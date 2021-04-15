@@ -29,7 +29,7 @@ for tc in range(1, int(input())+1):
 
     sel = [0]*len(A)
     check = [0]*len(A)
-    answer = 99999999999999999
+    answer = 99**99
     perm(0)
 
     print('#{} {}'.format(tc, answer))

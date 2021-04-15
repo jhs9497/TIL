@@ -3,11 +3,9 @@ for tc in range(1, int(input())+1):
     container = list(map(int, input().split()))
     truck = list(map(int, input().split()))
 
-    container.sort()
-    container.reverse()
+    container.sort(reverse=True)
+    truck.sort(reverse=True)
 
-    truck.sort()
-    truck.reverse()
     visited = [False]*M
 
     total = 0

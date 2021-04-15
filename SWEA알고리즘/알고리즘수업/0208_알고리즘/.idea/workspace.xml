@@ -2,98 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0de2ed67-519e-4cc5-ac10-746ea9bbce90" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2가 몇갠지 찾기.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/expert_D3.py" beforeDir="false" afterPath="$PROJECT_DIR$/expert_D3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../SWEA알고리즘심화/0415 완전검색+그리디/화물도크_조합시간초과.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SWEA알고리즘심화/0415 완전검색+그리디/컨테이너.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../SWEA알고리즘심화/0415 완전검색+그리디/컨테이너.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../SWEA알고리즘심화/0415 완전검색+그리디/화물도크.py" beforeDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1767044927">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.28" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="list_extra" value="1" />
-          <entry key="py" value="22" />
-          <entry key="txt" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="23" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="46" />
-          <entry key="py" value="6038" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="46" />
-          <entry key="Python" value="6038" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="740922079">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="2" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="py" value="2" />
-          <entry key="txt" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Python" value="2" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="py" value="96" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Python" value="96" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2가 몇갠지 찾기.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -135,6 +51,7 @@
     <option name="width" value="1490" />
     <option name="height" value="1100" />
   </component>
+  <component name="ProjectId" id="1rCDR7pIcz57prPO99xxqcTiVac" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -166,18 +83,6 @@
       <recent name="C:\Users\jhs\Desktop\TIL\PyCharm\Extra_python" />
       <recent name="C:\Users\jhs\Desktop\TIL\PyCharm" />
     </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager" selected="Python.2가 몇갠지 찾기">
     <configuration name="원종" type="PythonConfigurationType" factoryName="Python" temporary="true">
@@ -286,11 +191,11 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.babygin" />
-      <item itemvalue="Python.원종" />
-      <item itemvalue="Python.expert_D3" />
       <item itemvalue="Python.2가 몇갠지 찾기" />
       <item itemvalue="Python.BubbleSort" />
+      <item itemvalue="Python.원종" />
+      <item itemvalue="Python.babygin" />
+      <item itemvalue="Python.expert_D3" />
     </list>
     <recent_temporary>
       <list>
@@ -302,6 +207,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -360,9 +266,6 @@
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout-to-restore>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/venv/hello.py" />
