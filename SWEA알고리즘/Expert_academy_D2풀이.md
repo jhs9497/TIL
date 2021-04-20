@@ -270,7 +270,7 @@ print(Answer)
 #### 코딩 풀이 👀
 
 ```python
-# test_case 갯수 인풋으로 받고
+# test_case 개수 인풋으로 받고
 test_case = int(input())
 # 인풋 값만큼 for문 돌리며
 for i in range(test_case):
