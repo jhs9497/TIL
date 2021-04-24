@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057d63e4-662f-431f-a1bd-658b0ec767fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../SWEA알고리즘심화/0422 그래프 문제풀이/5249 최소신장트리.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../SWEA알고리즘심화/0422 그래프 문제풀이/5249 최소신장트리.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/D3.py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/D3.py/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SWEA/D4.py/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SWEA/D4.py/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2210pump.py" beforeDir="false" afterPath="$PROJECT_DIR$/2210pump.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +117,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/jhs/Desktop/TIL/개인문제풀이/백준/7447숨바꼭질5.py" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SWEA알고리즘심화/0423 알고리즘 마지막" />
   </component>
   <component name="RunManager" selected="Python.4485녹색 옷 입은 애가 젤다지">
     <configuration name="최장경로" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
