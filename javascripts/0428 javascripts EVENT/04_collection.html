@@ -30,7 +30,21 @@
     <p class="non-live">Non-Live</p>
   </div>
 	<script>
-    
+    // 1 live 컬렉션
+    const liveNodes = document.getElementsByClassName('live')
+    // console.log(liveNodes)
+
+    for (let i = 0; i < liveNodes.length; i++) {
+      liveNodes[i].className = 'red'
+    }
+
+    // 2 static 컬렉션
+    const nonLiveNodes = document.querySelectorAll('.non-live')
+
+    for (let i = 0; i < nonLiveNodes.length; i++) {
+      nonLiveNodes[i].className = 'blue'
+    }
+
   </script>
 </body>
 </html>

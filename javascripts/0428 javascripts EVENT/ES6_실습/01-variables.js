@@ -6,6 +6,8 @@
   3. ssafy 변수의 값을 현재 여러분의 지역으로 재할당하세요.
 */
 
+let ssafy = '제주도'
+ssafy = '서울'
 
 /*
   [const 키워드 연습]
@@ -15,6 +17,9 @@
   3. phone 변수의 값을 현재 여러분의 핸드폰 기종을 재할당하세요.
   4. 재할당 에러를 확인하세요.
 */
+
+const phone = 'Galaxy S2'
+phone = 'Galaxy A9'
 
 
 /*
@@ -57,6 +62,10 @@ console.log(language)
   3. framework 변수에 'Django'를 재할당하세요.
   4. framework 변수를 재선언하고 'Vue'를 할당하세요.
 */
+
+var framework = 'Bootstrap'
+framework = 'Django'
+var framework = 'Vue'
 
 
 /*
