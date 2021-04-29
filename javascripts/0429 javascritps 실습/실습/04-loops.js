@@ -7,6 +7,10 @@
 */
 
 let evenNumber = 0
+while (evenNumber < 6) {
+  console.log(evenNumber)
+  evenNumber += 1
+}
 
 
 /*
@@ -17,7 +21,10 @@ let evenNumber = 0
   - 매 시행마다 oddNumber를 2씩 증가시키고, 해당 값을 출력합니다.
   - oddNumber가 5가 되면 반복문을 종료합니다.
 */
-
+let oddNumber = 0
+for (oddNumber = 0; oddNumber < 5; oddNumber+=2) {
+  console.log(oddNumber)
+}
 
 /*
   [for... in 연습]
@@ -37,6 +44,9 @@ const bestMovie = {
   genres: ['romance', 'fantasy'],
 }
 
+for (const key in bestMovie) {
+  console.log(`${key}: ${bestMovie[key]}`)
+}
 
 /*
   [for... of 연습]

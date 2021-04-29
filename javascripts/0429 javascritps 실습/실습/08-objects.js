@@ -6,6 +6,15 @@
 
 const data = {
   id: 42,
+  fullname: '광주',
+  greeting: function () {
+    // this: 메서드가 속한 객체의 속성을 참조할 때 사용
+    console.log(`안녕, 난 지금 ${this.fullname}에 있어!`)
+  },
+  // 위를 ES6형식으로 축약하면
+  // greeting() {
+  //   console.log('안녕!')
+  // }
   items: [
     {
       id: 1,
@@ -17,6 +26,13 @@ const data = {
     },
   ],
 }
+data.greeting()
+
+const result = data.items[0].name // foo에 접근
+
+const { fullname, id } = data // 구조 분해 할당
+// console.log(name, id)
+
 
 
 /*
@@ -27,6 +43,11 @@ const data = {
 
 const username = 'hailey'
 const contact = '010-1234-5678'
+const personInfo = {
+  username,
+  contact,
+}
+console.log(personInfo)
 
 
 /*
@@ -47,9 +68,42 @@ const users = [
 ]
 
 function saveUserData (users) {
-  const userData = users.map((user, index) => {
-    return { id: index, name: user.name, contact: user.contact }
+  const userData = users.map((user, index) => { //
+    return { 
+      id: index, 
+      name: user.name, //  
+      contact: user.contact //
+    }
   })
 
   return userData
 }
+
+console.log(saveUserData(users)) 
+
+// 위가 원본 , 밑에 수정
+
+const users = [
+  {
+    name: 'hailey',
+    contact: '010-1234-5678',
+  },
+  {
+    name: 'paul',
+    contact: '010-5678-1234',
+  },
+]
+
+function saveUserData (users) {
+  const userData = users.map(( {name, contac}, index) => { //
+    return { 
+      id: index, 
+      name, 
+      contact,
+    }
+  })
+
+  return userData
+}
+
+console.log(saveUserData(users)) 

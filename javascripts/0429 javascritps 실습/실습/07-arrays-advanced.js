@@ -1,3 +1,11 @@
+// forEach
+const names = ['세희', '태현', '효진']
+names.forEach((element, index) => {
+  console.log(element, index)
+})
+
+
+
 /*
  [배열 관련 주요 메서드 연습 심화 1]
  
@@ -10,6 +18,17 @@ const trips = [
   { distance: 59, time: 25 },
 ]
 
+const speeds = trips.map((trip) => {
+  return trip.distance / trip.time
+})
+console.log(speeds)
+
+
+const nums = [1, 2, 3, 4]
+
+const Three = nums.map((num) => {
+  return 
+})
 
 /*
  [배열 관련 주요 메서드 연습 심화 2]
@@ -19,6 +38,11 @@ const trips = [
 
 const languages = ['python', 'javascript', 'html', 'java']
 const query = 'java'
+
+result = languages.filter((lang) => {
+  return lang.includes(query)
+})
+console.log(result)
 
 
 /*
@@ -38,6 +62,11 @@ const scores = [
   { name: 'anna', score: 85 },
 ]
 
+const result = scores.reduce((acc, item) => {
+  acc[item.name] = item.score
+  return acc
+}, {})
+console.log(result)
 
 /*
  [배열 관련 주요 메서드 연습 심화 4]
@@ -51,6 +80,10 @@ const accounts = [
 	{ name: 'jason', balance: 24000 },
 ]
 
+const result = accounts.find((account) => {
+  return account.balance === 24000
+})
+console.log(result)
 
 /*
  [배열 관련 주요 메서드 연습 심화 5]
@@ -64,6 +97,10 @@ const requests = [
   { url: '/users', status: 'failed' },
 ]
 
+const hasPending = requests.some((request) => {
+  return request.status === 'pending'
+})
+console.log(hasPending)
 
 /*
  [배열 관련 주요 메서드 연습 심화 6]
@@ -76,3 +113,8 @@ const users = [
   { name: 'Eric', submitted: true },
   { name: 'Tony', submitted: false },
 ]
+
+const hasAllSubmitted = users.every((user) => {
+  return user.submitted
+})
+console.log(hasAllSubmitted)

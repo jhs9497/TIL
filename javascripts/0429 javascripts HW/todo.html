@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .complete {
+      text-decoration: line-through;
+    }
+  </style>
+</head>
+<body>
+  <form action="">
+    <!-- 사용자가 제출 버튼을 누르면
+      "submit 이벤트"가 발생
+    -->
+    <input id="user-input" type="text">
+    <button>추가</button>
+  </form>
+  <ul id="todo-list">
+  </ul>
+
+  <script>
+    // Todo Add
+
+    const form = document.querySelector('form')
+    form.addEventListener('submit', function(event) {
+      event.preventDefault() // 이벤트 취소
+      
+      // 1. input 태그의 값을 꺼냅니다.
+      const userInput = document.querySelector('#user-input')
+      const inputValue = userInput.value
+
+      if (inputValue.trim()) { // 공백을 제거한 상태에서 값이 비어있지 않은 경우
+        // 2. 새로운 li 태그를 만들어서
+        // 필요한 정보를 설정합니다.
+        const newLi = document.createElement('li')
+        newLi.innerText = inputValue
+        // 취소선 기능
+        console.dir(newLi)
+        newLi.addEventListener('click', function(event) {
+          // toggle 한 번 누르면 취소선 생기고, 한 번 더 누르면 취소되도록
+          event.target.classList.toggle('complete')
+        })
+
+        // 삭제 버튼을 만들고
+        // Li가 추가될 때 삭제버튼도 같이 보여주자
+        const deleteBtn = document.createElement('button')
+        deleteBtn.innerText = 'X'
+        deleteBtn.addEventListener('click', function(event) {
+          // console.dir(event)
+          event.target.parentNode.remove()
+        })
+
+        newLi.append(deleteBtn)
+        
+        // 3. ul 태그의 자식으로
+        // 위에서 만든 li 태그를 추가합니다.
+        const todoList = document.querySelector('#todo-list')
+        todoList.appendChild(newLi)
+
+        // 4. input value의 값을 비워줍니다.
+        userInput.value = ''
+      }
+    })
+
+  </script>
+</body>
+</html>

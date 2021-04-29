@@ -6,6 +6,10 @@
   - curTime 변수에 hour와 minute의 합을 저장 후 출력해보세요.
 */
 
+const hour = 10 * 60 * 60
+const minute = 29 * 60
+const curTime = hour + minute
+typeof curTime
 
 /*
   [String 타입 연습]
@@ -15,6 +19,10 @@
   - username 변수에 greeting을 할당 연산자로 이어붙인 후 출력해보세요. 
 */
 
+const username = '조현식'
+const message = ', 현식님 보고싶어요.'
+const greeting = username + message
+console.log(greeting)
 
 /*
   [String 타입 연습]
@@ -26,6 +34,8 @@
 */
 
 const viewCnt = 500
+const message = `조회수 ${viewCnt}회`
+console.log(message)
 
 
 /*
@@ -57,6 +67,9 @@ console.log(typeof nullValue)
   - isLoggedIn 변수의 값을 true로 바꾸고 출력해보세요.
 */
 
+let isLoggedIn = false
+isLoggedIn = true
+console.log(typeof isLoggedIn)
 
 /*
   [삼항(Ternary) 연산자 연습]
@@ -72,3 +85,6 @@ console.log(typeof nullValue)
 */
 
 const subscribed = false
+const message = subscribed ? '구독취소' : '구독중'
+// ? :  == if else
+console.log(message)

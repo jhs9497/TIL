@@ -8,6 +8,22 @@
 	- 예시) isValid('abcd')  // false
 */
 
+function isValid(password) {
+	if (password.length < 8) {
+		return false
+	}
+	return true
+}
+const result = isValid('asfd')
+console.log(result)
+
+// 줄이면
+
+function isValid(password) {
+	return password.length >= 8
+}
+
+console.log(isValid('abcd'))
 
 /*
 	[함수 표현식 연습]
@@ -19,6 +35,20 @@
 	- 예시) join(['010', '1234', '5678'], '-')  // '010-1234-5678'
 */
 
+const join = function(array, sep) {
+	let result = ''
+	for (let i = 0; i < array.length; i++) {
+		result += array[i]
+
+		if ( i < array.length - 1) {
+			result += sep
+		}
+
+	}
+	return result
+}
+
+join(['010', '1234', '5678'], '-')
 
 /*
 	[함수 기본인자 연습]
@@ -31,6 +61,11 @@
 	예시) makeOrder('mocha') // { menu: 'mocha', size: 'regular' }
 */
 
+const makeOrder = function(menu, size = 'regular') {
+	return { menu: menu, size: size}
+}
+
+makeOrder('Forest Cold Brew')
 
 /*
 	[화살표 함수 연습]
@@ -44,4 +79,9 @@
 	}
 
 */
+
+const celsiusToFahrenheit = function(celsius) {
+	const fahrenheit = celsius * 9/5 + 32
+  return fahrenheit
+}
 
