@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- 검색창 -->
+  <input id="search-input" type="text">
+  <!-- 검색 결과 -->
+  <ul id="todo-container"></ul>
+
+  
+  <script>
+    function highlight(title, keyword) {
+      const regex = new RegExp(keyword) // 패턴 만들기
+      return title.replace(regex, `<strong>${keyword}</strong>`)
+      // 저녁 먹기, 저녁
+      // <strong>저녁</strong> 먹기
+    }
+
+    const todoList = [
+      { id: 1, title: 'JS 학습하기', complete: false},
+      { id: 2, title: '저녁 산책하기', complete: false},
+      { id: 3, title: '저녁밥 먹기', complete: false},
+      { id: 4, title: '고기 먹으러 가기', complete: false},
+      { id: 5, title: '블로그 쓰기', complete: false},
+    ]   
+
+    const todoCotainer = document.querySelector('#todo-container')
+    todoList.forEach((todo) => {
+      // 1. li 태그 생성
+      const newLi = document.createElement('li')
+      // 2. li 태그 텍스트로 todo의 title 삽입
+      newLi.innerText = todo.title
+      todoCotainer.append(newLi)
+    })
+
+    const searchInput = document.querySelector('#search-input')
+    searchInput.addEventListener('input', function() {
+      const keyword = event.target.value
+
+      const newTodoList = todoList.filter((todo) => {
+        return todo.title.includes(keyword)
+      })
+      if (newTodoList.length) {
+        todoCotainer.innerHTML = ''
+      }
+      
+
+      newTodoList.forEach((todo) => {
+        const newLi = document.createElement('li')
+
+        const title = highlight(todo.title, keyword)
+        newLi.innerHTML = title
+
+        todoCotainer.append(newLi)
+      })
+
+    })
+
+    
+
+  </script>
+</body>
+</html>
