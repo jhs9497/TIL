@@ -62,7 +62,7 @@
     <form action="{% url 'articles:comments_create' article.pk %}" method="POST">
       {% csrf_token %}
       {{ comment_form }}
-      <input type="submit">
+      <input type="submit" value="댓글쓰기">
     </form>
   {% else %}
     <a href="{% url 'accounts:login' %}">[댓글을 작성하려면 로그인 하세요.]</a>
