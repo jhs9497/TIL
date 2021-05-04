@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- blocking vs non-blocking -->
+  <h1>게시판</h1>
+  <ul id='article-list'>
+    <li>게시글 1</li>
+    <li>게시글 2</li>
+  </ul>
+  <button id='long-task'>굉장히 오래 걸리는 어떤 일</button>
+  <button id='add-article'>게시글 추가</button>
+
+  <script>
+    const longTask = document.querySelector('#long-task')
+    longTask.addEventListener('click', function() {
+      let sum = 0
+      for (let i = 0; i < 1000000000; i++) {
+        sum += 1
+      }
+      alert('끝!')
+    })
+
+    const addArticle = document.querySelector('#add-article')
+    addArticle.addEventListener('click', function() {
+      const articleList = document.querySelector('#article-list')
+      const newLi = document.createElement('li')
+      newLi.innerText = '새로운 게시글'
+      articleList.append(newLi)
+    })
+  </script>  
+</body>
+</html>

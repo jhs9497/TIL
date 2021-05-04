@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a909fcb-7d49-4520-b6a1-3c6908d9bf6e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -80,7 +79,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SWEA알고리즘심화/0406 이진트리 문제풀이" />
   </component>
-  <component name="RunManager" selected="Python.카카오_무지의먹방라이브">
+  <component name="RunManager" selected="Python.징검다리">
     <configuration name="다리를 지나는 트럭" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="프로그래머스" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -102,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="주식가격" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="징검다리" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="프로그래머스" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -114,7 +113,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/주식가격.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/징검다리.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,17 +272,17 @@
     <list>
       <item itemvalue="Python.다리를 지나는 트럭" />
       <item itemvalue="Python.deque연습" />
-      <item itemvalue="Python.주식가격" />
       <item itemvalue="Python.H_index" />
       <item itemvalue="Python.카카오_무지의먹방라이브" />
+      <item itemvalue="Python.징검다리" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.징검다리" />
         <item itemvalue="Python.카카오_무지의먹방라이브" />
         <item itemvalue="Python.deque연습" />
         <item itemvalue="Python.다리를 지나는 트럭" />
         <item itemvalue="Python.H_index" />
-        <item itemvalue="Python.주식가격" />
       </list>
     </recent_temporary>
   </component>
@@ -335,6 +334,11 @@
           <url>file://$PROJECT_DIR$/길찾기게임.py</url>
           <line>59</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/징검다리.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
