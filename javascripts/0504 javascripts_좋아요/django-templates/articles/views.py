@@ -8,7 +8,7 @@ from .forms import ArticleForm, CommentForm
 # Create your views here.
 @require_safe
 def index(request):
-    articles = Article.objects.order_by('-pk')
+    articles = Article.objects.order_by('-pk')[:5]
     context = {
         'articles': articles,
     }
@@ -124,4 +124,5 @@ def likes(request, article_pk):
             'like_count': article.like_users.count(),
         }
         return JsonResponse(data)
-    return redirect('accounts:login')
+    # 로그인 안 한 경우 
+    return HttpResponse(status=401) # 401 == 권한이 없다

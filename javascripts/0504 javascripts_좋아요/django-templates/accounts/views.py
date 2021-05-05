@@ -11,6 +11,7 @@ from django.contrib.auth.forms import (
     PasswordChangeForm,
 )
 from .forms import CustomUserChangeForm, CustomUserCreationForm
+from django.http import JsonResponse
 
 
 # Create your views here.
@@ -122,8 +123,16 @@ def follow(request, user_pk):
             # if request.user in person.followers.all():
                 # 팔로우 끊음
                 you.followers.remove(me)
+                followed = False
             else:
                 # 팔로우 신청
                 you.followers.add(me)
-        return redirect('accounts:profile', you.username)
+                followed = True
+        
+        data = {
+            'followed': followed,
+            'following_count': you.followings.count(),
+            'follower_count': you.followers.count(),
+        }
+        return JsonResponse(data)
     return redirect('accounts:login')
