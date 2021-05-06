@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <p v-if=" myType ==='O' ">O입니다.</p>
+    <p v-else-if=" myType === 'AB' ">AB입니다</p>
+    <p v-else>사람이 아닙니다.</p>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        seen: true, 
+        myType: 'O',
+      },
+    })
+  </script>
+</body>
+</html>

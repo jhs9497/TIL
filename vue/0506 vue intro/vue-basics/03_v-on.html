@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <!-- 메서드 핸들러 -->
+    <button v-on:click="onClick">Show Message</button>
+    <!-- v-on: 대신 @로 쓴다! -->
+    <button @click="onClick">Show Message</button>
+
+    <!-- 기본 동작 방지 (preventDefault)-->
+    <form @submit.prevent>
+      <button>submit</button>
+    </form>
+
+    <!-- 키 별칭을 이용한 키 입력 수식어 -->    
+    <input type="text" @keyup.esc="onInput">
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        message: 'Hello, Vue!',
+      },
+      methods: {
+        onClick: function() {
+          alert(this.message)
+        },
+        onInput: function(e) {
+          console.log(e)
+        },
+      },
+    })
+  </script>
+</body>
+</html>
