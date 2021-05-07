@@ -18,18 +18,53 @@
 <body>
   <div id="app">
     <!-- 속성 바인딩 -->
+    <img width="100" v-bind:src="imgSrc" alt="">
+    <img width="100" :src="imgSrc" alt="">
 
     <hr>
 
     <!-- 클래스 바인딩 -->
+    <div :class="{ active: isRed }">클래스 바인딩</div> 
+    <button @click="toggleIsRed">toggle</button>
+
+    <div :class="[activeRed, myBackground]">클래스 바인딩2</div>
 
     <hr>
 
     <!-- 스타일 바인딩 -->
+  
+    <ul>
+      <li 
+        v-for="todo in todoList" 
+        :style="{ fontSize: fontSize + 'px' }"
+        :class="{ active: todo.isActive }"
+      >
+        {{ todo.title }}
+      </li>
+    </ul>
   </div>
   
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script>
+    const app = new Vue ({
+      el: '#app',
+      data: {
+        imgSrc: 'https://dimg.donga.com/ugc/CDB/ENGLISH/Article/5f/f6/37/9b/5ff6379b0a36d2738245.jpg',
+        isRed: false,
+        activeRed: 'active',
+        myBackground: 'my-background-color',
+        todoList: [
+          { id: 1, title: '여진님 퀴즈에 답하기', isActive: false },
+          { id: 2, title: '보충 수업하기', isActive: true },
+        ],
+        fontSize: 24,
+      },
+      methods: {
+        toggleIsRed: function() {
+          this.isRed = !this.isRed 
+        },
+      },
+    })
   </script>
 </body>
 </html>

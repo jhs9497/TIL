@@ -8,10 +8,24 @@
 </head>
 <body>
   <div id="app">
+    <p>{{ number }}</p>
+    <p>{{ doubleNumber }}</p>
+    <!-- computed는 소괄호 없이 해도 됨! -->
   </div>
   
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        number: 10,
+      },
+      computed: {
+        doubleNumber: function() {
+          return this.number * 2
+        },
+      },
+    })
   </script>
 </body>
 </html>

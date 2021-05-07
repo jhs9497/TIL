@@ -8,10 +8,38 @@
 </head>
 <body>
   <div id="app">
+    <!-- 1. input => data -->
+    <h1>input => data (단방향)</h1>
+    <p>{{ message }}</p>
+    <input @input="onInput" type="text">
+
+    <!-- 2. input <=> data -->
+    <h1>input <=> data (양방향)</h1>
+    <p>{{ message2 }}</p>
+    <input v-model="message2" type="text">
+
+    <!-- 3. Checkboxx -->
+    <h1>Checkbox</h1>
+    <input type="checkbox" id="checkbox" v-model="checked">
+    <label for="checkbox">{{ checked }}</label>
+
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        message: '',
+        message2: '',
+        checked: false,
+      },
+      methods: {
+        onInput: function(event) {
+          this.message = event.target.value
+        }
+      },
+    })
   </script>
 </body>
 </html>

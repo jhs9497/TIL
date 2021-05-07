@@ -20,7 +20,8 @@
         num: 2,
       },
       watch: {
-        num: function () {
+        num: function (newVal, oldVal) {
+          console.log(newVal, oldVal)
           console.log(`${this.num}이 변경되었습니다.`)
         }
       },

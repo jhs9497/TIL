@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div id="app">
+    <!-- bad case -->
+    <ul>
+      <li
+        v-for="user in users"
+        :key="user.id"
+        v-if="user.isActive"
+      >
+        {{  user.name }}
+      </li>
+    </ul>
+
+    <!-- good case -->
+    <ul>
+      <li
+        v-for="user in activeUsers"
+        :key="user.id"
+      >
+        {{ user.name }}
+
+      </li>
+    </ul>
+
+    <!-- good case 2 -->
+    <ul v-if="shouldShowUsers">
+      <li
+        v-for="user in activeUsers"
+        :key="user.id"
+      >
+        {{ user.name }}
+    </li>
+
+    </ul>
+
+   
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const app = new Vue({
+      el: '#app',
+      data: {
+        shouldShowUsers: true,
+        users: [
+          { id: 1, name: '태현', isActive: false},
+          { id: 1, name: '은지', isActive: false},
+          { id: 1, name: '동윤', isActive: true},
+        ],
+      },
+      computed: {
+        activeUsers() {
+          return this.users.filter(user => {
+            return user.isActive
+          })
+        },
+      },
+    })
+  </script>
+</body>
+</html>

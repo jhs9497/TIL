@@ -20,6 +20,7 @@
 
     <!-- 키 별칭을 이용한 키 입력 수식어 -->    
     <input type="text" @keyup.esc="onInput">
+    <input type="text" @keyup.esc="onInput2($event, '배고프다')">
   </div>
   
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
@@ -35,6 +36,9 @@
         },
         onInput: function(e) {
           console.log(e)
+        },
+        onInput2: function(e, value) {
+          console.log(e, value)
         },
       },
     })

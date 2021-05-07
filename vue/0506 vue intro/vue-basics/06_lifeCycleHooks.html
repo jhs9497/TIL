@@ -28,6 +28,11 @@
             })
         }
       },
+      created() {
+        // Vue 인스턴스가 태어나는 순간 자동으로 호출
+        // 주로 외부 API 요청 시 사용
+        this.getImg()
+      },
     })
   </script>
 </body>

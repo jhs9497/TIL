@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Homework</title>
+  <style>
+    .completed{
+      text-decoration: line-through;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <div id='app'>
+    <select v-model="status">
+      <option value="all">전부</option>
+      <option value="inProgress">진행중</option>
+      <option value="complete">완료</option>
+    </select>
+
+    <input type="text" v-model="userInput">
+    <button @click="addTodo">Add</button>
+
+    <!-- TodoList 부분 -->
+    <ul>
+      <li v-for="todo in todoListByStatus" :key="todo.date">
+        <input 
+          type="checkbox" 
+          :checked="todo.completed"
+          @click="toggleTodo(todo)"
+        >
+        <span :class="{ completed: todo.completed }">
+          {{ todo.content }}
+        </span>
+      </li>
+    </ul>
+
+    <button @click="deleteCompleteTodos">완료목록 삭제</button>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+  <script>
+    const app = new Vue ({
+      el: '#app',
+      data: {
+        userInput: '',
+        todoList: [],
+        status: 'all', // all, inProgress, complete
+      },
+      computed: { // 제 1의 데이터 
+        todoListByStatus() {
+          return this.todoList.filter((todo) => {
+            if (this.status === 'inProgress') {
+              return todo.completed === false
+            }
+            if (this.status === 'complete') {
+              return todo.completed === true
+            }
+            return true // all인 경우
+          })
+        },
+      },
+      methods: {
+        addTodo() {
+          const newTodo = {
+            content: this.userInput,
+            completed: false,
+            date: new Date().getTime(),
+          }
+          this.todoList.push(newTodo)
+        },
+        toggleTodo(todo) {
+          todo.completed = !todo.completed
+        },
+        deleteCompleteTodos() {
+          // data의 todoList를 필터링
+          // todo의 completed가 false인 것들만 반환
+          this.todoList = this.todoList.filter((todo) => {
+            return todo.completed === false
+          })
+        },
+      },
+    })
+  </script>
+</body>
+</html>
