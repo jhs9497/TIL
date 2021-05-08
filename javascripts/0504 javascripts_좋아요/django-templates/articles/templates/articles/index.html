@@ -8,7 +8,8 @@
     <a href="{% url 'accounts:login' %}">[새 글을 작성하려면 로그인하세요.]</a>
   {% endif %}
   <hr>
-  {% for article in articles %}
+  {% for article in articles %} 
+  {% comment %} 중심이 되는 for문 안에서 {% endcomment %}
     <p>
       <b>작성자 : <a href="{% url 'accounts:profile' article.user.username %}">{{ article.user }}</a></b>
     </p>
@@ -17,9 +18,13 @@
     <p>글 내용 : {{ article.content }}</p>
     <div>
       <form class="like-form" data-article-id="{{ article.pk }}">
+      {% comment %} 좋아요 버튼 로직을 담고있는 form에 class를 설정해주고 / id가 아니라 class인 이유는 좋아요 버튼이 게시글마다 달려있기 때문 {% endcomment %}
+      {% comment %} data-article-id라는 변수에 article.pk를 담아준다. {% endcomment %}\
+      {% comment %} 아래부분은 기존의 django, html로 구현한 좋아요form 새로고침할 시 아래 코드로 좋아요를 나타낸다{% endcomment %}
         {% csrf_token %}
         {% if request.user in article.like_users.all %}
           <button id="like-{{ article.pk }}">
+          {% comment %} 버튼 마다 article.pk를 like-{{}}에 담아서 아래 script부분에서 이용할 수 있게 한다 {% endcomment %}
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
               <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
             </svg>
@@ -34,6 +39,7 @@
       </form>
     </div>
     <p>
+    {% comment %} 이 부분 역시 id를 부여하여 자바스크립트에서 비동기적으로 사용할수 있게 한다. {% endcomment %}
       <span id="like-count-{{ article.pk }}">{{ article.like_users.all|length }}</span>명이 이 글을 좋아합니다.
     </p>
     <a href="{% url 'articles:detail' article.pk %}">[DETAIL]</a>
@@ -42,35 +48,62 @@
 
   
   <script>
+    // .like-form이라 이름 지은 친구 가져오고
     const forms = document.querySelectorAll('.like-form')
+    // forms.에 저장된 친구들을 form이라는 이름으로 돌리면서
     forms.forEach((form) => {
+      // form에 제출하면 일어나는 event는 삭제시키고
       form.addEventListener('submit', function(event) {
         event.preventDefault()
         
+        // csfrtoken ... 저장 이 부분 잘 모르겠음
         const csrftoken = document.querySelector('[name=csrfmiddlewaretoken]').value
+
+        // articleId에 각 form에 저장되어있는 id 저장 dataset이란 인스턴스는 외고 이름 지어져 있음
+        // 아래에서 버튼 주인 찾을 때 사용할 것워야 할 듯 
+        // 개발자도구로 확인하면 우린 data-article-id라 이름지었지만 articleId라
         const articleId = form.dataset.articleId
+        console.log(form.dataset)
+
+        // 요청 보낼 URL -> like함수 만든 veiw로 가는 주소
         const requestUrl = `http://127.0.0.1:8000/articles/${articleId}/likes/`
 
+        // 이 부분도 그냥 정해져 있음,, config에 위에 csrftoken 변수 넣어서
         const config = {
           headers: {'X-CSRFToken': csrftoken},
         }
 
+        // axios로 post요청 보내기 (저주소에, , , config) 보낸다
         axios.post(requestUrl, {}, config)
+
+        // 성공하면 res라는 형태로 돌아오는데
         .then((res) => {
-          const liked = res.data.liked
+          console.log(res)
+          console.log(res.data)
+          // likde라는 변수에 지금 누른 좋아요가 무->유 인지 유->무인지 체크하는 T/F값을 넣고
+          const liked = res.data.liked  
+
+          // likeBtn에는 지금 버튼이 누구 게시글의 좋아요 버튼인지 넣고 백틱 주의!
           const likeBtn = document.querySelector(`#like-${articleId}`)
+
+          // likeCount에는 지금 버튼이 누구 게시글의 좋아요 버튼인지 그리고 좋아요가 몇 개 인지 알 수 있는 span태그 가져오고
           const likeCount = document.querySelector(`#like-count-${articleId}`)
 
+          // 만약 likde가 True면 좋아요가 이제 눌린거니깐
           if (liked) {
+            // 꽉 찬 하트 넣기
             likeBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart-fill" viewBox="0 0 16 16">
                                   <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
                                  </svg>`
+          
+          // 반대로
           } else {
             likeBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
                                   <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
                                  </svg>`
           }
-
+          
+          // 
           likeCount.innerText = res.data.like_count
   
         })
