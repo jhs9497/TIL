@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="search-bar">
     <input type="text" @keyup.enter="onKeywordEnter"> <!--enter를 치면 "함수"가 실행-->
   </div>
 </template>
@@ -7,7 +7,7 @@
 <script>
 import axios from 'axios' // axios패키지에서 axios 꺼내기
 
-const YOUTUBE_API_KEY = 'AIzaSyD1p7hrOEDEZLIzA4qNx814qE86LuG8i7k'  // youtube API KEY 변수화
+const YOUTUBE_API_KEY = process.env.VUE_APP_YOUTUBE_API_KEY  // youtube API KEY 변수화
 const YOUTUBE_API_URL = 'https://www.googleapis.com/youtube/v3/search'
 
 export default {
@@ -33,5 +33,10 @@ export default {
 </script>
 
 <style>
-
+  .search-bar > input {  
+    /* search-bar 안에 input태그에 스타일 적용 */
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 2rem;
+  }
 </style>

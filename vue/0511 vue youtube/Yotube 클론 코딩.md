@@ -4,6 +4,10 @@
 
 
 
+
+
+npm install  :  협업할 때 사용, package.json 명단 깔아줌
+
 npm create 앱이름
 npm install axios
 
@@ -16,5 +20,6 @@ VideoListItem.vue
 VideoListItemDetail.vue
 ```
 
-<img src="C:/Users/jhs/Desktop/KakaoTalk_20210511_094955132.png" alt="KakaoTalk_20210511_094955132" style="zoom: 50%;" />
+<img src="KakaoTalk_20210511_094955132.png" alt="KakaoTalk_20210511_094955132" style="zoom: 50%;" />
 
+npm install lodash
