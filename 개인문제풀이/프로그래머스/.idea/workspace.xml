@@ -79,8 +79,8 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../SWEA알고리즘심화/0406 이진트리 문제풀이" />
   </component>
-  <component name="RunManager" selected="Python.징검다리">
-    <configuration name="다리를 지나는 트럭" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.연습">
+    <configuration name="연습" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="프로그래머스" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -92,7 +92,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/다리를 지나는 트럭.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/연습.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -122,7 +122,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="H_index" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="모의고사" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="프로그래머스" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -134,7 +134,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/H_index.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/모의고사.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -270,19 +270,15 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.다리를 지나는 트럭" />
-      <item itemvalue="Python.deque연습" />
-      <item itemvalue="Python.H_index" />
+      <item itemvalue="Python.연습" />
       <item itemvalue="Python.카카오_무지의먹방라이브" />
-      <item itemvalue="Python.징검다리" />
+      <item itemvalue="Python.deque연습" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.징검다리" />
+        <item itemvalue="Python.연습" />
         <item itemvalue="Python.카카오_무지의먹방라이브" />
         <item itemvalue="Python.deque연습" />
-        <item itemvalue="Python.다리를 지나는 트럭" />
-        <item itemvalue="Python.H_index" />
       </list>
     </recent_temporary>
   </component>
