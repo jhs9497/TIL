@@ -1,10 +1,13 @@
 <template>
   <div>
-    <TodoListItem
-      v-for="todo in todoList"
-      :key="todo.id"
-      :todo="todo"
-    />
+    <transition-group name="list" tag="div">
+      <TodoListItem
+        v-for="todo in todoList"
+        :key="todo.id"
+        :todo="todo"
+      />
+    </transition-group>
+
   </div>
 </template>
 

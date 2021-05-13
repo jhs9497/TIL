@@ -1,6 +1,12 @@
 <template>
-  <div id="app">
+  <div id="app" class='container'>
     <TodoForm/>
+    <div v-if="errorMsg"
+      class="alert alert-danger my-2" 
+      role="alert"
+    >
+      {{ errorMsg }}
+    </div>
     <TodoList/>
   </div>
 </template>
@@ -14,6 +20,11 @@ export default {
   components: {
     TodoForm,
     TodoList,
+  },
+  computed: {
+    errorMsg() {
+      return this.$store.state.errorMsg
+    }
   }
 }
 </script>
@@ -26,5 +37,6 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  max-width: 500px;
 }
 </style>
