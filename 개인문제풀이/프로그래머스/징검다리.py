@@ -7,7 +7,6 @@ def solution(distance, rocks, n):
         prev = 0
         mins = 1e9
         removed_rocks = 0
-
         mid = (left + right) // 2
         for i in range(len(rocks)):
             if rocks[i] - prev < mid:

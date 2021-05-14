@@ -25,3 +25,5 @@ def solution(board, moves):
                     board[j][i-1] = 0
                     break
     return count
+
+
