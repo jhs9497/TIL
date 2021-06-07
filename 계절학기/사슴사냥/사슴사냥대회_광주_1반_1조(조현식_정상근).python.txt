@@ -1,0 +1,41 @@
+animal = 1
+def Me(opp, turn, opp_prev, opp_last_pattern):
+    if opp_last_pattern[0][0] == -1:
+        global animal
+        if animal < 3:
+            answer = animal
+            animal += 1
+            return answer
+        else:
+            animal = 0
+            answer = animal
+            return answer
+
+    else:
+        animal_count = [0,0,0]
+        door = 'open'
+        for i in range(len(opp_last_pattern)):
+            for j in range(len(opp_last_pattern[i])):
+                if opp_last_pattern[i][j] == 0:
+                    animal_count[0] += 1
+                elif opp_last_pattern[i][j] == 1:
+                    animal_count[1] += 1
+                elif opp_last_pattern[i][j] == 2:
+                    animal_count[2] += 1
+                elif opp_last_pattern[i][j] == -1:
+                    door = 'close'
+                    break
+            if door == 'close':
+                break
+
+        if animal_count[0] == max(animal_count):
+            if opp_prev == 0:
+                return 0
+            else:
+                return 2
+
+        else:
+            if turn % 2 == 0:
+                return 1
+            else:
+                return 2
