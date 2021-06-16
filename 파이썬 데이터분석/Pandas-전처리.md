@@ -54,5 +54,44 @@ df.drop_duplicates('그룹')
 ## 행/열 제거
 
 ```python
+df.drop('그룹', axis=1)
+# 컬럼(열) 제거하기
+
+df.drop(3, axis=0)
+# 행(인덱스로) 제거하기
+```
+
+
+
+## 데이터프레임 합치기
+
+```python
+df_concat = pd.concat([df, df_copy], sort=False)
+# row기준으로 합치기 (밑으로 붙히기), concat+[합칠 데이터프레임 리스트형식으로], sort=False
+
+df_concat.reset_index(drop=True)
+# 인덱스가 뒤죽박죽되어 있어서 새로 정리
+
+df_concat = pd.concat([df, df_copy], axis=1)
+# column기준으로 합치기 (옆으로 붙히기)
+```
+
+
+
+## 데이터프레임 병합하기
+
+```python
+# 단순 합치기와는 다르게 특정 고유 키값을 기준으로 병학하기(merge)
+
+
+# 이름을 기준으로 두 DataFrame을 병합하기
+pd.merge(df, df_right, on='이름', how='left')
+# 'left'옵션을 부여하면, left DataFrame에 키 값이 존재하면 해당 데이터를 유지하고, 병합한 right DataFrame의 값은 NaN이 대입 된다. (left 기준으로 merge한다는 뜻 -> left친구들은 다 살림!)
+
+pd.merge(df, df_right, on='이름', how='inner')
+# 교집합
+
+pd.merge(df, df_right, on='이름', how='outer')
+# 합집합
 ```
 
