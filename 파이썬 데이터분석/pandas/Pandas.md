@@ -71,6 +71,28 @@ print(df2['기업명'], type(df2['기업명']))
 
 
 
+## 범위 선택
+
+```python
+# 단순 index에 대한 범위 선택
+# 행만 지정됨!
+df[:3]
+df.head(3)
+
+# loc
+df.loc[행, 열]
+df.loc[:, '이름'] # 행은 다가져오고 열은 이름 가져와
+df.loc[:, ['이름', '생일']] # 행은 다가져오고 열은 이름, 생일 가져와
+df.loc[3:7, '이름'] # 행은 3~7가져오고 열은 이름 가져와
+
+# iloc
+loc랑 똑같은데 열도 인덱스로 가져오는 것!
+```
+
+
+
+
+
 ## 통계값 다루기
 
 ```python
@@ -152,5 +174,21 @@ minmax = (qesc - qesc_min) / (qesc_max - qesc_min)
 
 # 이 중에 0.5 이상인 것의 count를 세면 된다.
 print(minmax[minmax>0.5].count())
+```
+
+
+
+## 기본 함수
+
+```python
+import pandas as pd
+
+df = pd.read_csv('data/mtcars.csv')
+
+# 데이터의 행과 열의 갯수 파악하라
+df.shape
+
+# 전체 컬럼을 출력하라
+df.columns
 ```
 

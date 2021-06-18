@@ -268,3 +268,31 @@ prediction = model.predict(x_valid)
 (prediction == y_valid).mean()
 ```
 
+
+
+## 회귀 예측
+
+```python
+import pandas as pd
+import numpy as np
+
+from sklearn.datasets import load_boston
+
+data = load_boston()
+
+print(data['DESCR'])
+
+df = pd.DataFrame(data['data'], columns=data['feature_names'])
+df['MEDB'] = data['target']
+```
+
+
+
+## 분류분석 실습
+
+```python
+# 원핫 인코딩
+
+
+```
+
