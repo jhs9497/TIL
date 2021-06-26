@@ -2,6 +2,8 @@ input_list = ['미래', '비전', '창조', '미래', '역사']
 
 word_list = list(set(input_list))
 
+word_list.sort()
+
 word_count = [0] * len(word_list)
 
 for i in range(len(word_list)):
