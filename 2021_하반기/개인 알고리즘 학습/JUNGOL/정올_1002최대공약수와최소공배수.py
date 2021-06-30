@@ -11,6 +11,6 @@ GCD = LCM = number_list[0]
 
 for i in range(1, N):
     GCD = gcd_get(GCD, number_list[i])
-    LCM = int(LCM/gcd_get(LCM, number_list[i])*number_list[i])
+    LCM = int(LCM * number_list[i] / gcd_get(LCM, number_list[i]))
 
 print(GCD, LCM)
