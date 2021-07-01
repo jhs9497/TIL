@@ -26,3 +26,57 @@
 
 ## State
 
+```javascript
+import React, {useState} from 'react';
+
+function App() {
+    
+    let[글제목, 글제목변경] = useState('남자 코트 추천'); # 요렇게 쓰면 [a,b] 이런 배열이 생김
+    						  # a에는 '남자 코트 추천', b에는 수정할 함수 들어간다.
+}
+```
+
+
+
+state는 
+
+1. 변수대신 쓰는 데이터 저장공간
+2. useState()를 이용해 만들어야함
+3. [state데이터, state데이터 변경 함수]
+4. 문자, 숫자,  array, object 다 저장 가능
+5. react를 웹App처럼 동작하게 만들고 싶어서 사용!
+6. state는 변경이 되면 HTML이 **자동으로 재렌더링** 된다! -> 새로고침안해도 됨!
+
+
+
+## 이벤트 리스너
+
+*/\* eslint-disable \*/* *// 노랑이 안뜨게!*
+
+
+
+```react
+ <span onClikc={ 함수() }> 👍 </span>
+ <span onClikc={ ()=>{} }> 👍 </span>
+
+let [따봉, 따봉변경] = useState(0);
+
+<h3>{ 글제목[0] } <span onClick={ ()=>{ 따봉변경(따봉+1) } }>👍</span> { 따봉 } </h3>
+
+<button onClick={()=>{글제목변경([] = ['여자 코트 추천', '강남 우동 맛집', '회기 파전 맛집'])}}>제목 바꿔주기</button>
+```
+
+
+
+## Array인 State 변경하기
+
+```react
+function 제목변경() {
+  var newArray = [...글제목];    // 딥카피!!!!!
+  newArray[0] = '여자 코트 추천';
+  글제목변경( newArray );
+}
+
+<button onClick={ 제목변경 }>제목 바꿔주기</button>
+```
+
