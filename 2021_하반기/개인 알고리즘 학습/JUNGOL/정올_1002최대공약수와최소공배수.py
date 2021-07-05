@@ -14,3 +14,5 @@ for i in range(1, N):
     LCM = int(LCM * number_list[i] / gcd_get(LCM, number_list[i]))
 
 print(GCD, LCM)
+
+

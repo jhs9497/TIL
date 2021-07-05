@@ -13,3 +13,4 @@ for i in range(1, N+1):
 
 if count < K:
     print('0')
+

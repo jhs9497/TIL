@@ -12,3 +12,4 @@ for i in range(1, sqrt+1):
 
 arr.sort()
 print(*arr)
+
