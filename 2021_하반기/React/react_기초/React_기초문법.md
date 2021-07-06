@@ -162,7 +162,7 @@ let [modal, modal변경] = useState(false);  // 우선 스테이트 만들기
 function 반복된UI() {
     
     var 어레이 = [];
-    for (var i = 0; i < 3' i++){
+    for (var i = 0; i < 3; i++){
       어레이.push(<div>안녕</div>);
     }
     return 어레이

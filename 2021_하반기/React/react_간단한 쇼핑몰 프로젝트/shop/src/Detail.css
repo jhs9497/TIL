@@ -1,0 +1,44 @@
+/* 
+$메인칼라 : #ffff00;
+
+.Yellow {
+  color: $메인칼라;
+}
+
+div.container {
+  h4 {
+    color: blue;
+  }
+  p {
+    color: green;
+  }
+} */
+
+.my-alert {
+  background: rgb(226, 122, 122);
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+/* .my-alert-2 {
+  @extend .my-alert;
+  background: yellowgreen;
+}
+
+@mixin 함수() {
+  background: white;
+  padding: 15px;
+  border-radius: 5px;
+  max-width: 500px;
+  width: 100%;
+  margin: auto;
+}
+
+.my-alert-3 {
+  @include 함수()
+}
+// 여기에 SASS 문법 작성가능
+// 자동으로 컴파일링해줌 */
