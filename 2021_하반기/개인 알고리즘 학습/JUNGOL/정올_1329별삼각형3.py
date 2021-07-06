@@ -19,3 +19,5 @@ if n % 2 == 1 and 1 <= n <= 100:
 
 else:
     print('INPUT ERROR!')
+
+
