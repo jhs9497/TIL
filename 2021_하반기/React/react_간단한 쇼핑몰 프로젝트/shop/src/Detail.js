@@ -1,8 +1,15 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
 import { propTypes } from 'react-bootstrap/esm/Image';
 import { useHistory, useParams } from 'react-router-dom';
+import { Nav } from 'react-bootstrap';
 import styled from 'styled-components';
 import './Detail.css';
+import {재고context} from './App.js';
+import { connect } from 'react-redux';
+
+import { SwitchTransition, CSSTransition } from "react-transition-group";
+
+
 
 let 박스 = styled.div`
   padding : 20px;
@@ -18,6 +25,12 @@ function Detail(props) {
 
   let [alert, alert변경] = useState(true);
   let [input, input변경] = useState('');
+
+  let[누른탭, 누른탭변경] = useState(0);
+
+  let[탭스위치, 탭스위치변경] = useState(false);
+
+  let 재고 = useContext(재고context)
 
   useEffect(()=>{
     let 타이머 = setTimeout(()=>{
@@ -60,17 +73,57 @@ function Detail(props) {
           <p>{찾은상품.content}</p>
           <p>{찾은상품.price}원</p>
 
-          <Info 재고={props.재고}></Info>
+          <Info 재고={재고}></Info>
 
-          <button className="btn btn-danger" onClick={ () => { props.재고변경([9,10,12]) }}>주문하기</button> 
+          <button className="btn btn-danger" onClick={ () => { 
+
+            props.재고변경([9,10,12]) 
+            props.dispatch({ type : '항목추가', payload : {id:찾은상품.id, name:찾은상품.title, quan:1 }});
+            history.push('/cart');
+
+          }}>주문하기</button> 
           <button className="btn btn-success" onClick={()=>{
             history.goBack();
           }}>뒤로가기</button> 
         </div>
       </div>
+
+      <Nav className="mt-5" variant="tabs" defaultActiveKey="link-0">
+        <Nav.Item>
+          <Nav.Link eventKey="link-0" onClick={()=>{ 탭스위치변경(false); 누른탭변경(0) }}>Active</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-1" onClick={()=>{ 탭스위치변경(false); 누른탭변경(1) }}>Option 2</Nav.Link>
+        </Nav.Item>
+        <Nav.Item>
+          <Nav.Link eventKey="link-2" onClick={()=>{ 탭스위치변경(false); 누른탭변경(2) }}>Option 2</Nav.Link>
+        </Nav.Item>
+      </Nav>
+
+      <CSSTransition in={탭스위치} classNames="wow" timeout={500}>
+        <TabContent 누른탭={누른탭} 탭스위치변경={탭스위치변경}/>
+      </CSSTransition>
+
     </div> 
   )
 }
+
+function TabContent(props){
+
+  useEffect(()=>{
+    props.탭스위치변경(true);
+  });
+
+  if (props.누른탭 === 0) {
+    return <div>000번째 탭</div>
+  } else if (props.누른탭 === 1) {
+    return <div>111번째 탭</div>
+  } else if (props.누른탭 === 2 ) {
+    return <div>222번째 탭</div>
+  }
+}
+
+
 
 function Info(props){
   return (
@@ -78,4 +131,14 @@ function Info(props){
   )
 }
 
-export default Detail;
+function state를props화(state){   // store에 있던 데이터를 state라는 이름으로 가져오는 함수
+  // redux store 데이터 가져와서 props화 해주는 함수
+  // reducer가 2개면 state에 reducer가 2개가 넘어옴!
+return {
+state : state.reducer,
+alert열렸니 : state.reducer2,
+}
+}
+
+
+export default connect(state를props화)(Detail)

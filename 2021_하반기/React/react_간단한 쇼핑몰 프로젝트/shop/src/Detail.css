@@ -14,6 +14,14 @@ div.container {
   }
 } */
 
+.wow-enter {
+  opacity: 0;
+}
+.wow-enter-active {
+  opacity: 1;
+  transition: all 500ms;
+}
+
 .my-alert {
   background: rgb(226, 122, 122);
   padding: 15px;

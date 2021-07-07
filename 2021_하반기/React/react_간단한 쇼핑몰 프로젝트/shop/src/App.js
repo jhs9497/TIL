@@ -1,18 +1,25 @@
 /* eslint-disable */
 import logo from './logo.svg';
-import React, {useState} from 'react';
+import React, {useState, useContext} from 'react';
 import { Navbar,Container,Nav,NavDropdown,Button } from 'react-bootstrap';
 import './App.css';
 import Data from './data.js';
 import Detail from './Detail.js';
 import axios from 'axios';
 
-import { Link, Route, Switch } from 'react-router-dom';
+import { Link, Route, Switch, useHistory } from 'react-router-dom';
+
+import Cart from './Cart.js';
+
+
+export let 재고context = React.createContext();
 
 function App() {
 
   let [shoes, shoes변경] = useState(Data);
-  let [재고 , 재고변경] = useState([10,11,12])
+  let [재고 , 재고변경] = useState([10,11,12]);
+
+
 
   return (
     <div className="App">
@@ -47,6 +54,9 @@ function App() {
               <Button varinant="primary">Leanr more</Button>
           </div>
           <div className="container">
+
+            <재고context.Provider value={재고}>
+
             <div className="row">
               {
                 shoes.map(function(value, i){
@@ -54,6 +64,9 @@ function App() {
                 })
               }
             </div>
+
+            </재고context.Provider>
+
             <button className="btn btn-primary" onClick={()=>{
 
               // 서버 URL로 내 데이터 전달할때
@@ -79,30 +92,48 @@ function App() {
 
 
 
-        <Route path="/detail/:id">
-          <Detail shoes={shoes} 재고={재고} 재고변경={재고변경}/>
-        </Route>
-        {/* <Route path="/어쩌구" component={Modal}></Route> 이것도 가능! */}
+
+        <재고context.Provider value={재고}>     
+
+          <Route path="/detail/:id">
+            <Detail shoes={shoes} 재고={재고} 재고변경={재고변경}/>
+          </Route>
+          {/* <Route path="/어쩌구" component={Modal}></Route> 이것도 가능! */}
+
+        </재고context.Provider>
 
         <Route path="/:id"> 
           <div>아무거나 적었을 때 이거 보여주셈</div>
         </Route>
 
       </Switch>
+
+      <Route path="/cart">
+        <Cart/>
+      </Route>
             
     </div>
   );
 }
 
 function ShoesInfo (props) {
+
+  let 재고 = useContext(재고context);
+  let history = useHistory();
+
   return (
-    <div className="col-md-4">
+    <div className="col-md-4" onClick={()=>{ history.push('/detail/' + props.shoes.id ) }}>
       <img src={ 'https://codingapple1.github.io/shop/shoes' + (props.i + 1) + '.jpg' } width="100%" />
       <h4>{ props.shoes.title }</h4>
       <p>{ props.shoes.content }</p>
       <p>{ props.shoes.price }원</p>
+      <Test></Test>
     </div> 
   )
+}
+function Test(){
+  let 재고 = useContext(재고context);
+  return <p>{재고[0]}</p>
 }
 
 export default App;
