@@ -48,3 +48,9 @@ elif m == 3:
             if New_pascal[i][j] != 0:
                 row_pascal += str(New_pascal[i][j]) + ' '
         print(row_pascal)
+
+
+
+
+
+        

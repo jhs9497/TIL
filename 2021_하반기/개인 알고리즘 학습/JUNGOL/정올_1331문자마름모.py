@@ -34,3 +34,5 @@ for i in range(len(board)):
             board[i][j] = ' '
         print(board[i][j], end=' ')
     print()
+
+    
