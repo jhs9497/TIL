@@ -20,3 +20,5 @@ number_list = list(map(int, input().split()))
 
 for i in number_list:
     check(i)
+
+

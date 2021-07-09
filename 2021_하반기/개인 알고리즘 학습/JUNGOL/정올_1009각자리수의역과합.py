@@ -17,3 +17,5 @@ while door == 'open':
             plus += number
 
         print(reverse, plus)
+
+

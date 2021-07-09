@@ -190,7 +190,7 @@ export default connect(state를props화)(Cart)
   2. 수정된 state를 퉤 뱉는 reducer라는 함수를 정의
 - 다만 만약 컴포넌트 하나에서만 쓰는건 굳이 리덕스쓰지말고 해당 컴포넌트에 useState로 쓰는게 낫다!
 
-```react
+​```react
 // index.js
 // 데이터 수정방법 미리 정의하기
 
@@ -266,3 +266,4 @@ function state를props화(state){   // store에 있던 데이터를 state라는 
 ```react
 props.dispatch({ type : '항목추가', payload : {id:2, name:'새로운상품', quan:1} });
 ```
+

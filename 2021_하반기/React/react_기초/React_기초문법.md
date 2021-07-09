@@ -6,7 +6,7 @@
 - index.js는 App.js안의 div속 내용들을 index.html로 보내준다.
 - bootstrap 깔기 -> npm install bootstrap --save
 - cd '앱 이름' // 폴더 이동하기
-- react, redux, react-router, webpack, contextAPI? 영어강의 듣지말기!
+- react, redux, react-router, webpack, contextAPI?
 
 
 
