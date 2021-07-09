@@ -38,11 +38,13 @@ function TodoCreate(props) {
     <InsertFormPositioner>
       <InsertForm>
         <Input autoFocus placeholder="할 일을 입력하세요"
+          value={입력값} // value까먹지말자
           onChange= { (e) => { 입력값변경(e.target.value )}}
         />
         <button onClick={
-          (e)=> {props.dispatch({ type : 'CREATE', payload : {id:0, text : 입력값  }})
+          (e)=> {props.dispatch({ type : 'CREATE', payload : {id: new Date().getTime(), text : 입력값  }})
           e.preventDefault() // 새로고침 방지
+          입력값변경('')
 
           }} >추가</button>
       </InsertForm>

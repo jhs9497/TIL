@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
@@ -6,10 +8,8 @@ import reportWebVitals from './reportWebVitals';
 import allReducers from './reducers/index.js';
 
 import { Provider } from 'react-redux';
-import { combineReducers, createStore } from 'redux';
+import { createStore } from 'redux';
 
-import createReducer from './reducers/create.js'
-import alertReducer from './reducers/alert.js'
 
 
 const store = createStore(

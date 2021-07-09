@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 export default [
   {
     id : 0,
@@ -19,3 +21,6 @@ export default [
     text : '치킨'
   },
 ]
+
+
+

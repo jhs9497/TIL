@@ -5,14 +5,20 @@ let 기본state = data
 function createReducer(state = 기본state, action) {
   switch(action.type){
     case 'CREATE':
-      let copy = [...state]
-      const randomNum = Math.random() * 1000
-      const randomId = Math.floor(randomNum)
-
-      action.payload.id = randomId // 고유 id를 주기 위함인데 흠..
-
-      copy.push(action.payload) 
-      return copy
+      if (action.payload.text) {
+        
+        let copy = [...state]
+        // const randomNum = Math.random() * 1000
+        // const randomId = Math.floor(randomNum)
+  
+        // action.payload.id = randomId // 고유 id를 주기 위함인데 흠..
+  
+        copy.push(action.payload) 
+        console.log(copy)
+        return copy
+      } else {
+        return state
+      }
 
     case 'DELETE':
       let copy2 = [...state]

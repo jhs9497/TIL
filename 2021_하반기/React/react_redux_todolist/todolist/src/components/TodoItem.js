@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import './TodoItem.css'
 import { MdDelete } from 'react-icons/md';
 import {connect} from 'react-redux'
@@ -8,7 +10,7 @@ function TodoItem ( props ) {
       {
         props.state.map((value,i)=> {
           return (
-            <div className="TodoItemBlock">
+            <div className="TodoItemBlock" key={i}>
               <div className="Text">{ value.text }</div>
               <div className="remove" onClick={()=>{ props.dispatch({ type : 'DELETE', payload: value.id}) }}>
                 <MdDelete/>
