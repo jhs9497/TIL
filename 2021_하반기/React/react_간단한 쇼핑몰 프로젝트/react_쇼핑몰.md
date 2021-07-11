@@ -9,6 +9,7 @@ yarn이 더 빠름!
   - npm install react-bootstrap bootstrap@4.6.0  / npm install 대신 yarn add 가능 더 빠름!
   - react bootstrap 사이트의 CSS link 태그를 public - index.html에 복붙 (조금 더 안정적임)
   - django나 vue에서 하듯이 react-bootstrap 사이트 통해 원하는 컴포넌트 가져다가 쓰면됨!
+  - or index.js에 import "bootstrap/dis/css/bootstrap.min.css" 해주기
 
 
 
