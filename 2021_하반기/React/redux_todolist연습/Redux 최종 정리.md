@@ -2,7 +2,7 @@
 
 
 
-## Redux 왜씀?
+## Redux 왜씀??
 
 - 설치 : yarn add redux react-redux
 - 컴포넌트 많아지면 props 힘들어지니깐 props없이 쓰려고!
