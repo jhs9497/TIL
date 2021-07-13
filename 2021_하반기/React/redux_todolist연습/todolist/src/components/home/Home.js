@@ -6,11 +6,23 @@ import { Link } from 'react-router-dom';
   
 function Home() {
   return (
-    <div className="jumbo">오늘뭐하지 ?
-      <Button><Link to="login">로그인</Link></Button>
-      <Button>로그인</Button>
-      <button><Link to="login">로그인</Link></button>
+    <div>
+      <div className="jumbo"></div>
+      <h2>Hi Hi ~</h2>
+      <br/>
+      <div>
+        <Link to="login">
+          <Button variant="info" size="lg">Login</Button>
+        </Link>
+      </div>
+      <br/>
+      <div>
+        <Link to="signup">
+          <Button variant="secondary" size="lg">Sign up</Button>
+        </Link>
+      </div>
     </div>
+
   )
 }
 

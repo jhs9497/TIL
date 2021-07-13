@@ -19,9 +19,14 @@ import { Navbar,Container,Nav,NavDropdown,Button } from 'react-bootstrap';
 // django로 치면 base.html 느낌같음
 const GlobalStyle = createGlobalStyle`
   body {
-    background: #e9ecef;
-  }
+    background : lightblue;
 `;
+
+const GlobalStyle2 = createGlobalStyle`
+  body {
+    background: lightskyblue;
+  }
+`
 
 // 라우터 설정
 
@@ -32,31 +37,36 @@ function App() {
   return (
     <div className="App">
 
-      <Navbar bg="light" expand="lg">
-        <Container>
-          <Navbar.Brand href="#home">뭐하지</Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="me-auto">
-              <Nav.Link><Link to="/">Home</Link></Nav.Link>
-              <Nav.Link><Link to="/todolist">Todolist</Link></Nav.Link>
-              <Nav.Link><Link to="/login">Login</Link></Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Container>
-      </Navbar>
+      {/*<Navbar bg="light" expand="lg">*/}
+      {/*  <Container>*/}
+      {/*    <Navbar.Brand href="#home">뭐하지</Navbar.Brand>*/}
+      {/*    <Navbar.Toggle aria-controls="basic-navbar-nav" />*/}
+      {/*    <Navbar.Collapse id="basic-navbar-nav">*/}
+      {/*      <Nav className="me-auto">*/}
+      {/*        <Nav.Link><Link to="/">Home</Link></Nav.Link>*/}
+      {/*        <Nav.Link><Link to="/todolist">Todolist</Link></Nav.Link>*/}
+      {/*        <Nav.Link><Link to="/login">Login</Link></Nav.Link>*/}
+      {/*      </Nav>*/}
+      {/*    </Navbar.Collapse>*/}
+      {/*  </Container>*/}
+      {/*</Navbar>*/}
 
-      <Route exact path="/">
+      <Route exact path="/home">
         <Home/>
       </Route>
 
       <Route exact path="/login">
-        <div>로그인페이지입니다</div>
+        <GlobalStyle2/>
         <Login/>
       </Route>
 
+      {/*<Route exact path="/signup">*/}
+      {/*  */}
+      {/*</Route>*/}
+      {/*       GlobalStyle2*/}
+
       <Route exact path="/todolist">
-        <GlobalStyle />
+        <GlobalStyle/>
         <TodoTemplate>
           <TodoList />
           <TodoCreate />
