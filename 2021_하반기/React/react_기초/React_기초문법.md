@@ -1,6 +1,6 @@
 ## React
 
-- node.js 최신버전 설치 -> why? create-react-app이라는 라이브러리를 사용하기위해서!
+- node.js 최신버전 설치 -> why? create-react-app이라는 라이브러리를 사용하기위해서!!
 - 리액트 설치: npx create-react-app blog(이름)
 - 사이트 열기 : npm start
 - index.js는 App.js안의 div속 내용들을 index.html로 보내준다.
