@@ -40,7 +40,7 @@ function Login() {
 
     await axios.post(LOGIN_URL, data)
     .then((res) => {
-      const token = res.data.access
+      const token = '로그인됨!'
       dispatch({ type : 'LOGIN' })
       window.localStorage.setItem('token', token)
       window.localStorage.setItem('username', data.username)

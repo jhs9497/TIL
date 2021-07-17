@@ -1,23 +1,24 @@
 /* eslint-disable */
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import { createGlobalStyle } from 'styled-components';
-import TodoTemplate from './components/TodoTemplate';
-import TodoList from './components/TodoList';
-import TodoCreate from './components/TodoCreate';
+
+import TodoTemplate from './components/todo/TodoTemplate';
+import TodoList from './components/todo/TodoList';
+import TodoCreate from './components/todo/TodoCreate';
 
 import Signup from './components/signup/Signup'
 import Home from './components/home/Home'
 import Login from './components/login/Login'
 
-import { Link, Route, Router } from 'react-router-dom';
+import { Link, Route } from 'react-router-dom';
 
 import { ButtonGroup, Button } from 'react-bootstrap';
+
 import { useHistory } from 'react-router-dom';
 import { useSelector } from "react-redux";
 import { useDispatch } from 'react-redux';
-import { useState } from 'react';
 
 
 // createGlobalStyle이라는 스킬이 있길래 해봄!
@@ -36,33 +37,23 @@ const GlobalStyle2 = createGlobalStyle`
 // GlobalStyle을 가장 바깥에 두고
 // 컴포넌트 폴더를 따로 만든 후 다 import 해와서 구성했음
 function App() {
-  // const auth = localStorage.getItem('token')
   const history = useHistory()
   const dispatch = useDispatch()
-  const authUser = useSelector(state => state.authUserReducer)
-
-  // const [로컬로그인, 로컬로그인변경] = useState(false);
-
-  // useEffect(() => {
-  //   const local = localStorage.getItem('token')
-  //   if(local) {
-  //     로컬로그인변경(true)
-  //   }
-  // }, [])
+  const authUserRedux = useSelector(state => state.authUserReducer)
 
   function Logout() {
     localStorage.clear() 
     history.push('home')
     dispatch({ type : 'LOGOUT' })
-    setAuth(false)
+    setAuthUserLocal(false)
   }
 
 
-  const [auth, setAuth] = useState(false);
+  const [authUserLocal, setAuthUserLocal] = useState(false);
   useEffect(()=> {
-    const 로컬 = localStorage.getItem('token')
-    if (로컬) {
-      setAuth(true)
+    const localToken = localStorage.getItem('token')
+    if (localToken) {
+      setAuthUserLocal(true)
     }
   })
 
@@ -70,8 +61,10 @@ function App() {
     
     <div className="App">
 
+      {/* 어느 페이지에서나 보이는 곳! Navbar같은 */}
+
       {
-        auth
+        authUserLocal
         ?
         <div className="navbar">
           <ButtonGroup aria-label="Basic example">
@@ -91,7 +84,10 @@ function App() {
         : null
       }
 
+      
 
+
+      {/* 라우터 및 그에 따른 컴포넌트 설정*/}
 
       <Route exact path="/home">
         <Home />

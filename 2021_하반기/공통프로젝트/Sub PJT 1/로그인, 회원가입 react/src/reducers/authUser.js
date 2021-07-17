@@ -1,14 +1,16 @@
-let 로그인 = 'X'
-
-function authUserReducer(state = 로그인, action) {
+function authUserReducer(state = false, action) {
   switch(action.type){
     case 'LOGIN':
-      return 'O'
-    case 'LOGOUT':
-      return 'X'
-    default:
-      console.log(state)
+      state = true
       return state
+    case 'LOGOUT':
+      state = false
+      return state
+      
+    default:
+      state = false
+      return state
+      
   }
 }
 export default authUserReducer;

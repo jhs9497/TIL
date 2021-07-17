@@ -7,7 +7,7 @@ import { useDispatch } from 'react-redux';
 import { useHistory } from 'react-router-dom';
 
 
-function Signup(props) {
+function Signup() {
 
   const history = useHistory();
   const dispatch = useDispatch();
@@ -32,7 +32,7 @@ function Signup(props) {
   };
 
   // SignupOK하면 자동 로그인 실행
-  function SignupOK(data) {
+  function autoLogin(data) {
     // console.log(data.username)
     const LOGIN_URL = 'auth/login'
     const userinfo = {
@@ -41,7 +41,7 @@ function Signup(props) {
     }
     axios.post(LOGIN_URL, userinfo)
     .then((res) => {
-      const token = res.data.access
+      const token = '로그인됨!'
 
       window.localStorage.setItem('token', token)
       dispatch({ type : 'LOGIN' })
@@ -65,7 +65,7 @@ function Signup(props) {
     axios.post(USER_CREATE_URL, data)
     .then(function(res) {
       // 회원가입 잘 된 유저정보 redux에 저장하는 함수
-      SignupOK(data)
+      autoLogin(data)
     })
     .catch(function(err) {
       console.log(err)
@@ -170,10 +170,5 @@ function Signup(props) {
   )
 }
 
-// function state를props화(state) {
-//   return {
-//     state : state.userReducer
-//   }
-// }
 
 export default Signup;

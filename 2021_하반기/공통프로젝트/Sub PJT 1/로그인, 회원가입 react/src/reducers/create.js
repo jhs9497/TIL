@@ -1,4 +1,4 @@
-import data from '.././data.js'
+import data from '../data/todolistData.js'
 
 let 기본state = data
 
@@ -8,10 +8,6 @@ function createReducer(state = 기본state, action) {
       if (action.payload.text) {
         
         let copy = [...state]
-        // const randomNum = Math.random() * 1000
-        // const randomId = Math.floor(randomNum)
-  
-        // action.payload.id = randomId // 고유 id를 주기 위함인데 흠..
   
         copy.push(action.payload) 
         console.log(copy)
