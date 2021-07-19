@@ -994,7 +994,7 @@ var style = { color : 'red' }
 
 // 애니메이션 줄 때
 margin, width, padding 등 이런 레이아웃 잡는 속성들은 애니메이션 막주지말고
-되도록이면 transform ㄱㄱㄱㄱㄱ transform이 무엇 ?
+되도록이면 CSS transform ㄱㄱㄱㄱㄱ transform이 무엇 ?
     
 // App.js
 컴포넌트 import할 때 우선 자바스크립트는 위에서부터 하나씩 다 읽음 컴포넌트 많으면 좀 힘들어할 수 있음
@@ -1012,4 +1012,130 @@ let Detail = lazy(()=> import('./Detail.js') );
 </Suspense>
     
 ```
+
+
+
+## 성능잡기 2 / 쓸데없는 재렌더링을 막는 memo
+
+```javascript
+// 컴포넌트에 있는 props나 state가 변경되면 그거 쓰는 HTML 전부 다 재렌더링됨!
+// 즉 이름만 존박2로 바꿔도 페이지 전체가 재렌더링 되어버림!
+// 이러한 불필요 재렌더링을 막기 위해 memo()를 사용
+// props가 변경이 안된 컴포넌트는 재렌더링 하지 말아주소!
+
+
+import { memo } from 'react';
+
+<Parent 이름="존박" 나이="20"></Parent>
+
+
+function Parent(props) {
+    return (
+    	<div>
+            <Child1 이름={props.이름}></Child1>
+            <Child2 나이={props.나이}></Child2>
+        </div>
+    )
+}
+
+function Child1() {
+    useEffect(()=>{console.log('렌더링됨1')})
+    return <div>111</div>
+}
+
+
+
+function Child2() {
+    useEffect(()=>{console.log('렌더링됨2')})
+    return <div>111</div>
+}
+// 요 child2를 아래처럼 memo를 이용하여 감싸주기!
+// 컴포넌트와 관련된 props가 변경 될 때만 재렌더링 됩니다!!!!!
+// -> 존박이라는 props를 변경하면 Child2는 재렌더링 아니됨
+
+
+let Child2 = memo(function(){
+    useEffect(()=>{console.log('렌더링됨2') })
+    return <div>111</div>
+});
+
+// 벗 단점 .. 기존 props vs 바뀐 props 비교연산을 하기 때문에 컴포넌트가 너무 많으면 이 또한 느려질 수 있음!
+```
+
+
+
+
+
+## PWA 만들기 (모바일앱인척 하는 것)
+
+PWA  == Progressvie Web App
+
+- manifest.json
+- service-worker.js 필요함!
+  - create-react-app 사용했으면 자동 생성됨요 
+
+
+
+1. 첫 프로젝트 만들 때 npx create-react-app 프로젝트명 --template cra-template-pwa 
+2. index.js 하단에 serviceWorkderResitration.unregister(); ---> serviceWorkderResitration.register();
+3. yarn build 
+4. github 접속
+5. new레포지 만들면서 레포지네임을 username.github.io라고 설정 
+6. 레포지에 build폴더 내부의 파일들 전부 드래그 앤 드롭..! 엥 이게되네 ㅋㅋㅋㅋㅋ commit 클릭
+7. 10분 뒤에 https://jhs9497.github.io로 들어가면 됨!
+
+
+
+## react 아이콘 사용
+
+1. yarn add react-icons
+2. https://react-icons.netlify.com/#/ 여기 사이트로 접속
+3. import { MdDelete } from 'react-icons/md';
+4. 컴포넌트처럼 <MdDelete/> 요렇게 사용
+
+
+
+
+
+##  localStorage
+
+state 데이터를 기억하게 하려면
+
+- 서버로 보내서 DB에 저장
+- localStorage 활용하기 -> 텍스트만 사용가능
+
+
+
+#### 문법
+
+- localStorage.setItem('name', 'kim')  // 로컬스토리지에 name이란 key값에 kim이란 value 저장하기
+- localStorage.getItem('name')  -> kim 뿅 하고 나옴
+- localStorage.removeItem('name') -> name이란 자료 삭제
+- session에 저장하고 싶으면 sessionStorage 블라블라 가능 똑같이!
+- localStorage에 object자료 or Array자료를 저장하려면
+  - localStorage.setItem('obj', JSON.stringify({name:'kim'}))    
+    - 모든 단어에 ""붙혀가지고 스트링화해서 저장하면 저장되는데 JSON.stringfiy가 그걸 해줌!
+  - 이런 경우 꺼낼때 그냥 스트링이므로 object처럼 못씀!
+    - var a = localStorage.getItem('obj') 일단 꺼내고
+    - JSON.parse(a) 요렇게 써주면 object처럼 쓸 수 있음!
+
+
+
+
+
+## 초기 설정들
+
+- npx create-react-app 프로젝트명 --template cra-template-pwa 
+- npm install
+- npm install --global yarn
+- npm install react-bootstrap bootstrap@4.6.0
+  - react bootstrap 사이트의 CSS link 태그를 public - index.html에 복붙 (조금 더 안정적임)
+  - or index.js에 import "bootstrap/dis/css/bootstrap.min.css" 해주기
+- yarn add react-router-dom
+- yarn add styled-components
+- yarn add node-sass
+- yarn add axios
+- yarn add react-transition-group / 탭에 애니메이션 추가
+- yarn add redux react-redux / 리덕스
+- yarn add react-icons / 리액트 아이콘
 

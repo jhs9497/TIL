@@ -1,0 +1,21 @@
+.remove {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  color: #dee2e6;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.TodoItemBlock {
+  display: flex;
+  align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.Text {
+  flex: 1;
+  font-size: 21px;
+  color: #495057;
+}
