@@ -8,11 +8,9 @@
 
 
 
-![img](https://blog.kakaocdn.net/dn/UFuwu/btq9Y6EjoI8/39PKV3aVzvbM0kFCaJqskK/img.png)
+<img src="https://blog.kakaocdn.net/dn/UFuwu/btq9Y6EjoI8/39PKV3aVzvbM0kFCaJqskK/img.png" alt="img" style="zoom: 33%;" />
 
 
-
- 
 
 ### 키워드란 ?
 
