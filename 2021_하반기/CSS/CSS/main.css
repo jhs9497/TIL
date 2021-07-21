@@ -14,3 +14,96 @@
 #special {
   text-align: center;
 }
+
+
+.description {
+  text-align: center;
+  width: 400px;
+  background-color: antiquewhite;
+  /*박스 디자인시 자주 쓰는 스타일링*/
+  margin: auto;
+  display: block;
+  padding: 30px;
+  border: 4px solid black;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  background-color: cadetblue;
+}
+
+.left {
+  width: 20%;
+  height: 500px;
+  background-color: darkgoldenrod;
+  float: left;
+}
+
+.right {
+  width: 80%;
+  height: 500px;
+  background-color: antiquewhite;
+  float : left;
+}
+
+div {
+  
+}
+
+.footer {
+  width: 100%;
+  height: 50px;
+  background-color: firebrick;
+  clear: both
+}
+
+.left2 {
+  width: 20%;
+  height: 500px;
+  background-color: darksalmon;
+  display: inline-block;
+}
+
+.right2 {
+  width: 70%;
+  height: 500px;
+  background-color: beige;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.blog-content {
+  width: 80%;
+  height: 200px;
+  float: left;
+}
+
+.blog-image {
+  width: 20%;
+  height: 200px;
+  float: left;
+}
+
+.blog-profile {
+  float: left;
+  margin-left: 10px;
+}
+
+.blog-img {
+  float: left;
+}
+
+.blog-name {
+  margin: 
+}
+
+.blog-title {
+  clear: both;
+}
