@@ -6,7 +6,7 @@ def check(x, y, color):
     dy = [1, 1, 1, 0]
 
     for i in range(4):
-        over_check_x = x - dx[i]
+        over_check_x = x - dx[i]  # x,y 뒤의 돌을 확인하기 위함
         over_check_y = y - dy[i]
 
         if 0 <= over_check_x < 19 and 0 <= over_check_y < 19 and badook[over_check_x][over_check_y] != color \
@@ -43,5 +43,6 @@ for i in range(len(badook)):
     if flag == 'close':
         break
 
-    print(0)
+
 if flag == 'open':
+    print(0)

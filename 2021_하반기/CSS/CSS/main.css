@@ -1,0 +1,16 @@
+.profile {
+  width: 200px;
+  margin: auto;
+  display: block;
+}
+
+
+.title {
+  text-align: center;
+  font-size: 26px;
+}
+
+
+#special {
+  text-align: center;
+}
