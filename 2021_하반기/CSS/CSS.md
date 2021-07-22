@@ -166,3 +166,144 @@ style="margin: 0px 10px 50px 4px;" // 시계방향으로 상우좌하 설정 가
 
 ```
 
+
+
+## 반응형 웹 만들기
+
+- breakpoint
+  아주 작은 모바일 576px < 모바일or태블릿 768px < 태블릿 992px < WEB 1200px
+
+```css
+style="font-size : 1rem;"
+폰트 사이즈를 비율적으로 정해주기
+
+style="font-size: 2em;"
+X em = 부모 폰트사이즈의 X 배
+
+vw, vh
+현재 내가 보고있는 view의 몇 %를 차지하는지
+
+
+.CSS 파일
+
+web/모바일에 따른 반응형 먹여주기
+
+.main-title {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+화면의 폭이 768px(모바일) 이하일 때 아래의 css 적용하도록 하자! 조건문같은 느낌
+@media screen and (max-width: 768px){
+    .main-title {
+        font-size: 30px;
+        display: none; // 안보이게 해버리기!
+    }
+}
+```
+
+
+
+## 반응형 웹 만들기 2
+
+```html
+.html파일
+
+
+  <div class="explain-container">
+  
+    <div>
+      <h4>Fast Shipping</h4>
+      <p>lorem ipsum</p>
+    </div>
+    <div>
+      <h4>Fast Shipping</h4>
+      <p>lorem ipsum</p>
+    </div>
+    <div>
+      <h4>Fast Shipping</h4>
+      <p>lorem ipsum</p>
+    </div>
+    <div>
+      <h4>Fast Shipping</h4>
+      <p>lorem ipsum</p>
+    <div style="float: none; clear: both;"></div
+       // explain-container 안의 div들한테 float를 먹였을땐 그 아래에 clear:both;를 넣어줘           야 아래부터 float 속성이 깨짐  
+           float: none을 또 먹인 이유는 css를 explain-container div 라고 먹였기 때문임
+    </div>
+    
+  </div>
+
+```
+
+```css
+.css 파일
+
+// 기본 WEB 환경에서는 일자로 정렬
+
+.explain-container {
+  text-align: center;
+  margin-top: 70px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+}
+.explain-container div {
+  margin-top: 40px;
+  float: left;
+  width: 25%;
+}
+
+// 태블릿의 경우 2열 종대
+
+@media screen and (max-width: 992px){
+    .explain-container {
+      max-width: 800px;
+    }
+    .explain-container div {
+        float: left;
+        width: 50%;
+    }
+}
+
+
+// 모바일의 경우 세로로 정렬
+
+@media screen and (max-width: 768px){
+    .explain-container div {
+        float: none;
+        width: 100%;
+    }
+}
+
+
+* 더 넓은 breakpoint를 보다 위에 설정해준다 
+```
+
+
+
+## 반응형 웹사이트 만들기 3 / Bootstrap Grid
+
+utilities-spacing 에서 확인 가능!
+
+margin -> mt-5, ml-5, mr-5, mb-5, m-5
+
+padding -> pt, pl, pr, pb, p
+
+Layout - Grid에서 확인
+
+```html
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">안녕</div>  
+          md(768px)이상에서만 4컬럼씩 차지하세요 그 이하에선 세로 정렬
+        <div class="col-md-4">안녕</div>
+        <div class="col-md-4 order-first">안녕1</div> 순서 정해주기
+      </div>
+    </div>
+```
+
+
+
