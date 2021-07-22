@@ -1070,12 +1070,6 @@ let Child2 = memo(function(){
 
 PWA  == Progressvie Web App
 
-- manifest.json
-- service-worker.js 필요함!
-  - create-react-app 사용했으면 자동 생성됨요 
-
-
-
 1. 첫 프로젝트 만들 때 npx create-react-app 프로젝트명 --template cra-template-pwa 
 2. index.js 하단에 serviceWorkderResitration.unregister(); ---> serviceWorkderResitration.register();
 3. yarn build 
@@ -1130,7 +1124,7 @@ state 데이터를 기억하게 하려면
 - npm install --global yarn
 - npm install react-bootstrap bootstrap@4.6.0
   - react bootstrap 사이트의 CSS link 태그를 public - index.html에 복붙 (조금 더 안정적임)
-  - or index.js에 import "bootstrap/dis/css/bootstrap.min.css" 해주기
+  - or index.js에 import "bootstrap/dis/css/bootstrap.min.css" 해주기 // 둘중 하난 될꺼임..!
 - yarn add react-router-dom
 - yarn add styled-components
 - yarn add node-sass
