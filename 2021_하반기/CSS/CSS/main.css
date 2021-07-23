@@ -107,3 +107,37 @@ div {
 .blog-title {
   clear: both;
 }
+
+.explain-container {
+  text-align: center;
+  margin-top: 70px;
+  max-width: 1200px;
+  margin: auto;
+  margin-top: 70px;
+}
+.explain-container div {
+  margin-top: 40px;
+  float: left;
+  width: 25%;
+}
+
+@media screen and (max-width: 992px){
+    .explain-container {
+      max-width: 800px;
+    }
+    .explain-container div {
+        float: left;
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 768px){
+    .explain-container div {
+        float: none;
+        width: 100%;
+        display: none;
+    }
+}
+
+
