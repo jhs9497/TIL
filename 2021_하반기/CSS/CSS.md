@@ -307,3 +307,149 @@ Layout - Grid에서 확인
 
 
 
+## clear 속성이란?
+
+float로 붕떠서 안먹히는 margin을 clear줄로 해결하기
+
+``` html
+<div style="clear: both"></div>를 내가 float로 이루어진놈 이랑 내가 margin먹이는 놈 사이에 쏙 하고 밀어넣어주면 원하는대로 margin 먹일 수 있음!
+```
+
+
+
+## navbar 만들기
+
+```html
+selector로 편하게 class 부여하기
+class li-inline 안에 있는 모든 li 태그는 같은 스타일을 공유합니다.
+
+.css 
+
+.li-inline li{
+  display: inline-block;
+}
+
+.html
+
+  <nav>  // 기능은 div 태그랑 똑같지만 웹접근성을 위해 nav라고 명시해주자!
+         // 유사한놈들로 section, footer 등 있음
+    <ul class="li-inline text-center">
+      <li><a href="#">IT</a></li>
+      <li><a href="#">맛집</a></li>
+      <li><a href="#">동물</a></li>
+      <li><a href="#">뷰티</a></li>
+    </ul>
+  </nav>
+
+```
+
+```css
+a태그 밑줄 없애기
+.css
+
+.li-inline a {
+  text-decoration: none;
+}
+
++ a태그 방문 후에 색깔 검은색으로 해주기
+
+.li-inline a:visited {
+  color : black;
+}
+```
+
+
+
+## 사이트 대문 만들기
+
+```css
+body {
+    margin: 0px;
+}
+기본적으로 body태그는 margin을 머금고 있음 사이트 꽉차게 보일라면 이거 설정해주기!
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.jfif);
+  background-size: cover;  // background 꽉 채우기
+  background-repeat: no-repeat;  // 반복 X
+  background-position: center; // 배경이 어디서부터 채워질지 정할수 있음
+  background-attachment: fixed; // 스크롤에 따라 여부
+}
+```
+
+
+
+## margin 버그
+
+예를 들어 div박스가 딱 붙어있으면 안쪽 div에 margin을 주더라도 바깥 div에 준 것 처럼 작동함!
+
+margin이 위아래서 오면서 겹쳐도 마찬가지임!
+
+둘 중 하나에 padding 초 살짝 넣어주고 margin 먹이는 방법 가능
+
+
+
+## 버튼 디자인
+
+```css
+.main-button {
+  padding: 10px;  // 버튼 사이즈
+  font-size: 18px;
+  font-family: fantasy;
+  background-color: white;
+  border: none;  // 테두리 없애기
+  display: block;  // 가운데정렬 1
+  margin: auto;  // 가운데정렬 2
+}
+```
+
+
+
+## position
+
+1. 디폴트값은 static인데 꿈쩍안하고 안움직임!
+
+2. position: relatvie 해주면 요소들이 자유롭게 이동 가능!
+
+3. position : fixed 스크롤로 움직여도 그대로 고정!
+
+   left : 20px 
+
+   top : 20px  왼쪽에서 20px, 위에서 20px 이동한 곳에서 달라붙어라!
+
+4. position: absolute
+
+   - 자신의 부모박스가 기준점임!
+   - 단 붙게하고 싶은 부모박스에게 
+     - position: relative라고 설정해줘야함!
+     - 가운데정렬 하는 법
+       - .position {
+           position: absolute;
+           left: 0;
+           right: 0;
+           margin: auto;
+           width: 150px;
+         }
+
+
+
+## 반응형 박스만들기
+
+```css
+max-width : 700px;
+단 max-width는 padding은 포함하지 않음! 그렇기 때문에 padding을 부여하면 max-width가 먹히지 않음
+
+-> 이걸 해결하기 위해서 
+box-sizing: border-box 
+요걸 쓰면 박스크기를 padding과 border까지 포함하게 설정한다!
+
+
+-> main.css 같은곳에
+div {
+    box-sizing: border-box;
+}
+같은 걸 해주면서 기본값 세팅으로 해주는게 좋다
+```
+

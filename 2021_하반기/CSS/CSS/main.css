@@ -141,3 +141,104 @@ div {
 }
 
 
+
+.li-inline li{
+  display: inline-block;
+  width: 60px;
+  text-align: center;
+}
+
+
+.text-center {
+  
+}
+
+.navbar {
+  width: 800px;
+  margin: auto;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+.li-inline a {
+  text-decoration: none;
+}
+
+.li-inline a:visited {
+  color : black;
+}
+
+body {
+  margin: 0px;
+}
+
+.main-background {
+  width: 100%;
+  height: 500px;
+  background-image: url(../images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.jfif);
+  background-size: cover;
+  background-repeat: no-repeat; 
+  background-position: center;
+  padding-top: 150px;
+  position: relative;
+  
+}
+
+.main-title {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-title-box {
+  padding-top: 150px;
+  text-align: center;
+}
+
+.main-content {
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+}
+
+.main-button {
+  padding: 10px;
+  font-size: 18px;
+  font-family: fantasy;
+  background-color: white;
+  border: none;
+  display: block;
+  margin: auto;
+}
+
+.position {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 150px;
+}
+
+.main-item-box {
+  width: 80%;
+  height: 200px;
+  background-color: lightgray;
+  text-align: center;
+  position: relative;
+  margin: auto;
+  top: -50px;
+  box-sizing: border-box;
+}
+
+.main-item-box h3 {
+  padding-top: 50px;
+}
+
+.main-item-box p {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+.main-container {
+  height: 100%;
+}
