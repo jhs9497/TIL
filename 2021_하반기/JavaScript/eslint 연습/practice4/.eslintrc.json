@@ -1,0 +1,30 @@
+{   "parser": "babel-eslint",
+    "env": {
+        "browser": true,
+        "node": true, 
+        "es2020": true 
+    },
+    "ecmaFeatures": {
+        "jsx": true
+    },
+    "extends": [
+        "plugin:eslint:recommended",
+        "plugin:airbnb-base",
+        "plugin:prettier/recommended"
+    ], 
+    "parserOptions": {
+        "ecmaVersion": 11, 
+        "sourceType": "module"
+    },
+    "rules": {
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ],
+        "react/prop-types": "off",
+        "no-var": "error",
+        "no-dupe-keys": "error"
+    }
+}
