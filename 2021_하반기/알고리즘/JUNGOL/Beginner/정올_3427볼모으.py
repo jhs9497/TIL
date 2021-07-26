@@ -3,6 +3,8 @@ ball = input()
 red_count = ball.count('R')
 blue_count = ball.count('B')
 
+# ans_count를 red, blue 갯수 중 작은 것으로 하는 이유는
+# 두 숫자중 작은 수가 답인 동시에 아래의 알고리즘으로 도출이 안되는 경우가 있기 때문!
 ans_count = min(red_count, blue_count)
 
 # 정방향으로 체크

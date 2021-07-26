@@ -242,3 +242,16 @@ body {
 .main-container {
   height: 100%;
 }
+
+.flex-container {
+  display: flex;
+  
+  flex-direction: column;
+}
+
+.flex-box {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 5px;
+}

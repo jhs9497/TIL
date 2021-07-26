@@ -1,5 +1,13 @@
 ## gitlab conflict 해결법
 
+**conflict가 일어나는 이유 :** 
+
+merge 과정에서 파일의 이름이 같으면 충돌이 발생한다.
+파일이 다르면 무조건 자동으로 합쳐준다.
+파일이 같아도 수정한 부분이 다르다면 자동으로 합쳐준다.
+(버전관리를 사용하는 정말 중요한 이유중의 하나)
+근데 파일이 같고, 수정한 부분이 같다면 충돌이 발생한다.
+
 
 
 0. 아래처럼 Resolve conflicts가 있다면 그냥 저기 들어가서 해결해버리면 됨! 근데 이유는 모르겠지만 Merge locally만 활성화 되어 있었음.. 그래서 로컬에서 직접 해결을 해줘야함
@@ -41,10 +49,26 @@
 ![conflict](conflict.png)
 
 8. 코드가 길어서 짤렸는데 아래에 보면 Accept Incoming Change라고 해서 다른 색으로 칠해진 부분이 있음!
+
 9. 빨간색 박스 or 파란색 박스를 클릭하면 conflict가 해결됨을 확인할 수 있음
+
 10. git merge --continue
     - === 나 conflict 해결했으니깐 merge 하던거 마저 진행해줘 라는 뜻
+    
+    
+    
+    ![unknown](unknown.png)
+    
+    - 만약 git merge --continue 했는데 위와 같은 에러가 뜬다면
+    
+      - git commit -am "커밋메세지"
+      - git push upstream develop
+    
+      
+    
 11. gitlab 다시 돌아가면 그토록 보고 싶었던 초록색 Merge 버튼 나와있는거 볼 수 있음! 
+
+    or git push upstream develop 했다면 그냥 잘 합쳐져 있을거임!
 
 ![image-20210726220250361](C:/Users/jhs/AppData/Roaming/Typora/typora-user-images/image-20210726220250361.png)
 
@@ -52,7 +76,7 @@
 
 ![image-20210726220305126](C:/Users/jhs/AppData/Roaming/Typora/typora-user-images/image-20210726220305126.png)
 
-12. 그리고 잊지말고 근본 저장소 -> 로컬 업데이트 진행해주기 why? 그 사이에 다른 팀원들이 근본 저장소에 뭔가 merge했을 수 도 있으니깐!
+12. conflict가 아닌 일반적으로 merge가 잘 된 경우면 근본 저장소 -> 로컬 업데이트 진행해주기 why? 그 사이에 다른 팀원들이 근본 저장소에 뭔가 merge했을 수 도 있으니깐!
 
 13. update
     - git fetch upstream // 정보 반영

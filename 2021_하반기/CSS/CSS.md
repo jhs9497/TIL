@@ -453,3 +453,40 @@ div {
 같은 걸 해주면서 기본값 세팅으로 해주는게 좋다
 ```
 
+
+
+
+
+## flex box
+
+```css
+.css
+
+.flex-container {
+  display: flex;
+  justify-content: center;  // start end spcae-around space-between
+  align-items: center; // 상하 가운데 정렬
+}
+
+
+flex-direction: column; -> 세로 정렬
+flex-wrap: wrap; 가로폭이 넘치면 밑으로 밀어 내려버림
+flex-grow: 2; 총 폭의 x배를 차지합니다 navbar같은거 만들때 가운데에 빈 칸 넣어줄때 용이함
+
+.flex-box {
+  width: 100px;
+  height: 100px;
+  background-color: grey;
+  margin: 5px;
+}
+```
+
+```html
+  <div class="flex-container">
+    <div class="flex-box"></div>
+    <div class="flex-box"></div>
+    <div class="flex-box"></div>
+    <div class="flex-box"></div>
+  </div>
+```
+
