@@ -85,3 +85,16 @@ merge 과정에서 파일의 이름이 같으면 충돌이 발생한다.
     - git rebase upstream/develop (이게 업데이트)
     - git checkout -b jhs9497 (요 지웠다 다시 생성하는브랜치 작업은 약간 혹시나 하는 충돌 우려때문에 하는 것! )
 
+
+
+
+
+
+
+jhs9497 / develop
+
+develop 원격저장소 pull 받아왔습니다
+
+jhs9497 -> develop merge하는 명령어
+
+develop 브랜치에서 git merge jhs9497 실행
