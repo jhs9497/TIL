@@ -84,6 +84,7 @@ merge 과정에서 파일의 이름이 같으면 충돌이 발생한다.
     - git branch -D jhs9497 
     - git rebase upstream/develop (이게 업데이트)
     - git checkout -b jhs9497 (요 지웠다 다시 생성하는브랜치 작업은 약간 혹시나 하는 충돌 우려때문에 하는 것! )
+    - 충돌난다면 git rebase --continue
 
 
 
