@@ -1,4 +1,4 @@
-## React
+## React1
 
 - node.js 최신버전 설치 -> why? create-react-app이라는 라이브러리를 사용하기위해서!!!
 - 리액트 설치: npx create-react-app blog(이름)
