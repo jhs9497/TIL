@@ -494,3 +494,303 @@ flex-grow: 2; 총 폭의 x배를 차지합니다 navbar같은거 만들때 가�
 
 100vh 100 vw
 
+
+
+## form input
+
+```css
+input [type=text] {
+    padding: 20px;
+}
+# input 태그 중에 type이 text인 친구만 관리해줘
+```
+
+```css
+    <form>
+      <input type="text" placeholder="하이루" name="firstname" class="sample-input">
+      <input type="email">
+      <input type="checkbox">
+      <input type="file">
+      <select>
+        <option>aaa</option>  
+        <option>bbb</option>  
+        <option>ccc</option>  
+      </select>
+      <textarea rows="10" cols="50">긴 인풋</textarea>
+      <input type="submit" value="보내기"> 
+      <button type="submit">전송버튼</button>
+    </form>
+```
+
+## Contact us 만들기
+
+![Contact Us](Contact%20Us.PNG)
+
+```css
+div, input, textarea {
+  box-sizing: border-box;
+}
+
+.form-background {
+  margin-top: 150px;
+  padding: 30px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form-input {
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 1px solid lightgrey;
+  width: 100%;
+}
+
+.form-half {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-half div {
+    widht: 50%;
+}
+
+.form-checkbox {
+  width: 100%;
+  padding: 10px;
+}
+
+.btn-submit {
+  color: white;
+  width: 100px;
+  padding: 10px;
+  background-color: coral;
+  border: none;
+  border-radius: 10px;
+  display: block;
+  margin-left: 80%;
+  cursor: pointer;
+}
+```
+
+```html
+ <div class="form-background">
+    <div class="form-white">
+      <h3>Contact Us</h3>
+      <form>
+        <div>
+          <p>Your Email</p>
+          <input class="form-input" type="email">
+        </div>
+        <div class="form-half">
+          <div>
+            <p>First name</p>
+            <input class="form-input" type="text">
+          </div>
+          <div>
+            <p>Last name</p>
+            <input class="form-input" type="text">
+          </div>
+        </div>
+        <div>
+          <p>Message</p>
+          <textarea class="form-input" rows="5"></textarea>
+        </div>
+        <div class="form-checkbox">
+          <input type="checkbox" id="check"> <label for="check">글씨</label>
+        </div>
+        <button class="btn-submit" type="submit">SEND</button>
+      </form>
+    </div>
+```
+
+
+
+
+
+## 쓸데많은 Table 만들기
+
+```css
+table {
+  border-collapse: collapse;   // border끼리 겹치게 하기
+}
+
+td, th {
+  border: 1px solid grey;
+  padding: 10px;
+  vertical-align: bottom;  // 수직 정렬
+}
+```
+
+```html
+  <h5>테이블</h5>
+  <div>
+    <table>
+      <thead>
+        <tr>
+          <th>제목sssssssssss</th>
+          <th>제목ssssssssss</th>
+          <th>입니sssssss</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><p>dafasfs</p><p>asdfasdfas</p></td>
+          <td>2ddddddddd</td>
+          <td>3dddddddd</td>
+        </tr>
+        <tr>
+          <td>1dddddddddd</td>
+          <td>2ddddddddd</td>
+          <td>3ddddddddd</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+```
+
+
+
+## Cart Table 만들기
+
+![Shopping Cart](Shopping%20Cart.PNG)
+
+```css
+.cart-background {
+  width: 100%;
+  padding: 20px;
+  background-color: lightblue;
+}
+
+.cart-form-container {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  background-color: white;
+}
+
+.cart-table {
+  background: white;
+  width: 100%;
+}
+
+.cart-footer {
+  width: 100%;
+  max-width: 700px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.cart-btn {
+  color: white;
+  background-color: navy;
+  padding: 10 30;
+  cursor: pointer;
+}
+
+
+```
+
+```html
+  <div class="cart-background">
+    <h3>Your Shopping Cart</h3>
+    <div class="cart-form-container">
+      
+      <table class="cart-table">
+        <thead>
+          <tr>
+            <th class="cart-img"></th>
+            <th class="cart-item">item</th>
+            <th class="cart-amount">Amount</th>
+            <th class="cart-price">Price</th>
+            <th class="cart-total">Total</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.jfif" style="width: 100px;"></td>
+            <td>아라찌</td>
+            <td class="cart-amount">1</td>
+            <td>70000원</td>
+            <td class="cart-total-price">70000원</td>
+          </tr>
+          <tr>
+            <td colspan="5" style="text-align: right" class="cart-total-price">총 70000원</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="cart-footer">
+      <a href="">Edit your shopping cart</a>
+      <button class="cart-btn">Choose Payment Method</button>
+    </div>
+  </div>
+```
+
+
+
+
+
+## 예쁜 버튼 만들기 hover
+
+```css
+// btn css
+.cart-btn {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10 30;
+  cursor: pointer;
+  background-color: coral;
+}
+
+.cart-btn-brown {
+    background-clor: navy;
+    color: white;
+}
+
+/*마우스 올려졌을 때*/
+.cart-btn:hover {
+  background-color: chocolate;
+}
+
+/*클릭 후 커서가 찍혀있는 상태*/
+/*
+.cart-btn:focus {
+  background-color: red;
+}
+*/
+
+/*클릭중*/
+.cart-btn:active {
+  background-color: brown;
+}
+
+// a태그 css
+.custom-link {
+  text-decoration: none;
+}
+
+/*방문 전 링크*/
+.custom-link:link {
+  color: black;
+}
+
+/*방문 후 링크*/
+.custom-link:visited {
+  color: red;
+}
+```
+
+```html
+a태그로 만들때
+<a role="button" class="cart-btn">버튼</a>
+<button cart-btn cart-btn-brown>
+  클래스 중첩 사용 
+</button>
+```
+
