@@ -251,3 +251,15 @@ var score = 70;
 var score >= 60 ? 'pass' : 'fail'; // pass 출력
 ```
 
+
+
+```javascript
+const mypage = document.querySelector('.mypage');
+ document.addEventListener('click', function clickOutside(event) {
+  if (event.target.closest('.mypage')) return;
+  setpopover(false);
+});
+
+// 할당한 포지션 외에 다른 곳 클릭했을 때 함수
+```
+
