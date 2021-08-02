@@ -794,3 +794,96 @@ a태그로 만들때
 </button>
 ```
 
+
+
+## 폰트 스타일링
+
+```css
+body {
+    margin:0;
+    font-family: 'gulim', 'gothic';
+}
+
+// 영어로 쓰기 권장, 여러개를 적용해두면 만약 gulim체가 없을 시 gothic을 쓴다!
+
+
+폰트 커스텀
+@font-face {
+  font-family: '이쁜폰트';
+  src : url(nanumsqareR.ttf);
+}
+```
+
+
+
+## 애니메이션
+
+1. 시작화면 제작
+2. 최종하면 제작
+3. transition / 트리거 제작
+
+![image-20210803014112714](image-20210803014112714.png)
+
+```css
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0;  // 시작화면 투명도0 
+  transition: all 1s; // css 속성이 바뀔때마다 1초에 걸려서 변경해줌
+  transition-delay: 2s; // css 속성 바뀌기 전 대기시간
+  transition-timing-function: // 처음에 빨리 동작할건지 나중에 빨리 동작할건지 등
+  overflow: hidden // 부모요소 벗어나는 친구들 짤라버리기
+}
+.overlay:hover {
+    opacity: 1;
+}
+```
+
+```html
+<div style="position: relative">
+    <div class="overlay"></div>
+    <img src="images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.jfif">
+</div>
+```
+
+
+
+```css
+// 아래에서 위로 올라가는 애니메이션
+
+
+absolute, relative, top, overflow 등으로 만들어보자
+
+.wrap-overlay:hover .overlay-black {    // 자식 요소에 가능
+    top: 50%
+}
+```
+
+
+
+
+
+## 아이콘 넣기
+
+![image-20210803015903652](image-20210803015903652.png)
+
+```css
+.expain-container {
+  text-align: center;
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 70px;
+}
+
+.expain-container i {
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 25px;
+  box-sizing: border-box  // box sizing 멈춰!
+}
+```
+

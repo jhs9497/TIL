@@ -1,3 +1,13 @@
+@font-face {
+  font-family: '이쁜폰트';
+  src : url(nanumsqareR.ttf);
+}
+
+
+.body {
+  font-family: 'gulim', 'gothic';
+}
+
 div, input, textarea {
   box-sizing: border-box;
 }
@@ -232,6 +242,7 @@ body {
   margin: auto;
   top: -50px;
   box-sizing: border-box;
+  display: block;
 }
 
 .main-item-box h3 {
@@ -437,4 +448,79 @@ table {
 /*방문 후 링크*/
 .custom-link:visited {
   color: red;
+}
+
+.product-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.product-item {
+  float: left;
+  width: 33.3%;
+  padding: 15px;
+}
+.product-item img {
+  width: 100%;
+}
+
+.grey-background {
+  background: #f6f6f6;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  opacity: 0;
+  transition: all 1s;
+}
+.overlay:hover {
+    opacity: 1;
+}
+
+
+
+.overlay p {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.wrap-movement {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: rgba(0,0,0,0.5);
+}
+
+.movement {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  background: rgba(0,0,0,0.3);
+}
+
+.expain-container {
+  text-align: center;
+  margin: auto;
+  max-width: 1200px;
+  margin-top: 70px;
+}
+
+.expain-container i {
+  background-color: burlywood;
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  padding-top: 26px;
+  box-sizing: border-box;
+  color: white;
 }
