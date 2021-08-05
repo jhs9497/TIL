@@ -1,6 +1,4 @@
 def case_1(idx):
-    if idx == N:
-        return
     for i in range(1, 7):
         arr[idx] = i
         if idx == N-1:
@@ -9,9 +7,6 @@ def case_1(idx):
             case_1(idx+1)
 
 def case_2(idx, b):
-    if idx == N:
-        return
-
     for i in range(b, 7):
         arr[idx] = i
         if idx == N-1:
@@ -22,7 +17,6 @@ def case_2(idx, b):
 def case_3(idx):
     if idx == N:
         return
-
     for i in range(1, 7):
         arr[idx] = i
         if idx == N-1 and len(set(arr)) == N:
