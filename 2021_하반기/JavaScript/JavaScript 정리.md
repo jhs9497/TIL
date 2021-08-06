@@ -260,6 +260,6 @@ const mypage = document.querySelector('.mypage');
   setpopover(false);
 });
 
-// 할당한 포지션 외에 다른 곳 클릭했을 때 함수
+// 할당한 포지션 외에 다른 곳 클릭했을 때 함수!
 ```
 
