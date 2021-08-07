@@ -29,7 +29,7 @@ font-weight 사용하기
 </head>
 ```
 
-class 누르고 컨트롤 + E 누르면 html 파일에서 바로 CSS 수정 가능!
+class 누르고 컨트롤 + E 누르면 html 파일에서 바로 CSS 수정 가능
 
 
 
