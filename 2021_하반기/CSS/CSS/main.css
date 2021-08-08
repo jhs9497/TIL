@@ -524,3 +524,201 @@ table {
   box-sizing: border-box;
   color: white;
 }
+
+.ani-test {
+  text-align: center;
+  font-size: 30px;
+  font-style: oblique;
+/*  transform: rotate(-30deg);*/
+/*  transform: translate(30px, 50px);*/
+/*  transform: translateX(30px)*/
+/*  transform: scale(2, 3);*/
+/*  레이아웃과 상관없이 동작 가능함! 다른요소들에 영향 X */
+}
+
+.ani-test:hover {
+  animation-name: test;
+  animation-duration: 1s;
+}
+
+@keyframes test {
+  0% {
+    transform: translateX(0px)
+  }
+  50% {
+    transform: translateX(-100px)
+  }
+  100% {
+    transform: translateX(100px)
+  }
+}
+
+.ani-button {
+  padding: 20px;
+  font-size: 22px;
+  background: skyblue;
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ani-button:hover {
+  animation-name: shake;
+  animation-duration: 1s;
+}
+
+@keyframes shake {
+  0% {
+    =transform: rotate(0deg)
+  }
+  25% {
+    transform: rotate(-8deg)
+  }
+  50% {
+    transform: rotate(8deg)
+  }
+  75% {
+    transform: rotate(-8deg)
+  }
+  100% {
+    transform: rotate(0deg)
+  }
+}
+
+.ani-x {
+  margin: 150px; auto;
+  text-align: center;
+  font-size: 70px;
+  width: 84px;
+  cursor: pointer;
+}
+
+.ani-x:hover {
+  animation-name: tox;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes tox {
+  0% { transform: rotate(0deg) }
+  25% { transform: rotate(-15deg) }
+  100% {transform: rotate(45deg) scale(2)}
+}
+
+.navbar1 {
+  width: 300px;
+  background: black;
+  color: white;
+  height: 100%;
+  padding: 25px;
+  position: fixed;
+  text-align: right;
+  z-index: 5;
+  transform: translateX(-210px);
+  transition: all 1s;
+}
+
+.navbar1:hover {
+  transform: translateX(0px);
+  text-align: center;
+}
+
+.navbar1-item {
+  transform: translateX(-400px);
+  transition: all 1s;
+}
+
+.navbar1:hover .navbar1-item {
+  transform: translateX(0px);
+}
+
+.grid-container {
+  display: grid;
+  max-width: 600px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3px;
+  padding: 10px;
+}
+
+.grid-container div {
+  border: 1px solid black;
+}
+
+.gird-nav {
+  grid-column: 1 / 5;
+/*  1부터 4만큼의 컬럼 갯수를 차지합니다.*/
+  text-align: center;
+}
+
+.grid-sidebar {
+  grid-row: 2 / 4;
+  text-align: center;
+}
+
+.grid-content {
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
+  text-align: center;
+  
+}
+
+
+
+.gray {
+  background: gray;
+  height: 1000px;
+  margin-top: 600px;
+  margin-bottom: 1600px;
+}
+
+.sticky {
+  position: sticky;
+  top: 100px;
+  float: right;
+}
+
+.left-text {
+  float: left;
+  color: white;
+  padding: 20px;
+}
+
+.flip-outer {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.flip-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-inner:hover {
+  transform: rotateY(180deg);
+}
+
+.front {
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.back {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  transform: rotateY(180deg);
+  /*  나중에 뒤집을때 글씨 똑바로 보이게 미리 뒤집어 놓기*/
+  background: yellow;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}

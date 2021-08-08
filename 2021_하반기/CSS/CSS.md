@@ -887,3 +887,234 @@ absolute, relative, top, overflow 등으로 만들어보자
 }
 ```
 
+
+
+## 애니메이션 - 흔들 버튼
+
+![image-20210808154518447](image-20210808154518447.png)
+
+
+
+```css
+.ani-button {
+  padding: 20px;
+  font-size: 22px;
+  background: skyblue;
+  margin: auto;
+  display: block;
+  margin-top: 50px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.ani-button:hover {
+  animation-name: shake;
+  animation-duration: 1s;
+}
+
+@keyframes shake {
+  0% {
+    =transform: rotate(0deg)
+  }
+  25% {
+    transform: rotate(-8deg)
+  }
+  50% {
+    transform: rotate(8deg)
+  }
+  75% {
+    transform: rotate(-8deg)
+  }
+  100% {
+    transform: rotate(0deg)
+  }
+}
+```
+
+
+
+## 애니메이션 - 버튼 각도 틀며 커지기
+
+![image-20210808155023942](image-20210808155023942.png)
+
+```css
+.ani-x {
+  margin: 150px; auto;
+  text-align: center;
+  font-size: 70px;
+  width: 84px;
+  cursor: pointer;
+}
+
+.ani-x:hover {
+  animation-name: tox;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes tox {
+  0% { transform: rotate(0deg) }
+  25% { transform: rotate(-15deg) }
+  100% {transform: rotate(45deg) scale(2)}
+}
+```
+
+
+
+## 애니메이션 - 움직이는 메뉴 UI
+
+![image-20210808160326025](image-20210808160326025.png)
+
+
+
+```css
+.navbar1 {
+  width: 300px;
+  background: black;
+  color: white;
+  height: 100%;
+  padding: 25px;
+  position: fixed;
+  text-align: right;
+  z-index: 5;
+  transform: translateX(-210px);
+  transition: all 1s;
+}
+
+.navbar1:hover {
+  transform: translateX(0px);
+  text-align: center;
+}
+
+.navbar1-item {
+  transform: translateX(-400px);
+  transition: all 1s;
+}
+
+.navbar1:hover .navbar1-item {
+  transform: translateX(0px);
+}
+```
+
+```html
+  <div class="navbar1">
+    <h4>menu</h4>
+    <p class="navbar1-item">menu-item</p>
+  </div>
+```
+
+
+
+## 미래지향적인 Grid 레이아웃
+
+![image-20210808162206951](image-20210808162206951.png)
+
+```css
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 3px;
+  padding: 10px;
+}
+
+.gird-nav {
+  grid-column: 1 / 5;
+/*  1부터 4만큼의 컬럼 갯수를 차지합니다.*/
+  text-align: center;
+}
+
+.grid-sidebar {
+  grid-row: 2 / 4;
+  text-align: center;
+}
+
+.grid-content {
+  grid-column: 2 / 5;
+  grid-row: 2 / 4;
+  text-align: center;
+}
+```
+
+```html
+  <div class="grid-container">
+    <div class="gird-nav"><h3>난 navbar야</h3></div>
+    <div class="grid-sidebar"><h5>난 사이드바!</h5></div>
+    <div class="grid-content"><h3>내용스</h3></div>
+  </div>
+```
+
+
+
+## Position sticky
+
+```css
+.sticky {
+  position: sticky;
+  top: 100px;
+  float: right;
+}
+// 주의점: top과 같은 좌표설정을 꼭 해줘야함!
+```
+
+
+
+## 종이처럼 뒤집히는 프로필사진 만들기
+
+
+
+![image-20210808170341032](image-20210808170341032.png)
+
+![image-20210808170355141](image-20210808170355141.png)
+
+```html
+<div class="flip-outer">
+    <div class="flip-inner">
+     <img src="images/%EB%8B%A4%EC%9A%B4%EB%A1%9C%EB%93%9C.jfif" class="front">
+      <div class="back">
+        <h4>개발자 아라찌</h4>
+        <p>Frontend Developer</p>
+      </div>
+    </div>
+  </div>
+
+```
+
+```css
+.flip-outer {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+}
+
+.flip-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 1s;
+  transform-style: preserve-3d;  // 3D처럼 움직이도록 중복 X
+}
+
+.flip-inner:hover {
+  transform: rotateY(180deg);
+}
+
+.front {
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;  // 돌렸을 때 그림자 X
+}
+
+.back {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  transform: rotateY(180deg);
+  /*  나중에 뒤집을때 글씨 똑바로 보이게 미리 뒤집어 놓기*/
+  background: yellow;
+  width: 100%;
+  height: 100%;
+}
+```
+
