@@ -1111,7 +1111,7 @@ absolute, relative, top, overflow 등으로 만들어보자
   text-align: center;
   position: absolute;
   transform: rotateY(180deg);
-  /*  나중에 뒤집을때 글씨 똑바로 보이게 미리 뒤집어 놓기*/
+  /*  나중에 뒤집을때 글씨 똑바로 보이게 미리 뒤집어 놓기!*/
   background: yellow;
   width: 100%;
   height: 100%;
