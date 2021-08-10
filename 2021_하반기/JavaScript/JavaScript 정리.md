@@ -263,3 +263,54 @@ const mypage = document.querySelector('.mypage');
 // 할당한 포지션 외에 다른 곳 클릭했을 때 함수!
 ```
 
+
+
+## 변수, object..!
+
+variable -> 일반 저장
+
+object -> object를 가리키는 레퍼런스가 메모리에 저장된다...! 그래서  const로 선언해도 변경이 가능한거임
+
+
+
+## Operator
+
+|| 연산자는 true가 나오면 더이상 연산을 안함! 따라서 무거운 함수를 뒤쪽에 배치하는게 좋음!
+
+반대로 && 역시 false나오면 더이상 연산 안하므로 무거운 함수를 뒤쪽에 배치하는게 좋음!
+
+
+
+=== object 비교할때 
+
+
+
+## if / 반복문
+
+```javascript
+const name = 'elie'
+
+if (name==='elie') {
+    console.log('elie')
+} else if (name==='tom') {
+    console.log('tom')
+} else {
+    console.log('unknown')
+}
+
+let i = 3
+while (i>0) {
+    console.log(`while: ${i}`)
+    i--
+}
+
+do {
+    console.log(`do while: ${i}`)
+    i--
+} while (i > 0);
+
+for (i = 3; i>0; i--) {
+    console.log(`for: ${i}`)
+}
+```
+
