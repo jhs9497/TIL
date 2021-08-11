@@ -1021,7 +1021,7 @@ absolute, relative, top, overflow 등으로 만들어보자
 
 .gird-nav {
   grid-column: 1 / 5;
-/*  1부터 4만큼의 컬럼 갯수를 차지합니다.*/
+/*  1부터 4만큼의 컬럼 갯수를 차지합니다!*/
   text-align: center;
 }
 
