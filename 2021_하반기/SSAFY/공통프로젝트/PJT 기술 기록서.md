@@ -88,7 +88,7 @@ useEffect(() => {
 
 
 ```react
-// 함수파트
+// 함수파트@
 
 const [myImage, setMyImage] = useState([]);
 
