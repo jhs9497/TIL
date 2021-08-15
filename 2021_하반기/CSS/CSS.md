@@ -1,7 +1,7 @@
 ## html 기본
 
 ```css
-이미지 가운데 정렬 !!
+이미지 가운데 정렬 !
 
 style="display: block;
        margin: auto;"
