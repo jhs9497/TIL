@@ -1,8 +1,8 @@
 def case_1(idx):
     for i in range(1, 7):
         arr[idx] = i
-        if idx == N-1:
             print(*arr)
+        if idx == N-1:
         else:
             case_1(idx+1)
 
