@@ -1,8 +1,8 @@
 number_list = list(map(int, input().split()))
 n = number_list[0]
 number_list.pop(0)
-sel = [0]*6
 r = 6
+sel = [0]*r
 
 def combi(k, start):
     if k == 6:
