@@ -65,3 +65,77 @@ print(kitty.repr())
 #Logger.log(kitty.repr()) ,  If you have the logger object
 ```
 
+
+
+## Open-closed principle
+
+- extension(확장)에 대해서는 open,
+
+- modification(수정)에 대해서는 closed되어야 한다
+
+- code에 대한 제한이 아니라 code behavior에 대한 원칙이다.
+
+```python
+# 잘못된 예시
+
+class Animal():
+  def __init__(self,type):
+    self.type = type
+
+
+def hey(animal):
+  if animal.type == 'Cat':
+    print('meow')
+  elif animal.type == 'Dog':
+    print('bark')
+
+bingo = Animal('Dog')
+kitty = Animal('Cat')
+
+#Cow와 Sheep을 추가하기위해 hey함수의 수정이 필요하다. 즉 modification에 대해 closed되어 있지 않으므로 Opne-closed원칙에 위배된다.
+
+hey(bingo)
+hey(kitty)
+```
+
+
+
+```python
+# 옳바른 예시
+
+class Animal: 
+  def speak(self):  #interface method
+    pass
+
+class Cat(Animal):
+  def speak(self):
+    print("meow")
+
+class Dog(Animal):
+  def speak(self):
+    print("bark")
+
+class Sheep(Animal):
+  def speak(self):
+    print("meh")
+
+class Cow(Animal):
+  def speak(self):
+    print("moo")
+
+def hey(animal):
+  animal.speak();
+
+# hey 함수는 전혀 건들필요가 없다. 동물을 추가하고 싶으면 class를 상속해주며 계속 추가해주면된다. 즉 동물의 추가 (확장)은 무한으로 가능하되 hey함수의 수정은 할 필요가 없으므로 Open-Closed 원칙을 준수하는 것이다.
+
+bingo = Dog()
+kitty = Cat()
+sheep = Sheep()
+cow = Cow()
+
+hey(bingo)
+hey(kitty)
+hey(sheep)
+hey(cow)
+```
+
