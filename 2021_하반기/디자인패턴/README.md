@@ -4,7 +4,7 @@
 
 ## Single Responsibility(단일 책임 원칙)
 
-모든 함수나 class는 하나의 part에 대해서만 책임을 가져야한다!
+모든 함수나 class는 하나의 part에 대해서만 책임을 가져야한다
 
 ```python
 # 잘못된 예시
