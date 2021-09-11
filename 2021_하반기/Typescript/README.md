@@ -48,7 +48,7 @@ javaScript는 Dynamic Typing이 가능하다
 
 리액트나 뷰 이런거 쓰는 중이면 이미 있을 수 있음
 
-```json
+```javascript
 {
     "compilerOptions": {
         "target": "es5",  // 어떤 버전의 자바스크립트로 바꿔줄지 정하는 부분 신버전을 원하면 es2016, esnext 이런것 입력
@@ -248,15 +248,55 @@ function 내함수3(x : number|string) {
 
 
 
+## Type 변수화 하기
+
+#### 주의할점 : Type 재정의 불가능
+
+```typescript
+// type 변수, 대문자로 시작하는게 rule
+type AnimalType = string | number | undefined;
+
+let 동물 :AnimalType = '사자'
+동물 = 2
+동물 = undefined
+// 다 됨!
 
 
-## React + TypeScript 사용할 때 알아야할 점 / JSX
+// 타입스크립트에서는 object안의 value값도 control 가능
+// readonly 쓰면 value값 수정 불가능(은 아니고 에러만 띄워줌! .js가면 수정은 되어있음 ㅎㅎ)
+type Girlfriend = {
+  readonly name : string
+}
+
+const 여친 :Girlfriend = {
+  name : '미진'
+}
+
+
+// type 합치기
+type Name = string;
+type Age = number;
+type Person = Name | Age
+
+type PositionX = { x : number };
+type PositionY = { y : number };
+type NewPosition = PositionX & PositionY 
+// {x : number, y : number}로 extend 한 것!
+
+let position :NewPosition = { x : 10, y : 20}
+```
+
+
+
+
+
+## React + TypeScript 사용할 때 알아야할 점
 
  
 
-설치 : npx create-react-app my-app --template typescript
+설치: npx create-react-app my-app --template typescript
 
-```react
+```typescript
 import React, { useState } from 'react';
 import './App.css';
 
