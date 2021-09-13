@@ -49,3 +49,9 @@
 
 
 
+## High Availability 방식
+
+- 클러스팅
+  - 각기 다른 서버들을 하나로 묶어서 하나의 시스템같이 동작하게 함으로써, 고가용성의 서비스를 제공
+- 로드밸런싱
+- RAID (Redundant Array of independent Disks)
