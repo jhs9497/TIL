@@ -5,7 +5,6 @@ N_list = list(map(int, input().split()))
 s, e = map(int, input().split())
 
 copy_list = copy.deepcopy(N_list)
-
 slice_sort = copy_list[s:e+1]
 slice_sort.sort()
 

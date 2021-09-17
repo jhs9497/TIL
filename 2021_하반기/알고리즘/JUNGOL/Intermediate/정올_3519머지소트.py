@@ -36,11 +36,8 @@ def merge_sort(A_list, left, right):
 
     mid = (left + right) // 2
     merge_sort(A_list, left, mid)
-    print(f'{B_list}, left:{left}, right:{right}')
     merge_sort(A_list, mid+1, right)
-    print(f'{B_list}, left:{left}, right:{right}')
     merge(A_list, left, mid, right)
-    print(f'{B_list}, left:{left}, right:{right}')
 
 
 N = int(input())
