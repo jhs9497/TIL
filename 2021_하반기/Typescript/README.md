@@ -1,4 +1,4 @@
-## Why TypeScript??
+## Why TypeScript?
 
 javaScript는 Dynamic Typing이 가능하다
 
