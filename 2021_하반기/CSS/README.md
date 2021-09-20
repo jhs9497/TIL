@@ -19,7 +19,7 @@ font-weight 사용하기
 
 
 
-## html에 CSS파일 가져와서 관리하기!
+## html에 CSS파일 가져와서 관리하기
 
 ```html
 <head>
