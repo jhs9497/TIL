@@ -235,5 +235,5 @@ const detectFaces = async () => {
 };
   video.addEventListener("loadeddata", async () => {
     model = await blazeface.load();
-    setInterval(detectFaces, 100);
+    setInterval(detectFaces, 10);
 });
