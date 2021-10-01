@@ -1,9 +1,6 @@
 // tensorflow.js
-let video = document.getElementById("myFace")
-let canvas = document.getElementById("canvas")
-let ctx = canvas.getContext("2d");
-let model;
 
+let model;
 
 const socket = io();
 
@@ -197,7 +194,13 @@ function handleAddstream(data) {
 
 // tensorflow.js
 
+
+
 let flag = true;
+let video = document.getElementById("myFace");
+let canvas = document.getElementById("canvas");
+let ctx = canvas.getContext("2d");
+
 
 const detectFaces = async () => {
   const prediction = await model.estimateFaces(video, false);
@@ -228,8 +231,9 @@ const detectFaces = async () => {
         pred.bottomRight[1] - pred.topLeft[1]+50
       );
       })
-  }};
+  }
+};
   video.addEventListener("loadeddata", async () => {
     model = await blazeface.load();
-    setInterval(detectFaces, 200);
+    setInterval(detectFaces, 100);
 });
