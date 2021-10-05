@@ -1,8 +1,7 @@
 ## html 기본
 
 ```css
-이미지 가운데 !
-
+이미지 가운데
 style="display: block;
        margin: auto;"
 
